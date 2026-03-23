@@ -135,7 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env is intentionally tracked as a starter template
 .envrc
 .venv
 env/
