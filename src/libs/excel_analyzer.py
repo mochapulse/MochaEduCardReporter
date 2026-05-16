@@ -12,12 +12,12 @@ Classes:
     PDFGenerator: Generates French-styled PDF reports for each student
     GradebookProcessor: Main orchestrator for complete pipeline
 
-Author: Educational Mailer System
+Author: Educational Report System
 """
 
 import re
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from reportlab.lib import colors
@@ -58,6 +58,8 @@ class FileMetadata:
     first_twenty_grade_numbers: List[str]
     component_grade_numbers: List[str]
     grade_labels: Dict[str, str]
+    first_block_weight_label: str = "20%"
+    component_weight_labels: Dict[str, str] = field(default_factory=dict)
 
 
 @dataclass
@@ -185,6 +187,23 @@ def format_grade(value: Optional[float]) -> str:
     if value is None:
         return ""
     return f"{value:.2f}".rstrip("0").rstrip(".")
+
+
+def format_weight_label(value: Any, default: str = "20%") -> str:
+    """Format weight values from the spreadsheet as percentage labels."""
+    text = clean_text(value)
+    if not text:
+        return default
+
+    has_percent = "%" in text
+    normalized = text.replace("%", "").replace(",", ".").strip()
+    try:
+        number = float(normalized)
+    except ValueError:
+        return text
+
+    percent = number if has_percent or number > 1 else number * 100
+    return f"{percent:g}%"
 
 
 # ==================== FILE CONVERTER ====================
@@ -524,13 +543,17 @@ class GradebookParser:
     def _extract_grade_labels(self) -> Dict[str, str]:
         """Extract grade labels from footer rows in gradebook.
         
-        Looks for pattern "N. LABEL TEXT" throughout the entire DataFrame.
+        Looks for grade labels throughout the entire DataFrame.
+
+        The gradebooks are not perfectly consistent in their footer labels:
+        examples include "1. LABEL", "5, LABEL", "10.. LABEL", and
+        "15 LABEL". All of those forms should map to the numeric grade.
         
         Returns:
             Dict mapping grade numbers to labels
         """
         labels: Dict[str, str] = {}
-        pattern = re.compile(r"^(\d+)\.\s+(.+)$")
+        pattern = re.compile(r"^(\d+)\s*[\.,]*\s+(.+)$")
 
         for row_idx in range(len(self.raw_df)):
             for col_idx in range(self.raw_df.shape[1]):
@@ -550,14 +573,9 @@ class GradebookParser:
     def parse(self, csv_file: str) -> Tuple[FileMetadata, List[StudentGrades], pd.DataFrame]:
         """Parse gradebook CSV file.
         
-        Assumes fixed layout:
-        - Row 0: University name
-        - Row 1: Program name
-        - Row 3: Subject name
-        - Row 4-6: Group, Professor, Period info
-        - Row 7: Weights row (used to detect "moy" column)
-        - Row 8: Headers (grade numbers)
-        - Rows 9+: Student data
+        Detects the header row dynamically and supports both the 2019
+        gradebook layout and the 2025 layout where course metadata starts
+        in the first column.
         
         Args:
             csv_file: Path to gradebook CSV file
@@ -570,13 +588,21 @@ class GradebookParser:
         """
         self.raw_df = pd.read_csv(csv_file, header=None, dtype=str, keep_default_na=False)
 
-        weights_row_idx = 7
-        header_row_idx = 8
+        try:
+            header_row_idx = self._find_header_row()
+        except ValueError:
+            return self._parse_carnet_blocks(csv_file)
+
+        weights_row_idx = max(0, header_row_idx - 1)
 
         header = [clean_text(v) for v in self.raw_df.iloc[header_row_idx].tolist()]
         weights = [clean_text(v) for v in self.raw_df.iloc[weights_row_idx].tolist()]
 
-        first_grade_col = 4  # After: No., CODE, NOM ET PRÉNOM, abse
+        student_no_col = self._find_header_col(header, {"no", "no.", "n°", "nº"}, default=0)
+        student_code_col = self._find_header_col(header, {"code"}, default=1)
+        student_name_col = self._find_name_col(header, default=2)
+        abse_col = self._find_header_prefix_col(header, ("abse",), default=3)
+        first_grade_col = abse_col + 1
 
         # Find the 'moy' column (end of first-block grades)
         try:
@@ -586,7 +612,10 @@ class GradebookParser:
             while moy_col < len(header) and clean_text(header[moy_col]):
                 moy_col += 1
 
-        first_twenty_cols = list(range(first_grade_col, moy_col))
+        first_twenty_cols = [
+            col for col in range(first_grade_col, moy_col)
+            if re.fullmatch(r"\d+(?:\.\d+)?", clean_text(header[col]))
+        ]
 
         # Extract first-block grade numbers
         first_twenty_grade_numbers = []
@@ -604,6 +633,19 @@ class GradebookParser:
                 component_grade_cols.append(i)
                 component_grade_numbers.append(str(int(float(token))))
 
+        weighted_first_col = moy_col + 1
+        first_block_weight_label = format_weight_label(
+            weights[weighted_first_col] if weighted_first_col < len(weights) else "",
+        )
+
+        component_weight_labels: Dict[str, str] = {}
+        for col, grade_num in zip(component_grade_cols, component_grade_numbers):
+            weighted_col = col + 1
+            component_weight_labels[grade_num] = format_weight_label(
+                weights[weighted_col] if weighted_col < len(weights) else "",
+                default=first_block_weight_label,
+            )
+
         # Find definitive grade column
         definitive_col = None
         for i, token in enumerate(header):
@@ -616,30 +658,67 @@ class GradebookParser:
         # Create FileMetadata
         self.file_metadata = FileMetadata(
             file_name=Path(csv_file).name,
-            university_name=clean_text(self.raw_df.iat[0, 0]),
-            program_name=clean_text(self.raw_df.iat[1, 0]),
-            materia_name=clean_text(self.raw_df.iat[3, 0]),
-            group_name=self._extract_group(self.raw_df.iat[4, 4]),
-            professor_name=self._extract_professor(self.raw_df.iat[5, 4]),
-            period_name=self._extract_period(self.raw_df.iat[6, 4]),
+            university_name=self._first_non_empty_in_row(0),
+            program_name=self._first_non_empty_in_row(1),
+            materia_name=self._first_non_empty_in_row(3),
+            group_name=self._extract_group(
+                self._first_matching_in_row(4, r"\b(groupe|classe|grupo|class)\b")
+            ),
+            professor_name=self._extract_professor(
+                self._first_matching_in_row(5, r"professeur")
+            ),
+            period_name=self._extract_period(
+                self._first_matching_in_row(6, r"(p[ée]riode|\d{4})")
+            ),
             first_twenty_grade_count=len(first_twenty_grade_numbers),
             first_twenty_grade_numbers=first_twenty_grade_numbers,
             component_grade_numbers=component_grade_numbers,
             grade_labels=grade_labels,
+            first_block_weight_label=first_block_weight_label,
+            component_weight_labels=component_weight_labels,
         )
 
         # Parse student rows
         student_rows = self.raw_df.iloc[header_row_idx + 1:].copy()
         
-        def is_student_row(no_value: Any) -> bool:
-            text = clean_text(no_value)
-            return bool(re.fullmatch(r"\d+", text))
+        def row_value(row: pd.Series, col: Optional[int]) -> Any:
+            if col is None or col not in row.index:
+                return ""
+            return row[col]
 
-        student_rows = student_rows[student_rows[0].map(is_student_row)]
+        def parse_student_number(row: pd.Series) -> Optional[int]:
+            number = clean_text(row_value(row, student_no_col))
+            if re.fullmatch(r"\d+", number):
+                return int(number)
+            return None
+
+        def is_student_row(row: pd.Series) -> bool:
+            number = parse_student_number(row)
+            code = clean_text(row_value(row, student_code_col))
+            name = clean_text(row_value(row, student_name_col))
+            return bool(name) and (number is not None or bool(code))
+
+        student_rows = student_rows[student_rows.apply(is_student_row, axis=1)]
 
         self.students = []
 
-        for _, row in student_rows.iterrows():
+        enumeration_fallbacks: List[str] = []
+
+        for expected_student_number, (_, row) in enumerate(student_rows.iterrows(), start=1):
+            spreadsheet_student_number = parse_student_number(row)
+            student_number = expected_student_number
+            if spreadsheet_student_number == expected_student_number:
+                student_number = spreadsheet_student_number
+            else:
+                student_name = clean_text(row_value(row, student_name_col))
+                observed = (
+                    str(spreadsheet_student_number)
+                    if spreadsheet_student_number is not None else "blank/non-numeric"
+                )
+                enumeration_fallbacks.append(
+                    f"{student_name or 'unnamed student'}: {observed} -> {expected_student_number}"
+                )
+
             # Parse first-block grades
             first_twenty_grades: Dict[str, Optional[float]] = {}
             for col in first_twenty_cols:
@@ -652,10 +731,11 @@ class GradebookParser:
             weighted_components: Dict[str, Optional[float]] = {}
 
             first_block_average = to_float(row[moy_col]) if moy_col < len(row) else None
-            weighted_first_col = moy_col + 1
             first_block_weighted = to_float(row[weighted_first_col]) if weighted_first_col < len(row) else None
             component_grades[f"1-{len(first_twenty_grade_numbers)} average"] = first_block_average
-            weighted_components[f"1-{len(first_twenty_grade_numbers)} weighted 20%"] = first_block_weighted
+            weighted_components[
+                f"1-{len(first_twenty_grade_numbers)} weighted {first_block_weight_label}"
+            ] = first_block_weighted
 
             for col in component_grade_cols:
                 grade_num = str(int(float(clean_text(header[col]))))
@@ -664,21 +744,29 @@ class GradebookParser:
 
                 weighted_col = col + 1
                 if weighted_col < len(row):
-                    weighted_components[f"{grade_num} weighted 20%"] = to_float(row[weighted_col])
+                    weight_label = component_weight_labels.get(grade_num, first_block_weight_label)
+                    weighted_components[f"{grade_num} weighted {weight_label}"] = to_float(row[weighted_col])
 
             definitive_grade = to_float(row[definitive_col]) if definitive_col is not None else None
 
             student = StudentGrades(
-                student_number=int(clean_text(row[0])) if clean_text(row[0]) else None,
-                student_code=clean_text(row[1]),
-                student_name=clean_text(row[2]),
-                abse=to_float(row[3]),
+                student_number=student_number,
+                student_code=clean_text(row_value(row, student_code_col)),
+                student_name=clean_text(row_value(row, student_name_col)),
+                abse=to_float(row_value(row, abse_col)),
                 first_twenty_grades=first_twenty_grades,
                 component_grades=component_grades,
                 weighted_components=weighted_components,
                 definitive_grade=definitive_grade,
             )
             self.students.append(student)
+
+        if self.logger and enumeration_fallbacks:
+            preview = "; ".join(enumeration_fallbacks[:5])
+            extra = len(enumeration_fallbacks) - 5
+            if extra > 0:
+                preview = f"{preview}; and {extra} more"
+            self.logger.warning("Student enumeration corrected from row order: %s", preview)
 
         # Create summary table
         self.student_table = pd.DataFrame({
@@ -694,6 +782,302 @@ class GradebookParser:
         self.log_students()
 
         return self.file_metadata, self.students, self.student_table
+
+    def _find_header_row(self) -> int:
+        """Find the row containing the student/grade column headers."""
+        for row_idx in range(len(self.raw_df)):
+            row = [clean_text(v).lower() for v in self.raw_df.iloc[row_idx].tolist()]
+            if (
+                self._find_header_col(row, {"no", "no.", "n°", "nº"}, default=None) is not None
+                and self._find_header_col(row, {"code"}, default=None) is not None
+                and self._find_name_col(row, default=None) is not None
+                and self._find_header_prefix_col(row, ("abse",), default=None) is not None
+            ):
+                return row_idx
+
+        raise ValueError("Could not find the student header row in the gradebook")
+
+    def _parse_carnet_blocks(self, csv_file: str) -> Tuple[FileMetadata, List[StudentGrades], pd.DataFrame]:
+        """Parse per-student carnet sheets exported from report-card templates."""
+        header_rows = self._find_carnet_header_rows()
+        if not header_rows:
+            raise ValueError("Could not find a supported gradebook or carnet layout")
+
+        first_header = header_rows[0]
+        header = [clean_text(v) for v in self.raw_df.iloc[first_header].tolist()]
+        no_col = self._find_header_col(header, {"no", "no.", "n°", "nº"}, default=0)
+        item_col = self._find_header_col(header, {"item"}, default=1)
+        note_col = self._find_header_col(header, {"note"}, default=2)
+        moy_col = self._find_header_col(header, {"moy"}, default=3)
+        weighted_col = self._first_numeric_header_col(header, start_after=moy_col) or 4
+        first_block_weight_label = format_weight_label(header[weighted_col])
+
+        first_items = self._collect_carnet_items(first_header, no_col, item_col)
+        first_block_numbers = [
+            grade_num for grade_num, label in first_items
+            if not self._is_component_label(label)
+        ]
+        component_numbers = [
+            grade_num for grade_num, label in first_items
+            if self._is_component_label(label)
+        ]
+        grade_labels = {grade_num: label for grade_num, label in first_items}
+        component_weight_labels = {
+            grade_num: first_block_weight_label for grade_num in component_numbers
+        }
+
+        subject = self._first_non_empty_in_row(max(0, first_header - 3))
+        period = self._extract_period(Path(csv_file).stem)
+        sheet_label = self._extract_sheet_label_from_csv_name(csv_file)
+
+        self.file_metadata = FileMetadata(
+            file_name=Path(csv_file).name,
+            university_name="",
+            program_name="",
+            materia_name=subject,
+            group_name=sheet_label,
+            professor_name="",
+            period_name=period,
+            first_twenty_grade_count=len(first_block_numbers),
+            first_twenty_grade_numbers=first_block_numbers,
+            component_grade_numbers=component_numbers,
+            grade_labels=grade_labels,
+            first_block_weight_label=first_block_weight_label,
+            component_weight_labels=component_weight_labels,
+        )
+
+        self.students = []
+        for student_number, header_row_idx in enumerate(header_rows, start=1):
+            student = self._parse_carnet_student(
+                student_number,
+                header_row_idx,
+                no_col,
+                item_col,
+                note_col,
+                moy_col,
+                weighted_col,
+                first_block_numbers,
+                component_numbers,
+                grade_labels,
+                first_block_weight_label,
+                component_weight_labels,
+            )
+            self.students.append(student)
+
+        self.student_table = pd.DataFrame({
+            "student_number": [s.student_number for s in self.students],
+            "student_code": [s.student_code for s in self.students],
+            "student_name": [s.student_name for s in self.students],
+            "abse": [s.abse for s in self.students],
+            "definitive_grade": [s.definitive_grade for s in self.students],
+        })
+
+        self.log_metadata()
+        self.log_students()
+
+        return self.file_metadata, self.students, self.student_table
+
+    def _parse_carnet_student(
+        self,
+        student_number: int,
+        header_row_idx: int,
+        no_col: int,
+        item_col: int,
+        note_col: int,
+        moy_col: int,
+        weighted_col: int,
+        first_block_numbers: List[str],
+        component_numbers: List[str],
+        grade_labels: Dict[str, str],
+        first_block_weight_label: str,
+        component_weight_labels: Dict[str, str],
+    ) -> StudentGrades:
+        student_name = self._first_non_empty_in_row(max(0, header_row_idx - 2))
+        abse = self._extract_absences(self._first_non_empty_in_row(max(0, header_row_idx - 1)))
+
+        first_block_set = set(first_block_numbers)
+        component_set = set(component_numbers)
+        first_twenty_grades: Dict[str, Optional[float]] = {}
+        component_grades: Dict[str, Optional[float]] = {}
+        weighted_components: Dict[str, Optional[float]] = {}
+        first_block_average: Optional[float] = None
+        first_block_weighted: Optional[float] = None
+        definitive_grade: Optional[float] = None
+
+        for row_idx in range(header_row_idx + 1, len(self.raw_df)):
+            row = self.raw_df.iloc[row_idx]
+            item_text = clean_text(row[item_col]) if item_col in row.index else ""
+            if not item_text:
+                if self._row_is_blank(row):
+                    break
+                continue
+
+            if self._is_final_carnet_row(item_text):
+                definitive_grade = to_float(row[weighted_col]) if weighted_col in row.index else None
+                break
+
+            grade_num = clean_text(row[no_col]) if no_col in row.index else ""
+            if not re.fullmatch(r"\d+", grade_num):
+                continue
+
+            grade_num = str(int(grade_num))
+            label = grade_labels.get(grade_num, item_text)
+
+            if grade_num in first_block_set:
+                first_twenty_grades[f"{grade_num} - {label}"] = (
+                    to_float(row[note_col]) if note_col in row.index else None
+                )
+                if first_block_average is None and moy_col in row.index:
+                    first_block_average = to_float(row[moy_col])
+                if first_block_weighted is None and weighted_col in row.index:
+                    first_block_weighted = to_float(row[weighted_col])
+            elif grade_num in component_set:
+                component_grades[f"{grade_num} - {label}"] = (
+                    to_float(row[moy_col]) if moy_col in row.index else None
+                )
+                weight_label = component_weight_labels.get(grade_num, first_block_weight_label)
+                weighted_components[f"{grade_num} weighted {weight_label}"] = (
+                    to_float(row[weighted_col]) if weighted_col in row.index else None
+                )
+
+        component_grades[f"1-{len(first_block_numbers)} average"] = first_block_average
+        weighted_components[
+            f"1-{len(first_block_numbers)} weighted {first_block_weight_label}"
+        ] = first_block_weighted
+
+        return StudentGrades(
+            student_number=student_number,
+            student_code="",
+            student_name=student_name,
+            abse=abse,
+            first_twenty_grades=first_twenty_grades,
+            component_grades=component_grades,
+            weighted_components=weighted_components,
+            definitive_grade=definitive_grade,
+        )
+
+    def _find_carnet_header_rows(self) -> List[int]:
+        header_rows: List[int] = []
+        for row_idx in range(len(self.raw_df)):
+            row = [clean_text(v).lower() for v in self.raw_df.iloc[row_idx].tolist()]
+            has_number = self._find_header_col(row, {"no", "no.", "n°", "nº"}, default=None) is not None
+            has_item = self._find_header_col(row, {"item"}, default=None) is not None
+            has_note = self._find_header_col(row, {"note"}, default=None) is not None
+            has_moy = self._find_header_col(row, {"moy"}, default=None) is not None
+            if has_number and has_item and has_note and has_moy:
+                header_rows.append(row_idx)
+        return header_rows
+
+    def _collect_carnet_items(
+        self,
+        header_row_idx: int,
+        no_col: int,
+        item_col: int,
+    ) -> List[Tuple[str, str]]:
+        items: List[Tuple[str, str]] = []
+        for row_idx in range(header_row_idx + 1, len(self.raw_df)):
+            row = self.raw_df.iloc[row_idx]
+            item_text = clean_text(row[item_col]) if item_col in row.index else ""
+            if self._is_final_carnet_row(item_text):
+                break
+            grade_num = clean_text(row[no_col]) if no_col in row.index else ""
+            if re.fullmatch(r"\d+", grade_num) and item_text:
+                items.append((str(int(grade_num)), item_text))
+            elif self._row_is_blank(row):
+                break
+        return items
+
+    @staticmethod
+    def _first_numeric_header_col(header: List[str], start_after: Optional[int]) -> Optional[int]:
+        start = (start_after if start_after is not None else -1) + 1
+        for idx in range(start, len(header)):
+            if to_float(header[idx]) is not None:
+                return idx
+        return None
+
+    @staticmethod
+    def _is_component_label(label: str) -> bool:
+        return "examen" in clean_text(label).lower()
+
+    @staticmethod
+    def _is_final_carnet_row(value: Any) -> bool:
+        return clean_text(value).lower().startswith("note du cours")
+
+    @staticmethod
+    def _extract_absences(value: Any) -> Optional[float]:
+        match = re.search(r"absences?\s*:\s*(\d+(?:[.,]\d+)?)", clean_text(value), flags=re.IGNORECASE)
+        if not match:
+            return None
+        return to_float(match.group(1).replace(",", "."))
+
+    @staticmethod
+    def _row_is_blank(row: pd.Series) -> bool:
+        return all(not clean_text(value) for value in row.tolist())
+
+    @staticmethod
+    def _extract_sheet_label_from_csv_name(csv_file: str) -> str:
+        stem = Path(csv_file).stem
+        match = re.search(r"_(FRAN.+)$", stem, flags=re.IGNORECASE)
+        return match.group(1).replace("_", " ") if match else ""
+
+    @staticmethod
+    def _normalize_header_token(value: Any) -> str:
+        return clean_text(value).lower().strip()
+
+    @classmethod
+    def _find_header_col(cls, header: List[str], names: set[str], default: Optional[int]) -> Optional[int]:
+        normalized_names = {cls._normalize_header_token(name) for name in names}
+        for idx, token in enumerate(header):
+            if cls._normalize_header_token(token) in normalized_names:
+                return idx
+        return default
+
+    @classmethod
+    def _find_header_prefix_col(
+        cls,
+        header: List[str],
+        prefixes: Tuple[str, ...],
+        default: Optional[int],
+    ) -> Optional[int]:
+        for idx, token in enumerate(header):
+            normalized = cls._normalize_header_token(token)
+            if any(normalized.startswith(prefix) for prefix in prefixes):
+                return idx
+        return default
+
+    @classmethod
+    def _find_name_col(cls, header: List[str], default: Optional[int]) -> Optional[int]:
+        for idx, token in enumerate(header):
+            normalized = cls._normalize_header_token(token)
+            if (
+                "nom" in normalized
+                or "prénom" in normalized
+                or "prenom" in normalized
+                or "étudiant" in normalized
+                or "etudiant" in normalized
+                or "estudiante" in normalized
+            ):
+                return idx
+        return default
+
+    def _first_non_empty_in_row(self, row_idx: int) -> str:
+        if row_idx >= len(self.raw_df):
+            return ""
+        for value in self.raw_df.iloc[row_idx].tolist():
+            text = clean_text(value)
+            if text:
+                return text
+        return ""
+
+    def _first_matching_in_row(self, row_idx: int, pattern: str) -> str:
+        if row_idx >= len(self.raw_df):
+            return ""
+        regex = re.compile(pattern, flags=re.IGNORECASE)
+        for value in self.raw_df.iloc[row_idx].tolist():
+            text = clean_text(value)
+            if text and regex.search(text):
+                return text
+        return self._first_non_empty_in_row(row_idx)
 
     @staticmethod
     def _extract_group(value: Any) -> str:
@@ -740,9 +1124,9 @@ class PDFGenerator:
         print(f"Generated {len(pdf_files)} PDFs")
     """
     
-    def __init__(self, file_metadata: FileMetadata, students: List[StudentGrades], 
+    def __init__(self, file_metadata: FileMetadata, students: List[StudentGrades],
                  output_dir: str = "student_pdfs", logger: Optional[logging.Logger] = None,
-                 timestamp_iso: Optional[str] = None, email_professor: Optional[str] = None):
+                 timestamp_iso: Optional[str] = None):
         """Initialize PDF generator.
         
         Args:
@@ -751,7 +1135,6 @@ class PDFGenerator:
             output_dir: Directory to save PDFs (created if needed)
             logger: Optional logging.Logger instance
             timestamp_iso: Optional ISO format timestamp to display as date
-            email_professor: Optional professor email to display
         """
         self.logger = logger
         self.file_metadata = file_metadata
@@ -760,7 +1143,6 @@ class PDFGenerator:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.created_files: List[str] = []
         self.timestamp_iso = timestamp_iso
-        self.email_professor = email_professor
     
     def log_pdf_generation(self, count: int) -> None:
         """Log PDF generation results (called internally).
@@ -844,20 +1226,17 @@ class PDFGenerator:
         """
         story = []
 
-        # Date and email section (if provided)
-        if self.timestamp_iso or self.email_professor:
+        # Date section (if provided)
+        if self.timestamp_iso:
             info_parts = []
-            if self.timestamp_iso:
-                # Convert ISO format to readable date
-                try:
-                    from datetime import datetime
-                    date_obj = datetime.fromisoformat(self.timestamp_iso.replace('Z', '+00:00'))
-                    date_str = date_obj.strftime("%d/%m/%Y")
-                    info_parts.append(f"Date: {date_str}")
-                except:
-                    info_parts.append(f"Date: {self.timestamp_iso}")
-            if self.email_professor:
-                info_parts.append(f"Email: {self.email_professor}")
+            # Convert ISO format to readable date
+            try:
+                from datetime import datetime
+                date_obj = datetime.fromisoformat(self.timestamp_iso.replace('Z', '+00:00'))
+                date_str = date_obj.strftime("%d/%m/%Y")
+                info_parts.append(f"Date: {date_str}")
+            except:
+                info_parts.append(f"Date: {self.timestamp_iso}")
             if info_parts:
                 story.append(Paragraph(" | ".join(info_parts), styles_dict["header"]))
                 story.append(Spacer(1, 2 * mm))
@@ -912,12 +1291,13 @@ class PDFGenerator:
         # Create table data with header
         table_data = [["CONCEPT", "NOTE", "%", "MOY"]]
         
-        for concept, note, pct, moy in raw_rows:
+        for row_idx, (concept, note, pct, moy) in enumerate(raw_rows):
+            cell_style = self._style_for_grade_row(row_idx, row_meta, styles_dict)
             table_data.append([
-                Paragraph(concept, styles_dict["cell"]),
-                Paragraph(note, styles_dict["cell"]),
-                Paragraph(pct, styles_dict["cell"]),
-                Paragraph(moy, styles_dict["cell"]),
+                Paragraph(concept, cell_style),
+                Paragraph(note, cell_style),
+                Paragraph(pct, cell_style),
+                Paragraph(moy, cell_style),
             ])
 
         # Create table with styles
@@ -932,6 +1312,20 @@ class PDFGenerator:
         table.setStyle(TableStyle(table_styles))
 
         return table
+
+    @staticmethod
+    def _style_for_grade_row(
+        row_idx: int,
+        row_meta: Dict[str, int],
+        styles_dict: Dict[str, ParagraphStyle],
+    ) -> ParagraphStyle:
+        if row_idx == row_meta["final_row"]:
+            return styles_dict["cell_final"]
+        if row_meta["first_block_start"] <= row_idx <= row_meta["first_block_end"]:
+            return styles_dict["cell_first_block"]
+        if row_meta["component_start"] <= row_idx <= row_meta["component_end"]:
+            return styles_dict["cell_component"]
+        return styles_dict["cell"]
 
     def _build_student_rows(self, student: StudentGrades) -> Tuple[List[List[str]], Dict[str, int]]:
         """Build row data for grade table.
@@ -951,12 +1345,15 @@ class PDFGenerator:
         )
 
         first_block_start = 0
+        first_block_weight_label = self.file_metadata.first_block_weight_label
         for key, grade in ordered_first:
             concept_label = extract_label_from_key(key)
-            rows.append([concept_label, format_grade(grade), "20%", ""])
+            rows.append([concept_label, format_grade(grade), first_block_weight_label, ""])
 
         # Apply MOY to first row only
-        weighted_avg_key = f"1-{self.file_metadata.first_twenty_grade_count} weighted 20%"
+        weighted_avg_key = (
+            f"1-{self.file_metadata.first_twenty_grade_count} weighted {first_block_weight_label}"
+        )
         weighted_avg_value = student.weighted_components.get(weighted_avg_key)
 
         first_block_end = len(rows) - 1
@@ -974,13 +1371,17 @@ class PDFGenerator:
                     component_value = val
                     break
 
-            weighted_key = f"{grade_num} weighted 20%"
+            weight_label = self.file_metadata.component_weight_labels.get(
+                grade_num,
+                first_block_weight_label,
+            )
+            weighted_key = f"{grade_num} weighted {weight_label}"
             weighted_value = student.weighted_components.get(weighted_key)
 
             rows.append([
                 concept,
                 format_grade(component_value),
-                "20%",
+                weight_label,
                 format_grade(weighted_value),
             ])
 
@@ -1037,6 +1438,30 @@ class PDFGenerator:
                 fontSize=9,
                 leading=11,
             ),
+            "cell_first_block": ParagraphStyle(
+                "CellFirstBlockFR",
+                parent=sample_styles["Normal"],
+                fontName="Helvetica",
+                fontSize=9,
+                leading=11,
+                textColor=colors.HexColor("#7A2CB8"),
+            ),
+            "cell_component": ParagraphStyle(
+                "CellComponentFR",
+                parent=sample_styles["Normal"],
+                fontName="Helvetica",
+                fontSize=9,
+                leading=11,
+                textColor=colors.HexColor("#3F5F23"),
+            ),
+            "cell_final": ParagraphStyle(
+                "CellFinalFR",
+                parent=sample_styles["Normal"],
+                fontName="Helvetica-Bold",
+                fontSize=9,
+                leading=11,
+                textColor=colors.red,
+            ),
         }
 
     def _create_table_styles(self, row_meta: Dict[str, int]) -> List[Tuple]:
@@ -1067,8 +1492,8 @@ class PDFGenerator:
             ("RIGHTPADDING", (0, 0), (-1, -1), 4),
             ("TOPPADDING", (0, 0), (-1, -1), 3),
             ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
-            ("TEXTCOLOR", (0, first_start), (1, first_end), colors.HexColor("#7A47A7")),
-            ("TEXTCOLOR", (0, comp_start), (1, comp_end), colors.HexColor("#556B2F")),
+            ("TEXTCOLOR", (0, first_start), (-1, first_end), colors.HexColor("#7A2CB8")),
+            ("TEXTCOLOR", (0, comp_start), (-1, comp_end), colors.HexColor("#3F5F23")),
             ("LINEABOVE", (0, comp_start), (-1, comp_start), 1.2, colors.black),
             ("SPAN", (2, first_start), (2, first_end)),
             ("SPAN", (3, first_start), (3, first_end)),
@@ -1130,23 +1555,73 @@ class GradebookProcessor:
         self.pdf_files: List[str] = []
 
     @staticmethod
-    def get_sheet_names(source_file: str) -> List[str]:
+    def get_sheet_names(source_file: str, include_empty: bool = False) -> List[str]:
         """Get list of sheet names from Excel file.
         
         Args:
             source_file: Path to Excel file (.xls or .xlsx)
+            include_empty: Return every workbook sheet when True. By default,
+                only gradebook-like sheets are returned.
             
         Returns:
-            List of sheet names, or empty list if file is CSV or cannot be read
+            List of sheet names, or empty list if file is CSV or cannot be read.
         """
         if not source_file.lower().endswith(('.xls', '.xlsx')):
             return []
         
         try:
             xls = pd.ExcelFile(source_file)
-            return xls.sheet_names
+            if include_empty:
+                return xls.sheet_names
+            return [
+                sheet_name
+                for sheet_name in xls.sheet_names
+                if GradebookProcessor._sheet_has_gradebook_header(xls, sheet_name)
+            ]
         except Exception:
             return []
+
+    @staticmethod
+    def _sheet_has_gradebook_header(xls: pd.ExcelFile, sheet_name: str) -> bool:
+        try:
+            df = pd.read_excel(
+                xls,
+                sheet_name=sheet_name,
+                header=None,
+                dtype=str,
+                keep_default_na=False,
+                nrows=15,
+            )
+        except Exception:
+            return False
+
+        if df.empty:
+            return False
+
+        for _, row in df.iterrows():
+            tokens = [clean_text(value).lower() for value in row.tolist()]
+            has_number = any(token in {"no", "no.", "n°", "nº"} for token in tokens)
+            has_code = "code" in tokens
+            has_student_name = any(
+                "nom" in token
+                or "prénom" in token
+                or "prenom" in token
+                or "étudiant" in token
+                or "etudiant" in token
+                or "estudiante" in token
+                for token in tokens
+            )
+            has_absences = any(token.startswith("abse") for token in tokens)
+            if has_number and has_code and has_student_name and has_absences:
+                return True
+
+            has_item = "item" in tokens
+            has_note = "note" in tokens
+            has_moy = "moy" in tokens
+            if has_number and has_item and has_note and has_moy:
+                return True
+
+        return False
 
     def convert(self) -> bool:
         """Convert source file to CSV and validate.
@@ -1230,14 +1705,12 @@ class GradebookProcessor:
             return False
 
     def generate_pdfs(self, output_dir: str = "student_pdfs",
-                      timestamp_iso: Optional[str] = None,
-                      email_professor: Optional[str] = None) -> bool:
+                      timestamp_iso: Optional[str] = None) -> bool:
         """Generate PDF reports for all students.
         
         Args:
             output_dir: Directory to save PDFs
             timestamp_iso: Optional ISO format timestamp to display as date
-            email_professor: Optional professor email to display
             
         Returns:
             True if successful, False otherwise
@@ -1253,7 +1726,6 @@ class GradebookProcessor:
                 output_dir,
                 logger=self.logger,
                 timestamp_iso=timestamp_iso,
-                email_professor=email_professor
             )
             self.pdf_files = generator.generate()
             return True
@@ -1262,14 +1734,12 @@ class GradebookProcessor:
             return False
 
     def run_pipeline(self, output_dir: str = "student_pdfs",
-                     timestamp_iso: Optional[str] = None,
-                     email_professor: Optional[str] = None) -> bool:
+                     timestamp_iso: Optional[str] = None) -> bool:
         """Execute complete processing pipeline: convert → parse → generate PDFs.
         
         Args:
             output_dir: Directory to save PDFs
             timestamp_iso: Optional ISO format timestamp to display as date
-            email_professor: Optional professor email to display
             
         Returns:
             True if all steps successful, False otherwise
@@ -1277,7 +1747,7 @@ class GradebookProcessor:
         return (
             self.convert() and
             self.parse() and
-            self.generate_pdfs(output_dir, timestamp_iso=timestamp_iso, email_professor=email_professor)
+            self.generate_pdfs(output_dir, timestamp_iso=timestamp_iso)
         )
 
     def summary(self) -> None:

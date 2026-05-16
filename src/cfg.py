@@ -74,8 +74,6 @@ APP_NAME = os.getenv("APP_NAME", "CoffeeEduMailer")
 APP_VERSION = os.getenv("APP_VERSION", "0.1.0")
 DEFAULT_GEOMETRY_STR = os.getenv("DEFAULT_GEOMETRY", "1920x1080")
 DEFAULT_GEOMETRY = tuple(map(int, DEFAULT_GEOMETRY_STR.split("x")))
-MAIL_API_KEY = os.getenv("MAIL_API_KEY", "")
-MAIL_USER = os.getenv("MAIL_USER", "")
 
 LOGS_DIR = APP_DATA_DIR / "logs"
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
