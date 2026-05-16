@@ -14,6 +14,7 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m pytest
+python scripts/generate-icon.py
 python -m PyInstaller --clean --noconfirm app.spec
 
 echo "Build ready: $ROOT_DIR/dist/CoffeeEduMailer"

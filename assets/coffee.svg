@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Coffee</title>
+  <desc id="desc">A warm coffee cup icon for CoffeeEduMailer assets.</desc>
+  <defs>
+    <linearGradient id="cup" x1="128" y1="184" x2="368" y2="424" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="steam" x1="182" y1="42" x2="306" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <path d="M172 92c0-28 34-32 34-68" fill="none" stroke="url(#steam)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M254 116c0-34 42-40 42-84" fill="none" stroke="url(#steam)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M326 132c0-26 30-34 30-68" fill="none" stroke="url(#steam)" stroke-width="22" stroke-linecap="round"/>
+
+  <path d="M104 190h252v126c0 76-54 126-126 126S104 392 104 316V190Z" fill="url(#cup)"/>
+  <path d="M356 224h36c58 0 92 34 92 82s-34 82-92 82h-46v-44h42c30 0 48-14 48-38s-18-38-48-38h-32v-44Z" fill="#f59e0b"/>
+  <path d="M140 224h180v86c0 52-34 88-90 88s-90-36-90-88v-86Z" fill="#fffbeb" opacity=".18"/>
+  <path d="M92 446h300" fill="none" stroke="#475569" stroke-width="28" stroke-linecap="round"/>
+</svg>

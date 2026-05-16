@@ -16,6 +16,7 @@ if (-not (Test-Path "venv")) {
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m pytest
+python scripts/generate-icon.py
 python -m PyInstaller --clean --noconfirm app.spec
 
 Write-Host "Build ready: $RootDir\dist\CoffeeEduMailer.exe"

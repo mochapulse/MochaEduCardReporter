@@ -56,6 +56,17 @@ The bundled executable includes `.env.example`. On first run, the app creates it
 
 The user will also be asked to choose a workspace folder on first run. Generated PDFs are saved wherever the user chooses in the app.
 
+The Windows executable metadata is configured in `app.spec`:
+
+- App icon: `assets/app.ico`
+- Version resource: `resources/windows_version_info.txt`
+
+If you change the icon design, regenerate it with:
+
+```bash
+python scripts/generate-icon.py
+```
+
 ### Recommended Scripted Build
 
 #### Linux
@@ -139,3 +150,31 @@ python -m PyInstaller --clean --noconfirm app.spec
 - Compile on each target OS separately.
 - Smoke test the generated executable by loading one workbook from `templates/` and generating PDFs into a temporary folder.
 - If you need to change defaults, edit `.env.example` before building or edit the generated runtime `.env` after first launch.
+
+## Windows Signing From Linux
+
+PyInstaller does not cross-compile Windows executables from Linux. Build `dist\CoffeeEduMailer.exe` on Windows, in a Windows VM, or in a Windows CI job. After you have the `.exe`, you can sign it from Linux.
+
+Install the signing tool:
+
+```bash
+sudo apt install osslsigncode
+```
+
+You need a real code-signing certificate from a certificate authority, usually exported as `.pfx` or `.p12`. A self-signed certificate is useful for local tests, but it will not improve Microsoft SmartScreen trust for users.
+
+Sign the executable:
+
+```bash
+export WINDOWS_SIGN_CERT=/path/to/certificate.pfx
+export WINDOWS_SIGN_PASSWORD='certificate-password'
+./scripts/sign-windows-from-linux.sh dist/CoffeeEduMailer.exe
+```
+
+Output:
+
+```bash
+dist/CoffeeEduMailer-signed.exe
+```
+
+For strongest SmartScreen reputation, use an EV code-signing certificate or build reputation over time with a standard OV certificate and consistent signed releases.
