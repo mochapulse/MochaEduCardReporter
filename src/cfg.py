@@ -54,6 +54,26 @@ def get_or_create_workspace() -> pathlib.Path:
     return chosen_path
 
 WORKSPACE_DIR = get_or_create_workspace()
+LOCAL_TEMP_DIR = WORKSPACE_DIR / ".local_temp"
+
+def ensure_writable_dir(path: pathlib.Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
+    test_file = path / f".write_test_{os.getpid()}"
+    try:
+        with open(test_file, "w", encoding="utf-8") as handle:
+            handle.write("ok")
+    finally:
+        try:
+            test_file.unlink()
+        except FileNotFoundError:
+            pass
+        except Exception:
+            pass
+
+def get_local_temp_dir() -> pathlib.Path | None:
+    if is_linux():
+        return None
+    return LOCAL_TEMP_DIR
 
 def ensure_env_file() -> None:
     env_path = APP_DATA_DIR / ".env"
