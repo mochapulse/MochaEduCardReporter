@@ -93,6 +93,8 @@ Run it:
 
 Open PowerShell in the repository root.
 
+Run PowerShell as **Administrator** for deploy/build steps to avoid permission-denied failures.
+
 If script execution is blocked for the current shell session, run:
 
 ```powershell
