@@ -196,13 +196,13 @@ def generate_pdfs() -> None:
         temp_dir_kwargs = {"prefix": "coffee_edu_mailer_"}
         if temp_root is not None:
             temp_dir_kwargs["dir"] = str(temp_root)
-        with tempfile.TemporaryDirectory(**temp_dir_kwargs) as temp_dir:
-            os.chdir(temp_dir)
-            success = processor.run_pipeline(
-                output_dir=str(output_dir),
-                timestamp_iso=cfg.get_time_now(),
-                use_parallel=cfg.is_linux(),
-            )
+        temp_dir = Path(tempfile.mkdtemp(**temp_dir_kwargs))
+        os.chdir(temp_dir)
+        success = processor.run_pipeline(
+            output_dir=str(output_dir),
+            timestamp_iso=cfg.get_time_now(),
+            use_parallel=cfg.is_linux(),
+        )
     except Exception as exc:
         log.exception("PDF generation failed.")
         messagebox.showerror("Error generando PDFs", f"No se pudieron generar los PDFs.\n\n{exc}")
@@ -210,6 +210,8 @@ def generate_pdfs() -> None:
         return
     finally:
         os.chdir(previous_cwd)
+        if "temp_dir" in locals():
+            cfg.cleanup_temp_dir(temp_dir)
         set_busy(False)
 
     if not success:
