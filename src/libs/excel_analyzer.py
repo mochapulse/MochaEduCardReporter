@@ -15,8 +15,10 @@ Classes:
 Author: Educational Report System
 """
 
+import os
 import re
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -1160,21 +1162,37 @@ class PDFGenerator:
             if count > 1:
                 self.logger.debug(f"   Last PDF: {Path(self.created_files[-1]).name}")
 
-    def generate(self) -> List[str]:
+    def generate(self, use_parallel: bool = True) -> List[str]:
         """Generate one PDF per student.
         
         Creates French-styled PDFs with institution metadata, student info,
         and a formatted grade table with color-coded sections.
         
+        Args:
+            use_parallel: When True, generate PDFs in parallel when possible
+
         Returns:
             List of generated PDF file paths
         """
         styles = getSampleStyleSheet()
         styles_dict = self._create_styles(styles)
         
-        for student in self.students:
-            pdf_path = self._generate_student_pdf(student, styles_dict)
-            self.created_files.append(str(pdf_path))
+        if use_parallel and len(self.students) > 1:
+            max_workers = min(4, os.cpu_count() or 1, len(self.students))
+            created_paths: list[Optional[Path]] = [None] * len(self.students)
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = {
+                    executor.submit(self._generate_student_pdf, student, styles_dict): idx
+                    for idx, student in enumerate(self.students)
+                }
+                for future in as_completed(futures):
+                    idx = futures[future]
+                    created_paths[idx] = future.result()
+            self.created_files = [str(path) for path in created_paths if path is not None]
+        else:
+            for student in self.students:
+                pdf_path = self._generate_student_pdf(student, styles_dict)
+                self.created_files.append(str(pdf_path))
         
         # Log results
         self.log_pdf_generation(len(self.created_files))
@@ -1570,14 +1588,14 @@ class GradebookProcessor:
             return []
         
         try:
-            xls = pd.ExcelFile(source_file)
-            if include_empty:
-                return xls.sheet_names
-            return [
-                sheet_name
-                for sheet_name in xls.sheet_names
-                if GradebookProcessor._sheet_has_gradebook_header(xls, sheet_name)
-            ]
+            with pd.ExcelFile(source_file) as xls:
+                if include_empty:
+                    return xls.sheet_names
+                return [
+                    sheet_name
+                    for sheet_name in xls.sheet_names
+                    if GradebookProcessor._sheet_has_gradebook_header(xls, sheet_name)
+                ]
         except Exception:
             return []
 
@@ -1705,12 +1723,15 @@ class GradebookProcessor:
             return False
 
     def generate_pdfs(self, output_dir: str = "student_pdfs",
-                      timestamp_iso: Optional[str] = None) -> bool:
+                      timestamp_iso: Optional[str] = None,
+                      use_parallel: bool = True) -> bool:
         """Generate PDF reports for all students.
         
         Args:
             output_dir: Directory to save PDFs
             timestamp_iso: Optional ISO format timestamp to display as date
+            use_parallel: When True, generate PDFs in parallel if supported
+            use_parallel: When True, generate PDFs in parallel if supported
             
         Returns:
             True if successful, False otherwise
@@ -1727,19 +1748,21 @@ class GradebookProcessor:
                 logger=self.logger,
                 timestamp_iso=timestamp_iso,
             )
-            self.pdf_files = generator.generate()
+            self.pdf_files = generator.generate(use_parallel=use_parallel)
             return True
         except Exception as e:
             print(f"PDF generation error: {e}")
             return False
 
     def run_pipeline(self, output_dir: str = "student_pdfs",
-                     timestamp_iso: Optional[str] = None) -> bool:
+                     timestamp_iso: Optional[str] = None,
+                     use_parallel: bool = True) -> bool:
         """Execute complete processing pipeline: convert → parse → generate PDFs.
         
         Args:
             output_dir: Directory to save PDFs
             timestamp_iso: Optional ISO format timestamp to display as date
+            use_parallel: When True, generate PDFs in parallel if supported
             
         Returns:
             True if all steps successful, False otherwise
@@ -1747,7 +1770,7 @@ class GradebookProcessor:
         return (
             self.convert() and
             self.parse() and
-            self.generate_pdfs(output_dir, timestamp_iso=timestamp_iso)
+            self.generate_pdfs(output_dir, timestamp_iso=timestamp_iso, use_parallel=use_parallel)
         )
 
     def summary(self) -> None:

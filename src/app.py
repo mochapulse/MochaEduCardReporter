@@ -167,12 +167,25 @@ def generate_pdfs() -> None:
         return
 
     try:
-        output_dir.mkdir(parents=True, exist_ok=True)
+        cfg.ensure_writable_dir(output_dir)
     except Exception as exc:
         log.exception("Could not create output directory: %s", output_dir)
         messagebox.showerror("Carpeta no válida", f"No se pudo crear la carpeta:\n{output_dir}\n\n{exc}")
         set_status("No se pudo crear la carpeta de salida.", detail)
         return
+
+    temp_root = cfg.get_local_temp_dir()
+    if temp_root is not None:
+        try:
+            cfg.ensure_writable_dir(temp_root)
+        except Exception as exc:
+            log.exception("Could not create local temp directory: %s", temp_root)
+            messagebox.showerror(
+                "Carpeta temporal no válida",
+                f"No se pudo crear la carpeta temporal:\n{temp_root}\n\n{exc}",
+            )
+            set_status("No se pudo crear la carpeta temporal.", detail)
+            return
 
     processor = GradebookProcessor(str(source_file), sheet_name=sheet_name, logger=log)
     set_busy(True)
@@ -180,11 +193,15 @@ def generate_pdfs() -> None:
 
     previous_cwd = Path.cwd()
     try:
-        with tempfile.TemporaryDirectory(prefix="coffee_edu_mailer_") as temp_dir:
+        temp_dir_kwargs = {"prefix": "coffee_edu_mailer_"}
+        if temp_root is not None:
+            temp_dir_kwargs["dir"] = str(temp_root)
+        with tempfile.TemporaryDirectory(**temp_dir_kwargs) as temp_dir:
             os.chdir(temp_dir)
             success = processor.run_pipeline(
                 output_dir=str(output_dir),
                 timestamp_iso=cfg.get_time_now(),
+                use_parallel=cfg.is_linux(),
             )
     except Exception as exc:
         log.exception("PDF generation failed.")
