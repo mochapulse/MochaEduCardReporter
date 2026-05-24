@@ -3,6 +3,7 @@
 import os
 import sys
 import shutil
+import time
 import logging
 import pathlib
 import datetime
@@ -74,6 +75,21 @@ def get_local_temp_dir() -> pathlib.Path | None:
     if is_linux():
         return None
     return LOCAL_TEMP_DIR
+
+def cleanup_temp_dir(path: pathlib.Path, retries: int = 5, delay_seconds: float = 0.25) -> None:
+    path = pathlib.Path(path)
+    logger = logging.getLogger(__name__)
+    for attempt in range(1, retries + 1):
+        try:
+            shutil.rmtree(path)
+            return
+        except FileNotFoundError:
+            return
+        except PermissionError as exc:
+            if attempt == retries:
+                logger.warning("Failed to clean temp directory %s: %s", path, exc)
+                return
+            time.sleep(delay_seconds)
 
 def ensure_env_file() -> None:
     env_path = APP_DATA_DIR / ".env"

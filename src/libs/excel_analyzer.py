@@ -291,8 +291,10 @@ class FileConverter:
             if suffix in [".xls", ".xlsx"]:
                 output_path = Path(output_csv) if output_csv else file_path_obj.with_suffix(".csv")
                 try:
-                    df_temp = pd.read_excel(file_path_obj)
-                    df_temp.to_csv(output_path, index=False)
+                    with pd.ExcelFile(file_path_obj) as workbook:
+                        df_temp = pd.read_excel(workbook)
+                    with open(output_path, "w", encoding="utf-8", newline="") as handle:
+                        df_temp.to_csv(handle, index=False)
                     file_path_obj = output_path
                     audit_report["converted"] = True
                     audit_report["conversion_path"] = str(output_path)
@@ -309,7 +311,8 @@ class FileConverter:
                 audit_report["is_corrupted"] = True
                 return None, audit_report
 
-            df = pd.read_csv(file_path_obj)
+            with open(file_path_obj, "r", encoding="utf-8", newline="") as handle:
+                df = pd.read_csv(handle)
             audit_report["row_count"] = len(df)
             audit_report["column_count"] = len(df.columns)
 
@@ -401,8 +404,10 @@ class FileConverter:
             if suffix in [".xls", ".xlsx"]:
                 output_path = Path(output_csv) if output_csv else file_path_obj.with_suffix(".csv")
                 try:
-                    df_temp = pd.read_excel(file_path_obj)
-                    df_temp.to_csv(output_path, index=False)
+                    with pd.ExcelFile(file_path_obj) as workbook:
+                        df_temp = pd.read_excel(workbook)
+                    with open(output_path, "w", encoding="utf-8", newline="") as handle:
+                        df_temp.to_csv(handle, index=False)
                     file_path_obj = output_path
                     audit_report["converted"] = True
                     audit_report["conversion_path"] = str(output_path)
@@ -419,7 +424,8 @@ class FileConverter:
                 audit_report["is_corrupted"] = True
                 return None, audit_report
 
-            df = pd.read_csv(file_path_obj)
+            with open(file_path_obj, "r", encoding="utf-8", newline="") as handle:
+                df = pd.read_csv(handle)
             audit_report["row_count"] = len(df)
             audit_report["column_count"] = len(df.columns)
 
@@ -588,7 +594,8 @@ class GradebookParser:
         Raises:
             ValueError: If parsing fails
         """
-        self.raw_df = pd.read_csv(csv_file, header=None, dtype=str, keep_default_na=False)
+        with open(csv_file, "r", encoding="utf-8", newline="") as handle:
+            self.raw_df = pd.read_csv(handle, header=None, dtype=str, keep_default_na=False)
 
         try:
             header_row_idx = self._find_header_row()
@@ -1652,7 +1659,8 @@ class GradebookProcessor:
         # If sheet_name is specified, read only that sheet for Excel files
         if self.sheet_name and self.source_file.lower().endswith(('.xls', '.xlsx')):
             try:
-                raw_df = pd.read_excel(self.source_file, sheet_name=self.sheet_name)
+                with pd.ExcelFile(self.source_file) as workbook:
+                    raw_df = pd.read_excel(workbook, sheet_name=self.sheet_name)
                 # Create audit report for sheet-based processing
                 self.audit_report = {
                     "file_name": Path(self.source_file).name,
@@ -1674,7 +1682,8 @@ class GradebookProcessor:
                 
                 # Save as CSV for consistent processing
                 csv_output = Path(self.source_file).stem + f"_{self.sheet_name}.csv"
-                raw_df.to_csv(csv_output, index=False)
+                with open(csv_output, "w", encoding="utf-8", newline="") as handle:
+                    raw_df.to_csv(handle, index=False)
                 self.audit_report["conversion_path"] = csv_output
                 self.csv_file = csv_output
                 
