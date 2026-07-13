@@ -1,0 +1,83 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install system deps (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3-tk xvfb
+
+      - name: Install Python deps
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate icon
+        shell: bash
+        run: python scripts/generate-icon.py
+
+      - name: Build with PyInstaller
+        shell: bash
+        run: python -m PyInstaller --clean --noconfirm app.spec
+
+      - name: Archive (Linux)
+        if: runner.os == 'Linux'
+        shell: bash
+        run: |
+          mkdir -p dist/release
+          cp dist/MochaEduCardReporter dist/release/
+          tar -czf dist/release/MochaEduCardReporter-linux-x86_64.tar.gz -C dist/release MochaEduCardReporter
+
+      - name: Archive (Windows)
+        if: runner.os == 'Windows'
+        shell: bash
+        run: |
+          mkdir -p dist/release
+          cp dist/MochaEduCardReporter.exe dist/release/
+          7z a dist/release/MochaEduCardReporter-windows-x86_64.zip ./dist/release/MochaEduCardReporter.exe
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MochaEduCardReporter-${{ runner.os }}
+          path: |
+            dist/release/*.tar.gz
+            dist/release/*.zip
+
+  release:
+    name: Create Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: MochaEduCardReporter-*/*
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
