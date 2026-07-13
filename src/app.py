@@ -1,3 +1,4 @@
+import platform
 from pathlib import Path
 import os
 import sys
@@ -265,7 +266,7 @@ log.info(f"Starting {cfg.APP_NAME} v{cfg.APP_VERSION} in {cfg.COUNTRY} time: {cf
 
 _display = os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY") or "NOT SET"
 _tk_ver = tk.TkVersion
-_is_wsl = "microsoft" in os.uname().release.lower() or "WSL" in os.environ.get("WSL_DISTRO_NAME", "")
+_is_wsl = "microsoft" in platform.uname().release.lower() or "WSL" in os.environ.get("WSL_DISTRO_NAME", "")
 log.info(f"DISPLAY={_display}  TkVersion={_tk_ver}  platform={sys.platform}  python={sys.version.split()[0]}  WSL={_is_wsl}")
 
 if _is_wsl:

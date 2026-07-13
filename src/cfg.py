@@ -107,7 +107,7 @@ DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 DEVELOPMENT = os.getenv("DEVELOPMENT", "false").lower() == "true"
 COUNTRY = os.getenv("COUNTRY", "America/Bogota")
 APP_NAME = os.getenv("APP_NAME", "MochaEduCardReporter")
-APP_VERSION = os.getenv("APP_VERSION", "0.1.0")
+APP_VERSION = os.getenv("APP_VERSION", "0.1.1")
 DEFAULT_GEOMETRY_STR = os.getenv("DEFAULT_GEOMETRY", "1920x1080")
 DEFAULT_GEOMETRY = tuple(map(int, DEFAULT_GEOMETRY_STR.split("x")))
 
