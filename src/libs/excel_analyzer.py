@@ -110,25 +110,28 @@ def clean_text(value: Any) -> str:
 
 
 def to_grade_str(value: Any) -> str:
-    """Convert value to grade string exactly as typed in the spreadsheet.
+    """Convert value to grade string, formatted to 1 decimal place.
 
-    For float values, rounds to 6 decimal places and strips trailing zeros
-    to eliminate IEEE 754 artifacts (e.g. 0.6462500000000001 → 0.64625).
+    Handles float, int, and string representations of numbers.
+    Non-numeric strings are returned as-is.
 
     Args:
         value: Input value (any type)
 
     Returns:
-        Cleaned string, empty string if value is NaN or empty
+        Formatted string with 1 decimal, empty string if value is NaN or empty
     """
     if pd.isna(value):
         return ""
-    if isinstance(value, (float, int)) and not isinstance(value, bool):
-        if isinstance(value, float):
-            formatted = f"{value:.6f}".rstrip("0").rstrip(".")
-            return formatted if formatted else "0"
-        return str(int(value))
-    return clean_text(value)
+    if isinstance(value, (float, int)):
+        return f"{float(value):.1f}"
+    text = clean_text(value)
+    if text:
+        try:
+            return f"{float(text):.1f}"
+        except ValueError:
+            return text
+    return text
 
 
 def to_float(value: Any) -> Optional[float]:
@@ -167,28 +170,43 @@ def extract_grade_num_from_key(key: str) -> Optional[str]:
 
 
 def format_concept_label(label: str) -> str:
-    """Format concept label with line breaks on sentence boundaries.
-    
-    Splits on ". " (period + space) and joins with &lt;br/&gt; so each
-    sentence appears on its own line in the ReportLab Paragraph.
-    
+    """Format concept label into three lines: category, description, date.
+
+    Splits on the first ". " or ": " for category, then finds "Le <day>"
+    to extract the date line.
+
     Args:
         label: Raw concept label string
-        
+
     Returns:
-        Formatted label with per-sentence line breaks
+        Formatted label with up to 3 lines separated by <br/>
     """
-    parts = label.split(". ")
-    formatted = []
-    for i, part in enumerate(parts):
-        part = part.strip()
-        if not part:
-            continue
-        if i < len(parts) - 1:
-            formatted.append(part + ".")
-        else:
-            formatted.append(part)
-    return "<br/>".join(formatted)
+    dot_idx = label.find(". ")
+    colon_idx = label.find(": ")
+
+    if dot_idx >= 0 and (colon_idx < 0 or dot_idx < colon_idx):
+        category = label[:dot_idx].strip() + "."
+        rest = label[dot_idx + 2:].strip()
+    elif colon_idx >= 0:
+        category = label[:colon_idx].strip() + ":"
+        rest = label[colon_idx + 2:].strip()
+    else:
+        return label
+
+    if not rest:
+        return category
+
+    date_match = re.search(r'Le \d', rest)
+    if date_match:
+        desc = rest[:date_match.start()].strip()
+        date = rest[date_match.start():].strip()
+        if desc and date:
+            return category + "<br/>" + desc + "<br/>" + date
+        if date:
+            return category + "<br/>" + date
+        return category + "<br/>" + desc
+
+    return category + "<br/>" + rest
 
 
 def extract_label_from_key(key: str) -> str:
@@ -340,7 +358,7 @@ class FileConverter:
                     with pd.ExcelFile(file_path_obj) as workbook:
                         df_temp = pd.read_excel(workbook)
                     with open(output_path, "w", encoding="utf-8", newline="") as handle:
-                        df_temp.to_csv(handle, index=False)
+                        df_temp.to_csv(handle, index=False, float_format="%.1f")
                     file_path_obj = output_path
                     audit_report["converted"] = True
                     audit_report["conversion_path"] = str(output_path)
@@ -453,7 +471,7 @@ class FileConverter:
                     with pd.ExcelFile(file_path_obj) as workbook:
                         df_temp = pd.read_excel(workbook)
                     with open(output_path, "w", encoding="utf-8", newline="") as handle:
-                        df_temp.to_csv(handle, index=False)
+                        df_temp.to_csv(handle, index=False, float_format="%.1f")
                     file_path_obj = output_path
                     audit_report["converted"] = True
                     audit_report["conversion_path"] = str(output_path)
@@ -1722,7 +1740,7 @@ class GradebookProcessor:
                 # Save as CSV for consistent processing
                 csv_output = Path(self.source_file).stem + f"_{self.sheet_name}.csv"
                 with open(csv_output, "w", encoding="utf-8", newline="") as handle:
-                    raw_df.to_csv(handle, index=False)
+                    raw_df.to_csv(handle, index=False, float_format="%.1f")
                 self.audit_report["conversion_path"] = csv_output
                 self.csv_file = csv_output
                 
