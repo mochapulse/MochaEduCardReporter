@@ -144,6 +144,31 @@ def extract_grade_num_from_key(key: str) -> Optional[str]:
     return match.group(1) if match else None
 
 
+def format_concept_label(label: str) -> str:
+    """Format concept label with line breaks on sentence boundaries.
+    
+    Splits on ". " (period + space) and joins with newlines so each
+    sentence appears on its own line in the report card.
+    
+    Args:
+        label: Raw concept label string
+        
+    Returns:
+        Formatted label with per-sentence line breaks
+    """
+    parts = label.split(". ")
+    formatted = []
+    for i, part in enumerate(parts):
+        part = part.strip()
+        if not part:
+            continue
+        if i < len(parts) - 1:
+            formatted.append(part + ".")
+        else:
+            formatted.append(part)
+    return "\n".join(formatted)
+
+
 def extract_label_from_key(key: str) -> str:
     """Extract label from grade key string.
     
@@ -156,7 +181,8 @@ def extract_label_from_key(key: str) -> str:
         Label text or original key if parsing fails
     """
     parts = key.split(" - ", 1)
-    return parts[1].strip() if len(parts) == 2 else key
+    label = parts[1].strip() if len(parts) == 2 else key
+    return format_concept_label(label)
 
 
 def safe_filename(value: str) -> str:
@@ -1388,7 +1414,9 @@ class PDFGenerator:
         # Component exams
         component_start = len(rows)
         for grade_num in self.file_metadata.component_grade_numbers:
-            concept = self.file_metadata.grade_labels.get(grade_num, f"NOTE {grade_num}")
+            concept = format_concept_label(
+                self.file_metadata.grade_labels.get(grade_num, f"NOTE {grade_num}")
+            )
 
             component_value = None
             for key, val in student.component_grades.items():
