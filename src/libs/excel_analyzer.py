@@ -147,8 +147,8 @@ def extract_grade_num_from_key(key: str) -> Optional[str]:
 def format_concept_label(label: str) -> str:
     """Format concept label with line breaks on sentence boundaries.
     
-    Splits on ". " (period + space) and joins with newlines so each
-    sentence appears on its own line in the report card.
+    Splits on ". " (period + space) and joins with &lt;br/&gt; so each
+    sentence appears on its own line in the ReportLab Paragraph.
     
     Args:
         label: Raw concept label string
@@ -166,7 +166,7 @@ def format_concept_label(label: str) -> str:
             formatted.append(part + ".")
         else:
             formatted.append(part)
-    return "\n".join(formatted)
+    return "<br/>".join(formatted)
 
 
 def extract_label_from_key(key: str) -> str:
