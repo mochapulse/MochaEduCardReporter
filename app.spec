@@ -1,12 +1,18 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import PyInstaller.utils.hooks
+
+customtkinter_datas = PyInstaller.utils.hooks.collect_data_files('customtkinter')
 
 a = Analysis(
     ['src/app.py'],
     pathex=[],
     binaries=[],
-    datas=[('.env.example', '.')],
-    hiddenimports=[],
+    datas=[
+        ('.env.example', '.'),
+        ('assets/app.png', 'assets'),
+    ] + customtkinter_datas,
+    hiddenimports=['PIL._tkinter_finder'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

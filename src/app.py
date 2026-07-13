@@ -5,6 +5,7 @@ import tempfile
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
+from PIL import Image
 import customtkinter as ctk
 
 import cfg
@@ -18,6 +19,12 @@ detail_message: ctk.StringVar | None = None
 result_message: ctk.StringVar | None = None
 primary_button: ctk.CTkButton | None = None
 progress_bar: ctk.CTkProgressBar | None = None
+
+
+def _asset_path(relative: str) -> Path:
+    if getattr(sys, 'frozen', False):
+        return Path(sys._MEIPASS) / relative
+    return Path(__file__).resolve().parent.parent / relative
 
 
 def _tk_exception_handler(exc_type, exc_value, exc_traceback) -> None:
@@ -291,6 +298,15 @@ app.title(cfg.APP_NAME)
 app.geometry(cfg.DEFAULT_GEOMETRY_STR)
 app.minsize(780, 520)
 app.configure(fg_color="#0F172A")
+
+_icon_path = _asset_path("assets/app.png")
+if _icon_path.exists():
+    _icon_img = tk.PhotoImage(file=str(_icon_path))
+    app.wm_iconphoto(True, _icon_img)
+    log.info("Window icon set from %s", _icon_path)
+else:
+    log.warning("Icon not found at %s", _icon_path)
+
 app.report_callback_exception = _tk_report_callback_exception
 
 _mapped_once = False
@@ -330,7 +346,24 @@ content.grid_rowconfigure(1, weight=1)
 
 header = ctk.CTkFrame(content, fg_color="transparent")
 header.grid(row=0, column=0, sticky="ew")
-header.grid_columnconfigure(0, weight=1)
+header.grid_columnconfigure(0, weight=0)
+header.grid_columnconfigure(1, weight=1)
+header.grid_columnconfigure(2, weight=0)
+
+_logo_path = _asset_path("assets/app.png")
+if _logo_path.exists():
+    _logo_ctk = ctk.CTkImage(
+        light_image=Image.open(str(_logo_path)),
+        size=(64, 64),
+    )
+    ctk.CTkLabel(
+        header,
+        image=_logo_ctk,
+        text="",
+    ).grid(row=0, column=0, rowspan=2, padx=(0, 20))
+    log.info("Header logo loaded from %s", _logo_path)
+else:
+    log.warning("Logo not found at %s", _logo_path)
 
 ctk.CTkLabel(
     header,
@@ -338,7 +371,7 @@ ctk.CTkLabel(
     font=("Roboto", 38, "bold"),
     text_color="#F8FAFC",
     anchor="w",
-).grid(row=0, column=0, sticky="w")
+).grid(row=0, column=1, sticky="w")
 
 ctk.CTkLabel(
     header,
@@ -346,7 +379,7 @@ ctk.CTkLabel(
     font=("Roboto", 16),
     text_color="#94A3B8",
     anchor="w",
-).grid(row=1, column=0, sticky="w", pady=(4, 0))
+).grid(row=1, column=1, sticky="w", pady=(4, 0))
 
 workspace_label = ctk.CTkLabel(
     header,
@@ -355,7 +388,7 @@ workspace_label = ctk.CTkLabel(
     text_color="#64748B",
     anchor="e",
 )
-workspace_label.grid(row=0, column=1, rowspan=2, sticky="e", padx=(24, 0))
+workspace_label.grid(row=0, column=2, rowspan=2, sticky="e", padx=(24, 0))
 
 action_panel = ctk.CTkFrame(content, fg_color="#172033", border_color="#253247", border_width=1, corner_radius=18)
 action_panel.grid(row=1, column=0, sticky="nsew", pady=(36, 0))
