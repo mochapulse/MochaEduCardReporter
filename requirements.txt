@@ -1,5 +1,4 @@
 altgraph==0.17.5
-bottle==0.13.4
 charset-normalizer==3.4.6
 customtkinter==5.2.2
 darkdetect==0.8.0
@@ -11,14 +10,12 @@ packaging==26.0
 pandas==3.0.1
 pillow==12.1.1
 pluggy==1.6.0
-proxy_tools==0.1.0
 Pygments==2.20.0
 pyinstaller==6.19.0
 pyinstaller-hooks-contrib==2026.3
 pytest==9.1.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
-pywebview==6.2.1
 reportlab==4.4.10
 setuptools==82.0.1
 six==1.17.0
