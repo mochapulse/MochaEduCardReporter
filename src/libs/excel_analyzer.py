@@ -1251,10 +1251,10 @@ class PDFGenerator:
         doc = SimpleDocTemplate(
             str(pdf_path),
             pagesize=A4,
-            leftMargin=12 * mm,
-            rightMargin=12 * mm,
-            topMargin=10 * mm,
-            bottomMargin=10 * mm,
+            leftMargin=10 * mm,
+            rightMargin=10 * mm,
+            topMargin=8 * mm,
+            bottomMargin=8 * mm,
             title="RÉSULTAT FINAL",
             author=self.file_metadata.professor_name,
         )
@@ -1290,7 +1290,7 @@ class PDFGenerator:
                 info_parts.append(f"Date: {self.timestamp_iso}")
             if info_parts:
                 story.append(Paragraph(" | ".join(info_parts), styles_dict["header"]))
-                story.append(Spacer(1, 2 * mm))
+                story.append(Spacer(1, 1 * mm))
 
         # Header section
         story.append(Paragraph("RÉSULTAT FINAL", styles_dict["title"]))
@@ -1305,18 +1305,18 @@ class PDFGenerator:
             f"PROFESSEUR : {self.file_metadata.professor_name}",
             styles_dict["header"]
         ))
-        story.append(Spacer(1, 2 * mm))
+        story.append(Spacer(1, 1 * mm))
 
         # Student info
         story.append(Paragraph(student.student_name.upper(), styles_dict["name"]))
         story.append(Paragraph(f"Code étudiant : {student.student_code}", styles_dict["header"]))
         story.append(Paragraph(f"Absences : {format_grade(student.abse)}", styles_dict["header"]))
-        story.append(Spacer(1, 2 * mm))
+        story.append(Spacer(1, 1 * mm))
 
         # Grade table
         table = self._build_grade_table(student, styles_dict)
         story.append(table)
-        story.append(Spacer(1, 2 * mm))
+        story.append(Spacer(1, 1 * mm))
 
         # Footer
         story.append(Paragraph(
@@ -1354,7 +1354,7 @@ class PDFGenerator:
         # Create table with styles
         table = Table(
             table_data,
-            colWidths=[112 * mm, 20 * mm, 18 * mm, 20 * mm],
+            colWidths=[114 * mm, 18 * mm, 16 * mm, 18 * mm],
             repeatRows=1,
         )
 
@@ -1466,53 +1466,53 @@ class PDFGenerator:
                 "TitleFR",
                 parent=sample_styles["Title"],
                 fontName="Helvetica-Bold",
-                fontSize=14,
+                fontSize=12,
                 alignment=1,
-                spaceAfter=6,
+                spaceAfter=4,
             ),
             "header": ParagraphStyle(
                 "HeaderFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica",
-                fontSize=9,
-                leading=11,
+                fontSize=8,
+                leading=10,
             ),
             "name": ParagraphStyle(
                 "NameFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica-Bold",
-                fontSize=10,
+                fontSize=9,
                 spaceAfter=2,
             ),
             "cell": ParagraphStyle(
                 "CellFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica",
-                fontSize=8,
-                leading=10,
+                fontSize=7,
+                leading=9,
             ),
             "cell_first_block": ParagraphStyle(
                 "CellFirstBlockFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica",
-                fontSize=8,
-                leading=10,
+                fontSize=7,
+                leading=9,
                 textColor=colors.HexColor("#7A2CB8"),
             ),
             "cell_component": ParagraphStyle(
                 "CellComponentFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica",
-                fontSize=8,
-                leading=10,
+                fontSize=7,
+                leading=9,
                 textColor=colors.HexColor("#3F5F23"),
             ),
             "cell_final": ParagraphStyle(
                 "CellFinalFR",
                 parent=sample_styles["Normal"],
                 fontName="Helvetica-Bold",
-                fontSize=8,
-                leading=10,
+                fontSize=7,
+                leading=9,
                 textColor=colors.red,
             ),
         }
@@ -1536,15 +1536,15 @@ class PDFGenerator:
             ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
             ("TEXTCOLOR", (0, 0), (-1, 0), colors.black),
             ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
-            ("FONTSIZE", (0, 0), (-1, 0), 8),
+            ("FONTSIZE", (0, 0), (-1, 0), 7),
             ("ALIGN", (1, 0), (-1, -1), "CENTER"),
             ("ALIGN", (0, 0), (0, -1), "LEFT"),
             ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
             ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
-            ("LEFTPADDING", (0, 0), (-1, -1), 3),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-            ("TOPPADDING", (0, 0), (-1, -1), 2),
-            ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+            ("LEFTPADDING", (0, 0), (-1, -1), 2),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 2),
+            ("TOPPADDING", (0, 0), (-1, -1), 1),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 1),
             ("TEXTCOLOR", (0, first_start), (-1, first_end), colors.HexColor("#7A2CB8")),
             ("TEXTCOLOR", (0, comp_start), (-1, comp_end), colors.HexColor("#3F5F23")),
             ("LINEABOVE", (0, comp_start), (-1, comp_start), 1.2, colors.black),
@@ -1555,7 +1555,7 @@ class PDFGenerator:
             ("ALIGN", (0, final_row), (2, final_row), "RIGHT"),
             ("TEXTCOLOR", (0, final_row), (3, final_row), colors.red),
             ("FONTNAME", (0, final_row), (3, final_row), "Helvetica-Bold"),
-            ("FONTSIZE", (0, final_row), (3, final_row), 10),
+            ("FONTSIZE", (0, final_row), (3, final_row), 9),
             ("LINEABOVE", (0, final_row), (-1, final_row), 1.0, colors.black),
         ]
 
