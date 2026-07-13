@@ -1,6 +1,8 @@
 from pathlib import Path
 import os
+import sys
 import tempfile
+import tkinter as tk
 from tkinter import filedialog, messagebox
 
 import customtkinter as ctk
@@ -16,6 +18,15 @@ detail_message: ctk.StringVar | None = None
 result_message: ctk.StringVar | None = None
 primary_button: ctk.CTkButton | None = None
 progress_bar: ctk.CTkProgressBar | None = None
+
+
+def _tk_exception_handler(exc_type, exc_value, exc_traceback) -> None:
+    log.critical("Unhandled Tkinter exception", exc_info=(exc_type, exc_value, exc_traceback))
+    sys.__excepthook__(exc_type, exc_value, exc_traceback)
+
+
+def _tk_report_callback_exception(exc, val, tb) -> None:
+    log.critical("Tkinter callback exception", exc_info=(exc, val, tb))
 
 
 def set_status(message: str, detail: str = "", result: str = "") -> None:
@@ -241,7 +252,35 @@ def generate_pdfs() -> None:
 # CONFIGURACIÓN DE INTERFAZ GRÁFICA (GUI)
 # ==========================================
 
+sys.excepthook = _tk_exception_handler
+
 log.info(f"Starting {cfg.APP_NAME} v{cfg.APP_VERSION} in {cfg.COUNTRY} time: {cfg.get_time_now()}")
+
+_display = os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY") or "NOT SET"
+_tk_ver = tk.TkVersion
+_is_wsl = "microsoft" in os.uname().release.lower() or "WSL" in os.environ.get("WSL_DISTRO_NAME", "")
+log.info(f"DISPLAY={_display}  TkVersion={_tk_ver}  platform={sys.platform}  python={sys.version.split()[0]}  WSL={_is_wsl}")
+
+if _is_wsl:
+    log.warning("Running in WSL — X11 visual issues (COPY MODE) are system-level, not code bugs.")
+    log.warning("If window appears blank or wrong: try restarting WSLg with 'wsl --shutdown' from PowerShell.")
+
+_fonts_root = tk.Tk()
+_fonts = _fonts_root.tk.call("font", "families")
+_fonts_root.destroy()
+log.info(f"System fonts ({len(_fonts)} families)")
+_has_roboto = any("roboto" in f.lower() for f in _fonts)
+log.info(f"Font 'Roboto' present: {_has_roboto}")
+if not _has_roboto:
+    log.warning("Roboto font NOT found — UI will fall back to TkDefaultFont")
+
+_display_root = tk.Tk()
+_display_root.withdraw()
+_w = _display_root.winfo_screenwidth()
+_h = _display_root.winfo_screenheight()
+_depth = _display_root.winfo_screendepth()
+log.info(f"Screen: {_w}x{_h} depth={_depth}")
+_display_root.destroy()
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -252,6 +291,25 @@ app.title(cfg.APP_NAME)
 app.geometry(cfg.DEFAULT_GEOMETRY_STR)
 app.minsize(780, 520)
 app.configure(fg_color="#0F172A")
+app.report_callback_exception = _tk_report_callback_exception
+
+_mapped_once = False
+
+def _on_map(event: tk.Event) -> None:
+    global _mapped_once
+    if _mapped_once:
+        return
+    _mapped_once = True
+    geo = app.geometry()
+    log.info(f"Window mapped (visible) — geometry={geo}  state={app.state()}  size={app.winfo_width()}x{app.winfo_height()}")
+
+def _on_close() -> None:
+    log.info("Window close requested (WM_DELETE_WINDOW)")
+    app.destroy()
+
+app.bind("<Map>", _on_map)
+app.protocol("WM_DELETE_WINDOW", _on_close)
+app.after(500, lambda: log.info(f"Window after 500ms — visible={app.winfo_viewable()}  exists={app.winfo_exists()}  children={len(app.winfo_children())}"))
 
 if not cfg.is_linux():
     app.after(0, lambda: app.state("zoomed"))
@@ -365,5 +423,7 @@ ctk.CTkLabel(
 ).grid(row=6, column=0, padx=40, pady=(14, 46))
 
 log.info("GUI setup complete. Entering main event loop.")
+app.after(100, lambda: log.info(f"Mainloop started — window visible={app.winfo_viewable()}  width={app.winfo_width()}  height={app.winfo_height()}"))
 app.mainloop()
 log.info("Application closed.")
+

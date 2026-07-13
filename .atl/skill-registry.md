@@ -6,6 +6,7 @@ Last updated: 2026-07-13
 
 ## Sources scanned
 
+- .agents/skills
 - /home/javastral/.agents/skills
 - /home/javastral/.config/opencode/skills
 
@@ -27,6 +28,7 @@ Last updated: 2026-07-13
 | `go-testing` | Trigger: Go tests, go test coverage, Bubbletea teatest, golden files. Apply focused Go testing patterns. | user | `/home/javastral/.config/opencode/skills/go-testing/SKILL.md` |
 | `issue-creation` | Create Gentle AI issues with issue-first checks. Trigger: creating GitHub issues, bug reports, or feature requests. | user | `/home/javastral/.config/opencode/skills/issue-creation/SKILL.md` |
 | `judgment-day` | Trigger: judgment day, dual review, adversarial review, juzgar. Run explicit blind dual review with at most two scoped fix/re-judgment rounds. | user | `/home/javastral/.config/opencode/skills/judgment-day/SKILL.md` |
+| `pywebview-6-2-1` | Cross-platform wrapper around native webview components that lets Python applications display HTML content in a native GUI window. Use when building desktop applications with web-based UIs on Windows, macOS, Linux, or Android — including two-way JavaScript↔Python communication, DOM manipulation from Python, built-in HTTP server, window management, and bundler-friendly packaging. | project | `/home/javastral/GIT/Mocha/MochaEduCardReporter/.agents/skills/pywebview-6-2-1/SKILL.md` |
 | `roll-dice` | Roll dice using a random number generator. Use when asked to roll a die (d6, d20, d100, etc.), roll dice, flip a coin (use d2), or generate a random dice result. | user | `/home/javastral/.agents/skills/roll-dice/SKILL.md` |
 | `skill-creator` | Create new Agent Skills in the open .agents/skills/ format (a folder with a SKILL.md file). Use when asked to create, scaffold, write, or package a new "skill", "agent skill", or "SKILL.md" file, or to turn a workflow/instructions into a reusable skill. | user | `/home/javastral/.agents/skills/skill-creator/SKILL.md` |
 | `skill-improver` | Trigger: improve skills, audit skills, refactor skills, skill quality. Audit and upgrade existing LLM-first skills. | user | `/home/javastral/.config/opencode/skills/skill-improver/SKILL.md` |

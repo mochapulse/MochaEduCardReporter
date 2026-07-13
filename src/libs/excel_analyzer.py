@@ -18,7 +18,7 @@ Author: Educational Report System
 import os
 import re
 import logging
-from concurrent.futures import ThreadPoolExecutor, as_completed
+
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -72,7 +72,7 @@ class StudentGrades:
         student_number: Sequential student number
         student_code: Unique student identifier/code
         student_name: Full student name
-        abse: Absences count
+        abse: Absences count (raw string from spreadsheet)
         first_twenty_grades: Dict of first-block grades {label: score}
         component_grades: Dict of component exam grades {label: score}
         weighted_components: Dict of weighted component grades {label: weighted_score}
@@ -81,11 +81,11 @@ class StudentGrades:
     student_number: Optional[int]
     student_code: str
     student_name: str
-    abse: Optional[float]
-    first_twenty_grades: Dict[str, Optional[float]]
-    component_grades: Dict[str, Optional[float]]
-    weighted_components: Dict[str, Optional[float]]
-    definitive_grade: Optional[float]
+    abse: str
+    first_twenty_grades: Dict[str, str]
+    component_grades: Dict[str, str]
+    weighted_components: Dict[str, str]
+    definitive_grade: str
 
 
 # ==================== UTILITY FUNCTIONS ====================
@@ -107,6 +107,22 @@ def clean_text(value: Any) -> str:
     text = str(value).replace("\xa0", " ").strip()
     text = re.sub(r"\s+", " ", text)
     return text
+
+
+def to_grade_str(value: Any) -> str:
+    """Convert value to grade string exactly as typed in the spreadsheet.
+
+    Returns the cleaned text as-is, or empty string for NaN/empty cells.
+
+    Args:
+        value: Input value (any type)
+
+    Returns:
+        Cleaned string, empty string if value is NaN or empty
+    """
+    if pd.isna(value):
+        return ""
+    return clean_text(value)
 
 
 def to_float(value: Any) -> Optional[float]:
@@ -201,20 +217,18 @@ def safe_filename(value: str) -> str:
     return cleaned or "student"
 
 
-def format_grade(value: Optional[float]) -> str:
-    """Format numeric grade for display.
-    
-    Formats to 2 decimals, strips trailing zeros and decimal point if not needed.
-    
+def format_grade(value: str) -> str:
+    """Return grade string for display.
+
+    Returns the grade exactly as typed in the spreadsheet, or empty string if empty.
+
     Args:
-        value: Grade value
-        
+        value: Grade string
+
     Returns:
-        Formatted grade string, empty string if None
+        The grade string as-is, empty string if empty
     """
-    if value is None:
-        return ""
-    return f"{value:.2f}".rstrip("0").rstrip(".")
+    return value if value else ""
 
 
 def format_weight_label(value: Any, default: str = "20%") -> str:
@@ -755,18 +769,18 @@ class GradebookParser:
                 )
 
             # Parse first-block grades
-            first_twenty_grades: Dict[str, Optional[float]] = {}
+            first_twenty_grades: Dict[str, str] = {}
             for col in first_twenty_cols:
                 grade_num = str(int(float(clean_text(header[col]))))
                 label = grade_labels.get(grade_num, f"Grade {grade_num}")
-                first_twenty_grades[f"{grade_num} - {label}"] = to_float(row[col])
+                first_twenty_grades[f"{grade_num} - {label}"] = to_grade_str(row[col])
 
             # Parse component grades
-            component_grades: Dict[str, Optional[float]] = {}
-            weighted_components: Dict[str, Optional[float]] = {}
+            component_grades: Dict[str, str] = {}
+            weighted_components: Dict[str, str] = {}
 
-            first_block_average = to_float(row[moy_col]) if moy_col < len(row) else None
-            first_block_weighted = to_float(row[weighted_first_col]) if weighted_first_col < len(row) else None
+            first_block_average = to_grade_str(row[moy_col]) if moy_col < len(row) else ""
+            first_block_weighted = to_grade_str(row[weighted_first_col]) if weighted_first_col < len(row) else ""
             component_grades[f"1-{len(first_twenty_grade_numbers)} average"] = first_block_average
             weighted_components[
                 f"1-{len(first_twenty_grade_numbers)} weighted {first_block_weight_label}"
@@ -775,20 +789,20 @@ class GradebookParser:
             for col in component_grade_cols:
                 grade_num = str(int(float(clean_text(header[col]))))
                 label = grade_labels.get(grade_num, f"Grade {grade_num}")
-                component_grades[f"{grade_num} - {label}"] = to_float(row[col])
+                component_grades[f"{grade_num} - {label}"] = to_grade_str(row[col])
 
                 weighted_col = col + 1
                 if weighted_col < len(row):
                     weight_label = component_weight_labels.get(grade_num, first_block_weight_label)
-                    weighted_components[f"{grade_num} weighted {weight_label}"] = to_float(row[weighted_col])
+                    weighted_components[f"{grade_num} weighted {weight_label}"] = to_grade_str(row[weighted_col])
 
-            definitive_grade = to_float(row[definitive_col]) if definitive_col is not None else None
+            definitive_grade = to_grade_str(row[definitive_col]) if definitive_col is not None else ""
 
             student = StudentGrades(
                 student_number=student_number,
                 student_code=clean_text(row_value(row, student_code_col)),
                 student_name=clean_text(row_value(row, student_name_col)),
-                abse=to_float(row_value(row, abse_col)),
+                abse=to_grade_str(row_value(row, abse_col)),
                 first_twenty_grades=first_twenty_grades,
                 component_grades=component_grades,
                 weighted_components=weighted_components,
@@ -932,12 +946,12 @@ class GradebookParser:
 
         first_block_set = set(first_block_numbers)
         component_set = set(component_numbers)
-        first_twenty_grades: Dict[str, Optional[float]] = {}
-        component_grades: Dict[str, Optional[float]] = {}
-        weighted_components: Dict[str, Optional[float]] = {}
-        first_block_average: Optional[float] = None
-        first_block_weighted: Optional[float] = None
-        definitive_grade: Optional[float] = None
+        first_twenty_grades: Dict[str, str] = {}
+        component_grades: Dict[str, str] = {}
+        weighted_components: Dict[str, str] = {}
+        first_block_average: str = ""
+        first_block_weighted: str = ""
+        definitive_grade: str = ""
 
         for row_idx in range(header_row_idx + 1, len(self.raw_df)):
             row = self.raw_df.iloc[row_idx]
@@ -948,7 +962,7 @@ class GradebookParser:
                 continue
 
             if self._is_final_carnet_row(item_text):
-                definitive_grade = to_float(row[weighted_col]) if weighted_col in row.index else None
+                definitive_grade = to_grade_str(row[weighted_col]) if weighted_col in row.index else ""
                 break
 
             grade_num = clean_text(row[no_col]) if no_col in row.index else ""
@@ -960,19 +974,19 @@ class GradebookParser:
 
             if grade_num in first_block_set:
                 first_twenty_grades[f"{grade_num} - {label}"] = (
-                    to_float(row[note_col]) if note_col in row.index else None
+                    to_grade_str(row[note_col]) if note_col in row.index else ""
                 )
-                if first_block_average is None and moy_col in row.index:
-                    first_block_average = to_float(row[moy_col])
-                if first_block_weighted is None and weighted_col in row.index:
-                    first_block_weighted = to_float(row[weighted_col])
+                if not first_block_average and moy_col in row.index:
+                    first_block_average = to_grade_str(row[moy_col])
+                if not first_block_weighted and weighted_col in row.index:
+                    first_block_weighted = to_grade_str(row[weighted_col])
             elif grade_num in component_set:
                 component_grades[f"{grade_num} - {label}"] = (
-                    to_float(row[moy_col]) if moy_col in row.index else None
+                    to_grade_str(row[moy_col]) if moy_col in row.index else ""
                 )
                 weight_label = component_weight_labels.get(grade_num, first_block_weight_label)
                 weighted_components[f"{grade_num} weighted {weight_label}"] = (
-                    to_float(row[weighted_col]) if weighted_col in row.index else None
+                    to_grade_str(row[weighted_col]) if weighted_col in row.index else ""
                 )
 
         component_grades[f"1-{len(first_block_numbers)} average"] = first_block_average
@@ -1039,11 +1053,11 @@ class GradebookParser:
         return clean_text(value).lower().startswith("note du cours")
 
     @staticmethod
-    def _extract_absences(value: Any) -> Optional[float]:
+    def _extract_absences(value: Any) -> str:
         match = re.search(r"absences?\s*:\s*(\d+(?:[.,]\d+)?)", clean_text(value), flags=re.IGNORECASE)
         if not match:
-            return None
-        return to_float(match.group(1).replace(",", "."))
+            return ""
+        return to_grade_str(match.group(1).replace(",", "."))
 
     @staticmethod
     def _row_is_blank(row: pd.Series) -> bool:
@@ -1207,25 +1221,16 @@ class PDFGenerator:
         Returns:
             List of generated PDF file paths
         """
+        if self.logger:
+            self.logger.info("Loading ReportLab styles...")
         styles = getSampleStyleSheet()
         styles_dict = self._create_styles(styles)
+        if self.logger:
+            self.logger.info("Styles loaded. Generating student PDFs...")
         
-        if use_parallel and len(self.students) > 1:
-            max_workers = min(4, os.cpu_count() or 1, len(self.students))
-            created_paths: list[Optional[Path]] = [None] * len(self.students)
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                futures = {
-                    executor.submit(self._generate_student_pdf, student, styles_dict): idx
-                    for idx, student in enumerate(self.students)
-                }
-                for future in as_completed(futures):
-                    idx = futures[future]
-                    created_paths[idx] = future.result()
-            self.created_files = [str(path) for path in created_paths if path is not None]
-        else:
-            for student in self.students:
-                pdf_path = self._generate_student_pdf(student, styles_dict)
-                self.created_files.append(str(pdf_path))
+        for student in self.students:
+            pdf_path = self._generate_student_pdf(student, styles_dict)
+            self.created_files.append(str(pdf_path))
         
         # Log results
         self.log_pdf_generation(len(self.created_files))
