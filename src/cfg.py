@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # 1. DIRECTORY CONFIGURATION & ENV LOADING
 # ==========================================
 
-APP_DATA_DIR = pathlib.Path.home() / ".coffee_edu_mailer"
+APP_DATA_DIR = pathlib.Path.home() / ".mocha_edu_card_reporter"
 APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 if getattr(sys, 'frozen', False):
@@ -46,7 +46,7 @@ def get_or_create_workspace() -> pathlib.Path:
     if not chosen_dir:
         sys.exit("Debes seleccionar una carpeta para continuar.")
         
-    chosen_path = pathlib.Path(chosen_dir) / "CoffeeEduMailer_Workspace"
+    chosen_path = pathlib.Path(chosen_dir) / "MochaEduCardReporter_Workspace"
     chosen_path.mkdir(parents=True, exist_ok=True)
     
     with open(POINTER_FILE, "w") as f:
@@ -106,7 +106,7 @@ VERBOSE = os.getenv("VERBOSE", "false").lower() == "true"
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 DEVELOPMENT = os.getenv("DEVELOPMENT", "false").lower() == "true"
 COUNTRY = os.getenv("COUNTRY", "America/Bogota")
-APP_NAME = os.getenv("APP_NAME", "CoffeeEduMailer")
+APP_NAME = os.getenv("APP_NAME", "MochaEduCardReporter")
 APP_VERSION = os.getenv("APP_VERSION", "0.1.0")
 DEFAULT_GEOMETRY_STR = os.getenv("DEFAULT_GEOMETRY", "1920x1080")
 DEFAULT_GEOMETRY = tuple(map(int, DEFAULT_GEOMETRY_STR.split("x")))

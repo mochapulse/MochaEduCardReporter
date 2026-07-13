@@ -193,7 +193,7 @@ def generate_pdfs() -> None:
 
     previous_cwd = Path.cwd()
     try:
-        temp_dir_kwargs = {"prefix": "coffee_edu_mailer_"}
+        temp_dir_kwargs = {"prefix": "mocha_edu_card_reporter_"}
         if temp_root is not None:
             temp_dir_kwargs["dir"] = str(temp_root)
         temp_dir = Path(tempfile.mkdtemp(**temp_dir_kwargs))

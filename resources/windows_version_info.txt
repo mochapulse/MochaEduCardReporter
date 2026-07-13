@@ -19,12 +19,12 @@ VSVersionInfo(
       StringTable(
         '040904B0',
         [
-          StringStruct('CompanyName', 'CoffeeEduMailer'),
-          StringStruct('FileDescription', 'CoffeeEduMailer report-card PDF generator'),
+          StringStruct('CompanyName', 'MochaEduCardReporter'),
+          StringStruct('FileDescription', 'MochaEduCardReporter report-card PDF generator'),
           StringStruct('FileVersion', '0.1.0.0'),
-          StringStruct('InternalName', 'CoffeeEduMailer'),
-          StringStruct('OriginalFilename', 'CoffeeEduMailer.exe'),
-          StringStruct('ProductName', 'CoffeeEduMailer'),
+          StringStruct('InternalName', 'MochaEduCardReporter'),
+          StringStruct('OriginalFilename', 'MochaEduCardReporter.exe'),
+          StringStruct('ProductName', 'MochaEduCardReporter'),
           StringStruct('ProductVersion', '0.1.0.0'),
         ],
       ),

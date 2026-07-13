@@ -41,4 +41,4 @@ python -m pytest
 python scripts/generate-icon.py
 python -m PyInstaller --clean --noconfirm app.spec
 
-Write-Host "Build ready: $RootDir\dist\CoffeeEduMailer.exe"
+Write-Host "Build ready: $RootDir\dist\MochaEduCardReporter.exe"

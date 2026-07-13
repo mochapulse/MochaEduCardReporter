@@ -17,4 +17,4 @@ python -m pytest
 python scripts/generate-icon.py
 python -m PyInstaller --clean --noconfirm app.spec
 
-echo "Build ready: $ROOT_DIR/dist/CoffeeEduMailer"
+echo "Build ready: $ROOT_DIR/dist/MochaEduCardReporter"

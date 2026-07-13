@@ -1,4 +1,4 @@
-# CoffeeEduMailer
+# MochaEduCardReporter
 
 A desktop application that reads Excel or CSV gradebooks and generates student report-card PDFs.
 
@@ -12,8 +12,8 @@ A desktop application that reads Excel or CSV gradebooks and generates student r
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dramirezbe/CoffeeEduMailer.git
-   cd CoffeeEduMailer
+   git clone https://github.com/dramirezbe/MochaEduCardReporter.git
+   cd MochaEduCardReporter
    ```
 
 2. Create and activate a virtual environment:
@@ -51,8 +51,8 @@ The build uses `app.spec` as the single source of truth for both Windows and Lin
 
 The bundled executable includes `.env.example`. On first run, the app creates its runtime config in the user profile:
 
-- Linux: `~/.coffee_edu_mailer/.env`
-- Windows: `%USERPROFILE%\.coffee_edu_mailer\.env`
+- Linux: `~/.mocha_edu_card_reporter/.env`
+- Windows: `%USERPROFILE%\.mocha_edu_card_reporter\.env`
 
 The user will also be asked to choose a workspace folder on first run. Generated PDFs are saved wherever the user chooses in the app.
 
@@ -80,13 +80,13 @@ From the repository root:
 Output:
 
 ```bash
-dist/CoffeeEduMailer
+dist/MochaEduCardReporter
 ```
 
 Run it:
 
 ```bash
-./dist/CoffeeEduMailer
+./dist/MochaEduCardReporter
 ```
 
 #### Windows
@@ -110,13 +110,13 @@ Build:
 Output:
 
 ```powershell
-dist\CoffeeEduMailer.exe
+dist\MochaEduCardReporter.exe
 ```
 
 Run it:
 
 ```powershell
-.\dist\CoffeeEduMailer.exe
+.\dist\MochaEduCardReporter.exe
 ```
 
 ### Manual Build Commands
@@ -155,7 +155,7 @@ python -m PyInstaller --clean --noconfirm app.spec
 
 ## Windows Signing From Linux
 
-PyInstaller does not cross-compile Windows executables from Linux. Build `dist\CoffeeEduMailer.exe` on Windows, in a Windows VM, or in a Windows CI job. After you have the `.exe`, you can sign it from Linux.
+PyInstaller does not cross-compile Windows executables from Linux. Build `dist\MochaEduCardReporter.exe` on Windows, in a Windows VM, or in a Windows CI job. After you have the `.exe`, you can sign it from Linux.
 
 Install the signing tool:
 
@@ -170,13 +170,13 @@ Sign the executable:
 ```bash
 export WINDOWS_SIGN_CERT=/path/to/certificate.pfx
 export WINDOWS_SIGN_PASSWORD='certificate-password'
-./scripts/sign-windows-from-linux.sh dist/CoffeeEduMailer.exe
+./scripts/sign-windows-from-linux.sh dist/MochaEduCardReporter.exe
 ```
 
 Output:
 
 ```bash
-dist/CoffeeEduMailer-signed.exe
+dist/MochaEduCardReporter-signed.exe
 ```
 
 For strongest SmartScreen reputation, use an EV code-signing certificate or build reputation over time with a standard OV certificate and consistent signed releases.

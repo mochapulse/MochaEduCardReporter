@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TARGET_EXE="${1:-dist/CoffeeEduMailer.exe}"
+TARGET_EXE="${1:-dist/MochaEduCardReporter.exe}"
 SIGNED_EXE="${2:-${TARGET_EXE%.exe}-signed.exe}"
 TIMESTAMP_URL="${WINDOWS_SIGN_TIMESTAMP_URL:-http://timestamp.digicert.com}"
 
@@ -23,8 +23,8 @@ fi
 osslsigncode sign \
   -pkcs12 "$WINDOWS_SIGN_CERT" \
   -pass "$WINDOWS_SIGN_PASSWORD" \
-  -n "CoffeeEduMailer" \
-  -i "https://github.com/dramirezbe/CoffeeEduMailer" \
+  -n "MochaEduCardReporter" \
+  -i "https://github.com/dramirezbe/MochaEduCardReporter" \
   -t "$TIMESTAMP_URL" \
   -in "$TARGET_EXE" \
   -out "$SIGNED_EXE"

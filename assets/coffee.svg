@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Coffee</title>
-  <desc id="desc">A warm coffee cup icon for CoffeeEduMailer assets.</desc>
+  <desc id="desc">A warm coffee cup icon for MochaEduCardReporter assets.</desc>
   <defs>
     <linearGradient id="cup" x1="128" y1="184" x2="368" y2="424" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fbbf24"/>
