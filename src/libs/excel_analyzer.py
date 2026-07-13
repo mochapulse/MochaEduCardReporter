@@ -112,7 +112,8 @@ def clean_text(value: Any) -> str:
 def to_grade_str(value: Any) -> str:
     """Convert value to grade string exactly as typed in the spreadsheet.
 
-    Returns the cleaned text as-is, or empty string for NaN/empty cells.
+    For float values, rounds to 6 decimal places and strips trailing zeros
+    to eliminate IEEE 754 artifacts (e.g. 0.6462500000000001 → 0.64625).
 
     Args:
         value: Input value (any type)
@@ -122,6 +123,11 @@ def to_grade_str(value: Any) -> str:
     """
     if pd.isna(value):
         return ""
+    if isinstance(value, (float, int)) and not isinstance(value, bool):
+        if isinstance(value, float):
+            formatted = f"{value:.6f}".rstrip("0").rstrip(".")
+            return formatted if formatted else "0"
+        return str(int(value))
     return clean_text(value)
 
 
