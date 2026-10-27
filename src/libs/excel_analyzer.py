@@ -181,6 +181,9 @@ def format_concept_label(label: str) -> str:
     Returns:
         Formatted label with up to 3 lines separated by <br/>
     """
+    # Normalize missing space after period before an uppercase letter
+    label = re.sub(r'\.([A-ZÀ-Ö])', r'. \1', label)
+
     dot_idx = label.find(". ")
     colon_idx = label.find(": ")
 
@@ -1369,21 +1372,26 @@ class PDFGenerator:
         raw_rows, row_meta = self._build_student_rows(student)
         
         # Create table data with header
-        table_data = [["CONCEPT", "NOTE", "%", "MOY"]]
-        
+        table_data = [["No", "CONCEPT", "NOTE", "%", "MOY"]]
+
+        row_number = 1
         for row_idx, (concept, note, pct, moy) in enumerate(raw_rows):
             cell_style = self._style_for_grade_row(row_idx, row_meta, styles_dict)
+            is_final = row_idx == row_meta["final_row"]
             table_data.append([
+                Paragraph("", cell_style) if is_final else Paragraph(str(row_number), cell_style),
                 Paragraph(concept, cell_style),
                 Paragraph(note, cell_style),
                 Paragraph(pct, cell_style),
                 Paragraph(moy, cell_style),
             ])
+            if not is_final:
+                row_number += 1
 
         # Create table with styles
         table = Table(
             table_data,
-            colWidths=[114 * mm, 18 * mm, 16 * mm, 18 * mm],
+            colWidths=[10 * mm, 104 * mm, 18 * mm, 16 * mm, 18 * mm],
             repeatRows=1,
         )
 
@@ -1566,8 +1574,9 @@ class PDFGenerator:
             ("TEXTCOLOR", (0, 0), (-1, 0), colors.black),
             ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
             ("FONTSIZE", (0, 0), (-1, 0), 7),
-            ("ALIGN", (1, 0), (-1, -1), "CENTER"),
-            ("ALIGN", (0, 0), (0, -1), "LEFT"),
+            ("ALIGN", (0, 0), (0, -1), "CENTER"),
+            ("ALIGN", (2, 0), (-1, -1), "CENTER"),
+            ("ALIGN", (1, 0), (1, -1), "LEFT"),
             ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
             ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
             ("LEFTPADDING", (0, 0), (-1, -1), 2),
@@ -1577,14 +1586,14 @@ class PDFGenerator:
             ("TEXTCOLOR", (0, first_start), (-1, first_end), colors.HexColor("#7A2CB8")),
             ("TEXTCOLOR", (0, comp_start), (-1, comp_end), colors.HexColor("#3F5F23")),
             ("LINEABOVE", (0, comp_start), (-1, comp_start), 1.2, colors.black),
-            ("SPAN", (2, first_start), (2, first_end)),
             ("SPAN", (3, first_start), (3, first_end)),
-            ("ALIGN", (2, first_start), (3, first_end), "CENTER"),
-            ("SPAN", (0, final_row), (2, final_row)),
-            ("ALIGN", (0, final_row), (2, final_row), "RIGHT"),
-            ("TEXTCOLOR", (0, final_row), (3, final_row), colors.red),
-            ("FONTNAME", (0, final_row), (3, final_row), "Helvetica-Bold"),
-            ("FONTSIZE", (0, final_row), (3, final_row), 9),
+            ("SPAN", (4, first_start), (4, first_end)),
+            ("ALIGN", (3, first_start), (4, first_end), "CENTER"),
+            ("SPAN", (0, final_row), (3, final_row)),
+            ("ALIGN", (0, final_row), (3, final_row), "RIGHT"),
+            ("TEXTCOLOR", (0, final_row), (-1, final_row), colors.red),
+            ("FONTNAME", (0, final_row), (-1, final_row), "Helvetica-Bold"),
+            ("FONTSIZE", (0, final_row), (-1, final_row), 9),
             ("LINEABOVE", (0, final_row), (-1, final_row), 1.0, colors.black),
         ]
 
