@@ -6,7 +6,7 @@ import pytest
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 SRC_DIR = ROOT_DIR / "src"
-TEMPLATE_DIR = ROOT_DIR / "templates"
+TEMPLATE_DIR = ROOT_DIR.parent / "fixtures"
 
 sys.path.insert(0, str(SRC_DIR))
 
