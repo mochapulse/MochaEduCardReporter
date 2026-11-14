@@ -1,0 +1,151 @@
+name: Release
+
+# A `v*` tag builds the installers natively on each system, signs the updater
+# artifacts (TAURI_SIGNING_PRIVATE_KEY), and attaches everything — installers,
+# signatures, latest.json, SHA256SUMS and the install scripts — to one GitHub
+# release. The release is created as a draft: publishing it is a human
+# decision. The one-line installers read `/releases/latest`, which ignores
+# drafts, so publish before announcing the version.
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: Build (${{ matrix.platform }})
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-22.04, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Linux bundle dependencies
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf \
+            xdg-utils rpm
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: '.'
+
+      - name: Install frontend dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Optional Windows code signing: import the certificate into the runner's
+      # certificate store. Also set bundle.windows.certificateThumbprint in
+      # src-tauri/tauri.conf.json (or a signCommand) once a certificate exists.
+      - name: Import Windows certificate
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        env:
+          WINDOWS_CERTIFICATE: ${{ secrets.WINDOWS_CERTIFICATE }}
+          WINDOWS_CERTIFICATE_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
+        run: |
+          if (-not $env:WINDOWS_CERTIFICATE) {
+            Write-Host "No WINDOWS_CERTIFICATE secret; the installer will be unsigned."
+            exit 0
+          }
+          $path = Join-Path $env:RUNNER_TEMP "certificate.pfx"
+          [IO.File]::WriteAllBytes($path, [Convert]::FromBase64String($env:WINDOWS_CERTIFICATE))
+          $password = ConvertTo-SecureString -String $env:WINDOWS_CERTIFICATE_PASSWORD -Force -AsPlainText
+          Import-PfxCertificate -FilePath $path -CertStoreLocation Cert:\CurrentUser\My -Password $password | Out-Null
+        # The password is only read when a certificate exists.
+        # (Set WINDOWS_CERTIFICATE_PASSWORD as a secret too.)
+
+      - name: Build the installers
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          tagName: v__VERSION__
+          releaseName: 'MochaEduCardReporter __VERSION__'
+          releaseBody: |
+            Boletines de notas en PDF a partir de una hoja de cálculo.
+
+            **Instalar**
+
+            Windows 11 (PowerShell):
+
+                irm https://github.com/${{ github.repository }}/releases/latest/download/install.ps1 | iex
+
+            Linux:
+
+                curl -fsSL https://github.com/${{ github.repository }}/releases/latest/download/install.sh | sh
+
+            Los instaladores también se pueden descargar directamente desde esta página.
+            Cada descarga se verifica con `SHA256SUMS`.
+          releaseDraft: true
+          prerelease: false
+          args: ''
+
+  publish-extras:
+    name: Checksums and install scripts
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Download the release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p release-assets
+          gh release download "${GITHUB_REF_NAME}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --dir release-assets \
+            --pattern "*"
+
+      - name: Write SHA256SUMS
+        working-directory: release-assets
+        run: |
+          rm -f SHA256SUMS
+          for file in *; do
+            [ -f "$file" ] || continue
+            case "$file" in
+              SHA256SUMS|latest.json|install.sh|install.ps1|uninstall.sh|uninstall.ps1) continue ;;
+            esac
+            sha256sum "$file" >> SHA256SUMS
+          done
+          sort -k2 SHA256SUMS -o SHA256SUMS
+          cat SHA256SUMS
+
+      - name: Attach checksums and install scripts
+        working-directory: release-assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cp ../install/install.sh ../install/install.ps1 \
+             ../install/uninstall.sh ../install/uninstall.ps1 .
+          gh release upload "${GITHUB_REF_NAME}" \
+            SHA256SUMS install.sh install.ps1 uninstall.sh uninstall.ps1 \
+            --repo "${GITHUB_REPOSITORY}" \
+            --clobber
