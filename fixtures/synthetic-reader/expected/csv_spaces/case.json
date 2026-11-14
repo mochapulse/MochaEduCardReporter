@@ -1,0 +1,9 @@
+{
+ "id": "csv_spaces",
+ "source_file": "csv_spaces.csv",
+ "sheet": null,
+ "status": "corrupted",
+ "ok": false,
+ "grid_error": null,
+ "csv_file_name": null
+}

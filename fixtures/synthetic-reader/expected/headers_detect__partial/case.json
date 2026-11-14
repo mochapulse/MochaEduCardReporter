@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__partial",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "partial",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_detect_partial.csv"
+}

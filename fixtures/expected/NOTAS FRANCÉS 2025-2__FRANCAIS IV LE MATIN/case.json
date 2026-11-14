@@ -1,0 +1,25 @@
+{
+ "id": "NOTAS FRANCÉS 2025-2__FRANCAIS IV LE MATIN",
+ "source_file": "NOTAS FRANCÉS 2025-2.xls",
+ "sheet": "FRANCAIS IV LE MATIN",
+ "status": "success",
+ "ok": true,
+ "student_count": 27,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2025-2.xls",
+  "sheet_name": "FRANCAIS IV LE MATIN",
+  "original_format": ".xls",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2025-2_FRANCAIS IV LE MATIN.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 62,
+  "column_count": 31,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "clean_baseline",
+ "source_file": "clean_baseline.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 3,
+ "audit_report": {
+  "file_name": "clean_baseline.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "clean_baseline.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 16,
+  "column_count": 12,
+  "empty_cells_count": 134,
+  "null_values_count": 134,
+  "warnings": [
+   "Found 2 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

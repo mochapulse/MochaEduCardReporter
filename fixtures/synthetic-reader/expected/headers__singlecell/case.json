@@ -1,0 +1,9 @@
+{
+ "id": "headers__singlecell",
+ "source_file": "headers.xlsx",
+ "sheet": "singlecell",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_singlecell.csv"
+}

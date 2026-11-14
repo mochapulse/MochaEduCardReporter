@@ -1,0 +1,3221 @@
+{
+ "files": [
+  {
+   "file": "fuzz.xlsx",
+   "sheets": [],
+   "sheets_including_empty": [
+    "randstr",
+    "randmix"
+   ]
+  },
+  {
+   "file": "fuzz2.xlsx",
+   "sheets": [],
+   "sheets_including_empty": [
+    "randstr",
+    "randmix"
+   ]
+  },
+  {
+   "file": "headers.xlsx",
+   "sheets": [],
+   "sheets_including_empty": [
+    "na",
+    "none",
+    "ints",
+    "floats",
+    "dupe",
+    "dupe2",
+    "dupe3",
+    "dupe4",
+    "dupe5",
+    "dupe6",
+    "unnamed1",
+    "unnamed2",
+    "unnamed3",
+    "unnamed4",
+    "bools",
+    "dates",
+    "dates2",
+    "spaces",
+    "big",
+    "mixed",
+    "newline",
+    "floatround",
+    "intsfloat",
+    "leadrow",
+    "leadrows2",
+    "leadcol",
+    "single",
+    "singlecell",
+    "onecol",
+    "onecol_blank_hdr",
+    "trailing",
+    "midblank",
+    "offset",
+    "ragged",
+    "firstblank_data",
+    "comma_quote",
+    "allempty_data",
+    "wide_blank",
+    "num_hdr_text",
+    "emptysheet",
+    "errcell",
+    "errhdr",
+    "formula"
+   ]
+  },
+  {
+   "file": "headers_detect.xlsx",
+   "sheets": [
+    "GRADES",
+    "CARNET",
+    "lateheader",
+    "mixedcase"
+   ],
+   "sheets_including_empty": [
+    "GRADES",
+    "CARNET",
+    "lateheader",
+    "toolate",
+    "NOHEADER",
+    "mixedcase",
+    "partial",
+    "blank"
+   ]
+  },
+  {
+   "file": "types.xlsx",
+   "sheets": [],
+   "sheets_including_empty": [
+    "strnum",
+    "mix"
+   ]
+  }
+ ],
+ "cases": [
+  {
+   "id": "csv_basic",
+   "dir": "csv_basic",
+   "source_file": "csv_basic.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_blankmid",
+   "dir": "csv_blankmid",
+   "source_file": "csv_blankmid.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_blanks",
+   "dir": "csv_blanks",
+   "source_file": "csv_blanks.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_bom",
+   "dir": "csv_bom",
+   "source_file": "csv_bom.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_bom_only",
+   "dir": "csv_bom_only",
+   "source_file": "csv_bom_only.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_cr",
+   "dir": "csv_cr",
+   "source_file": "csv_cr.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_crlf",
+   "dir": "csv_crlf",
+   "source_file": "csv_crlf.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_crlfq",
+   "dir": "csv_crlfq",
+   "source_file": "csv_crlfq.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_dblbom",
+   "dir": "csv_dblbom",
+   "source_file": "csv_dblbom.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_dupes",
+   "dir": "csv_dupes",
+   "source_file": "csv_dupes.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_empty",
+   "dir": "csv_empty",
+   "source_file": "csv_empty.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_emptyhdr",
+   "dir": "csv_emptyhdr",
+   "source_file": "csv_emptyhdr.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_emptyquoted",
+   "dir": "csv_emptyquoted",
+   "source_file": "csv_emptyquoted.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_enddelim",
+   "dir": "csv_enddelim",
+   "source_file": "csv_enddelim.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_ff",
+   "dir": "csv_ff",
+   "source_file": "csv_ff.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_firstshort",
+   "dir": "csv_firstshort",
+   "source_file": "csv_firstshort.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz000",
+   "dir": "csv_fz000",
+   "source_file": "csv_fz000.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz001",
+   "dir": "csv_fz001",
+   "source_file": "csv_fz001.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz002",
+   "dir": "csv_fz002",
+   "source_file": "csv_fz002.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz003",
+   "dir": "csv_fz003",
+   "source_file": "csv_fz003.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz004",
+   "dir": "csv_fz004",
+   "source_file": "csv_fz004.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz005",
+   "dir": "csv_fz005",
+   "source_file": "csv_fz005.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz006",
+   "dir": "csv_fz006",
+   "source_file": "csv_fz006.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz007",
+   "dir": "csv_fz007",
+   "source_file": "csv_fz007.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz008",
+   "dir": "csv_fz008",
+   "source_file": "csv_fz008.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz009",
+   "dir": "csv_fz009",
+   "source_file": "csv_fz009.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz010",
+   "dir": "csv_fz010",
+   "source_file": "csv_fz010.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz011",
+   "dir": "csv_fz011",
+   "source_file": "csv_fz011.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz012",
+   "dir": "csv_fz012",
+   "source_file": "csv_fz012.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz013",
+   "dir": "csv_fz013",
+   "source_file": "csv_fz013.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz014",
+   "dir": "csv_fz014",
+   "source_file": "csv_fz014.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz015",
+   "dir": "csv_fz015",
+   "source_file": "csv_fz015.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz016",
+   "dir": "csv_fz016",
+   "source_file": "csv_fz016.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz017",
+   "dir": "csv_fz017",
+   "source_file": "csv_fz017.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz018",
+   "dir": "csv_fz018",
+   "source_file": "csv_fz018.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz019",
+   "dir": "csv_fz019",
+   "source_file": "csv_fz019.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz020",
+   "dir": "csv_fz020",
+   "source_file": "csv_fz020.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz021",
+   "dir": "csv_fz021",
+   "source_file": "csv_fz021.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz022",
+   "dir": "csv_fz022",
+   "source_file": "csv_fz022.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz023",
+   "dir": "csv_fz023",
+   "source_file": "csv_fz023.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz024",
+   "dir": "csv_fz024",
+   "source_file": "csv_fz024.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz025",
+   "dir": "csv_fz025",
+   "source_file": "csv_fz025.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz026",
+   "dir": "csv_fz026",
+   "source_file": "csv_fz026.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz027",
+   "dir": "csv_fz027",
+   "source_file": "csv_fz027.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz028",
+   "dir": "csv_fz028",
+   "source_file": "csv_fz028.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz029",
+   "dir": "csv_fz029",
+   "source_file": "csv_fz029.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz030",
+   "dir": "csv_fz030",
+   "source_file": "csv_fz030.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz031",
+   "dir": "csv_fz031",
+   "source_file": "csv_fz031.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz032",
+   "dir": "csv_fz032",
+   "source_file": "csv_fz032.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz033",
+   "dir": "csv_fz033",
+   "source_file": "csv_fz033.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz034",
+   "dir": "csv_fz034",
+   "source_file": "csv_fz034.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz035",
+   "dir": "csv_fz035",
+   "source_file": "csv_fz035.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz036",
+   "dir": "csv_fz036",
+   "source_file": "csv_fz036.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz037",
+   "dir": "csv_fz037",
+   "source_file": "csv_fz037.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz038",
+   "dir": "csv_fz038",
+   "source_file": "csv_fz038.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz039",
+   "dir": "csv_fz039",
+   "source_file": "csv_fz039.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz040",
+   "dir": "csv_fz040",
+   "source_file": "csv_fz040.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz041",
+   "dir": "csv_fz041",
+   "source_file": "csv_fz041.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz042",
+   "dir": "csv_fz042",
+   "source_file": "csv_fz042.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz043",
+   "dir": "csv_fz043",
+   "source_file": "csv_fz043.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz044",
+   "dir": "csv_fz044",
+   "source_file": "csv_fz044.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz045",
+   "dir": "csv_fz045",
+   "source_file": "csv_fz045.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz046",
+   "dir": "csv_fz046",
+   "source_file": "csv_fz046.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz047",
+   "dir": "csv_fz047",
+   "source_file": "csv_fz047.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz048",
+   "dir": "csv_fz048",
+   "source_file": "csv_fz048.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz049",
+   "dir": "csv_fz049",
+   "source_file": "csv_fz049.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz050",
+   "dir": "csv_fz050",
+   "source_file": "csv_fz050.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz051",
+   "dir": "csv_fz051",
+   "source_file": "csv_fz051.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz052",
+   "dir": "csv_fz052",
+   "source_file": "csv_fz052.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz053",
+   "dir": "csv_fz053",
+   "source_file": "csv_fz053.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz054",
+   "dir": "csv_fz054",
+   "source_file": "csv_fz054.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz055",
+   "dir": "csv_fz055",
+   "source_file": "csv_fz055.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz056",
+   "dir": "csv_fz056",
+   "source_file": "csv_fz056.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz057",
+   "dir": "csv_fz057",
+   "source_file": "csv_fz057.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz058",
+   "dir": "csv_fz058",
+   "source_file": "csv_fz058.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz059",
+   "dir": "csv_fz059",
+   "source_file": "csv_fz059.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz060",
+   "dir": "csv_fz060",
+   "source_file": "csv_fz060.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz061",
+   "dir": "csv_fz061",
+   "source_file": "csv_fz061.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz062",
+   "dir": "csv_fz062",
+   "source_file": "csv_fz062.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz063",
+   "dir": "csv_fz063",
+   "source_file": "csv_fz063.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz064",
+   "dir": "csv_fz064",
+   "source_file": "csv_fz064.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz065",
+   "dir": "csv_fz065",
+   "source_file": "csv_fz065.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz066",
+   "dir": "csv_fz066",
+   "source_file": "csv_fz066.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz067",
+   "dir": "csv_fz067",
+   "source_file": "csv_fz067.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz068",
+   "dir": "csv_fz068",
+   "source_file": "csv_fz068.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz069",
+   "dir": "csv_fz069",
+   "source_file": "csv_fz069.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz070",
+   "dir": "csv_fz070",
+   "source_file": "csv_fz070.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz071",
+   "dir": "csv_fz071",
+   "source_file": "csv_fz071.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz072",
+   "dir": "csv_fz072",
+   "source_file": "csv_fz072.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz073",
+   "dir": "csv_fz073",
+   "source_file": "csv_fz073.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz074",
+   "dir": "csv_fz074",
+   "source_file": "csv_fz074.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz075",
+   "dir": "csv_fz075",
+   "source_file": "csv_fz075.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz076",
+   "dir": "csv_fz076",
+   "source_file": "csv_fz076.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz077",
+   "dir": "csv_fz077",
+   "source_file": "csv_fz077.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz078",
+   "dir": "csv_fz078",
+   "source_file": "csv_fz078.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz079",
+   "dir": "csv_fz079",
+   "source_file": "csv_fz079.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz080",
+   "dir": "csv_fz080",
+   "source_file": "csv_fz080.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz081",
+   "dir": "csv_fz081",
+   "source_file": "csv_fz081.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz082",
+   "dir": "csv_fz082",
+   "source_file": "csv_fz082.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz083",
+   "dir": "csv_fz083",
+   "source_file": "csv_fz083.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz084",
+   "dir": "csv_fz084",
+   "source_file": "csv_fz084.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz085",
+   "dir": "csv_fz085",
+   "source_file": "csv_fz085.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz086",
+   "dir": "csv_fz086",
+   "source_file": "csv_fz086.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz087",
+   "dir": "csv_fz087",
+   "source_file": "csv_fz087.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz088",
+   "dir": "csv_fz088",
+   "source_file": "csv_fz088.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz089",
+   "dir": "csv_fz089",
+   "source_file": "csv_fz089.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz090",
+   "dir": "csv_fz090",
+   "source_file": "csv_fz090.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz091",
+   "dir": "csv_fz091",
+   "source_file": "csv_fz091.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz092",
+   "dir": "csv_fz092",
+   "source_file": "csv_fz092.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz093",
+   "dir": "csv_fz093",
+   "source_file": "csv_fz093.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz094",
+   "dir": "csv_fz094",
+   "source_file": "csv_fz094.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz095",
+   "dir": "csv_fz095",
+   "source_file": "csv_fz095.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz096",
+   "dir": "csv_fz096",
+   "source_file": "csv_fz096.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz097",
+   "dir": "csv_fz097",
+   "source_file": "csv_fz097.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz098",
+   "dir": "csv_fz098",
+   "source_file": "csv_fz098.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz099",
+   "dir": "csv_fz099",
+   "source_file": "csv_fz099.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz100",
+   "dir": "csv_fz100",
+   "source_file": "csv_fz100.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz101",
+   "dir": "csv_fz101",
+   "source_file": "csv_fz101.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz102",
+   "dir": "csv_fz102",
+   "source_file": "csv_fz102.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz103",
+   "dir": "csv_fz103",
+   "source_file": "csv_fz103.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz104",
+   "dir": "csv_fz104",
+   "source_file": "csv_fz104.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz105",
+   "dir": "csv_fz105",
+   "source_file": "csv_fz105.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz106",
+   "dir": "csv_fz106",
+   "source_file": "csv_fz106.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz107",
+   "dir": "csv_fz107",
+   "source_file": "csv_fz107.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz108",
+   "dir": "csv_fz108",
+   "source_file": "csv_fz108.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz109",
+   "dir": "csv_fz109",
+   "source_file": "csv_fz109.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz110",
+   "dir": "csv_fz110",
+   "source_file": "csv_fz110.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz111",
+   "dir": "csv_fz111",
+   "source_file": "csv_fz111.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz112",
+   "dir": "csv_fz112",
+   "source_file": "csv_fz112.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz113",
+   "dir": "csv_fz113",
+   "source_file": "csv_fz113.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz114",
+   "dir": "csv_fz114",
+   "source_file": "csv_fz114.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz115",
+   "dir": "csv_fz115",
+   "source_file": "csv_fz115.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz116",
+   "dir": "csv_fz116",
+   "source_file": "csv_fz116.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz117",
+   "dir": "csv_fz117",
+   "source_file": "csv_fz117.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz118",
+   "dir": "csv_fz118",
+   "source_file": "csv_fz118.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz119",
+   "dir": "csv_fz119",
+   "source_file": "csv_fz119.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz120",
+   "dir": "csv_fz120",
+   "source_file": "csv_fz120.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz121",
+   "dir": "csv_fz121",
+   "source_file": "csv_fz121.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz122",
+   "dir": "csv_fz122",
+   "source_file": "csv_fz122.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz123",
+   "dir": "csv_fz123",
+   "source_file": "csv_fz123.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz124",
+   "dir": "csv_fz124",
+   "source_file": "csv_fz124.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz125",
+   "dir": "csv_fz125",
+   "source_file": "csv_fz125.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz126",
+   "dir": "csv_fz126",
+   "source_file": "csv_fz126.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz127",
+   "dir": "csv_fz127",
+   "source_file": "csv_fz127.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz128",
+   "dir": "csv_fz128",
+   "source_file": "csv_fz128.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz129",
+   "dir": "csv_fz129",
+   "source_file": "csv_fz129.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz130",
+   "dir": "csv_fz130",
+   "source_file": "csv_fz130.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz131",
+   "dir": "csv_fz131",
+   "source_file": "csv_fz131.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz132",
+   "dir": "csv_fz132",
+   "source_file": "csv_fz132.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz133",
+   "dir": "csv_fz133",
+   "source_file": "csv_fz133.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz134",
+   "dir": "csv_fz134",
+   "source_file": "csv_fz134.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz135",
+   "dir": "csv_fz135",
+   "source_file": "csv_fz135.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz136",
+   "dir": "csv_fz136",
+   "source_file": "csv_fz136.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz137",
+   "dir": "csv_fz137",
+   "source_file": "csv_fz137.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz138",
+   "dir": "csv_fz138",
+   "source_file": "csv_fz138.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz139",
+   "dir": "csv_fz139",
+   "source_file": "csv_fz139.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz140",
+   "dir": "csv_fz140",
+   "source_file": "csv_fz140.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz141",
+   "dir": "csv_fz141",
+   "source_file": "csv_fz141.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz142",
+   "dir": "csv_fz142",
+   "source_file": "csv_fz142.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz143",
+   "dir": "csv_fz143",
+   "source_file": "csv_fz143.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz144",
+   "dir": "csv_fz144",
+   "source_file": "csv_fz144.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz145",
+   "dir": "csv_fz145",
+   "source_file": "csv_fz145.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz146",
+   "dir": "csv_fz146",
+   "source_file": "csv_fz146.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz147",
+   "dir": "csv_fz147",
+   "source_file": "csv_fz147.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz148",
+   "dir": "csv_fz148",
+   "source_file": "csv_fz148.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz149",
+   "dir": "csv_fz149",
+   "source_file": "csv_fz149.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz150",
+   "dir": "csv_fz150",
+   "source_file": "csv_fz150.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz151",
+   "dir": "csv_fz151",
+   "source_file": "csv_fz151.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz152",
+   "dir": "csv_fz152",
+   "source_file": "csv_fz152.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz153",
+   "dir": "csv_fz153",
+   "source_file": "csv_fz153.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz154",
+   "dir": "csv_fz154",
+   "source_file": "csv_fz154.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz155",
+   "dir": "csv_fz155",
+   "source_file": "csv_fz155.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz156",
+   "dir": "csv_fz156",
+   "source_file": "csv_fz156.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz157",
+   "dir": "csv_fz157",
+   "source_file": "csv_fz157.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz158",
+   "dir": "csv_fz158",
+   "source_file": "csv_fz158.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz159",
+   "dir": "csv_fz159",
+   "source_file": "csv_fz159.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz160",
+   "dir": "csv_fz160",
+   "source_file": "csv_fz160.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz161",
+   "dir": "csv_fz161",
+   "source_file": "csv_fz161.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz162",
+   "dir": "csv_fz162",
+   "source_file": "csv_fz162.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz163",
+   "dir": "csv_fz163",
+   "source_file": "csv_fz163.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz164",
+   "dir": "csv_fz164",
+   "source_file": "csv_fz164.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz165",
+   "dir": "csv_fz165",
+   "source_file": "csv_fz165.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz166",
+   "dir": "csv_fz166",
+   "source_file": "csv_fz166.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz167",
+   "dir": "csv_fz167",
+   "source_file": "csv_fz167.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz168",
+   "dir": "csv_fz168",
+   "source_file": "csv_fz168.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz169",
+   "dir": "csv_fz169",
+   "source_file": "csv_fz169.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz170",
+   "dir": "csv_fz170",
+   "source_file": "csv_fz170.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz171",
+   "dir": "csv_fz171",
+   "source_file": "csv_fz171.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz172",
+   "dir": "csv_fz172",
+   "source_file": "csv_fz172.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz173",
+   "dir": "csv_fz173",
+   "source_file": "csv_fz173.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz174",
+   "dir": "csv_fz174",
+   "source_file": "csv_fz174.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz175",
+   "dir": "csv_fz175",
+   "source_file": "csv_fz175.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz176",
+   "dir": "csv_fz176",
+   "source_file": "csv_fz176.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz177",
+   "dir": "csv_fz177",
+   "source_file": "csv_fz177.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz178",
+   "dir": "csv_fz178",
+   "source_file": "csv_fz178.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz179",
+   "dir": "csv_fz179",
+   "source_file": "csv_fz179.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz180",
+   "dir": "csv_fz180",
+   "source_file": "csv_fz180.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz181",
+   "dir": "csv_fz181",
+   "source_file": "csv_fz181.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz182",
+   "dir": "csv_fz182",
+   "source_file": "csv_fz182.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz183",
+   "dir": "csv_fz183",
+   "source_file": "csv_fz183.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz184",
+   "dir": "csv_fz184",
+   "source_file": "csv_fz184.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz185",
+   "dir": "csv_fz185",
+   "source_file": "csv_fz185.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz186",
+   "dir": "csv_fz186",
+   "source_file": "csv_fz186.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz187",
+   "dir": "csv_fz187",
+   "source_file": "csv_fz187.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz188",
+   "dir": "csv_fz188",
+   "source_file": "csv_fz188.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz189",
+   "dir": "csv_fz189",
+   "source_file": "csv_fz189.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz190",
+   "dir": "csv_fz190",
+   "source_file": "csv_fz190.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz191",
+   "dir": "csv_fz191",
+   "source_file": "csv_fz191.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz192",
+   "dir": "csv_fz192",
+   "source_file": "csv_fz192.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz193",
+   "dir": "csv_fz193",
+   "source_file": "csv_fz193.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz194",
+   "dir": "csv_fz194",
+   "source_file": "csv_fz194.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz195",
+   "dir": "csv_fz195",
+   "source_file": "csv_fz195.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz196",
+   "dir": "csv_fz196",
+   "source_file": "csv_fz196.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz197",
+   "dir": "csv_fz197",
+   "source_file": "csv_fz197.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz198",
+   "dir": "csv_fz198",
+   "source_file": "csv_fz198.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz199",
+   "dir": "csv_fz199",
+   "source_file": "csv_fz199.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz200",
+   "dir": "csv_fz200",
+   "source_file": "csv_fz200.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz201",
+   "dir": "csv_fz201",
+   "source_file": "csv_fz201.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz202",
+   "dir": "csv_fz202",
+   "source_file": "csv_fz202.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz203",
+   "dir": "csv_fz203",
+   "source_file": "csv_fz203.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz204",
+   "dir": "csv_fz204",
+   "source_file": "csv_fz204.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz205",
+   "dir": "csv_fz205",
+   "source_file": "csv_fz205.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz206",
+   "dir": "csv_fz206",
+   "source_file": "csv_fz206.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz207",
+   "dir": "csv_fz207",
+   "source_file": "csv_fz207.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz208",
+   "dir": "csv_fz208",
+   "source_file": "csv_fz208.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz209",
+   "dir": "csv_fz209",
+   "source_file": "csv_fz209.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz210",
+   "dir": "csv_fz210",
+   "source_file": "csv_fz210.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz211",
+   "dir": "csv_fz211",
+   "source_file": "csv_fz211.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz212",
+   "dir": "csv_fz212",
+   "source_file": "csv_fz212.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz213",
+   "dir": "csv_fz213",
+   "source_file": "csv_fz213.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz214",
+   "dir": "csv_fz214",
+   "source_file": "csv_fz214.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz215",
+   "dir": "csv_fz215",
+   "source_file": "csv_fz215.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz216",
+   "dir": "csv_fz216",
+   "source_file": "csv_fz216.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz217",
+   "dir": "csv_fz217",
+   "source_file": "csv_fz217.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz218",
+   "dir": "csv_fz218",
+   "source_file": "csv_fz218.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz219",
+   "dir": "csv_fz219",
+   "source_file": "csv_fz219.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz220",
+   "dir": "csv_fz220",
+   "source_file": "csv_fz220.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz221",
+   "dir": "csv_fz221",
+   "source_file": "csv_fz221.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz222",
+   "dir": "csv_fz222",
+   "source_file": "csv_fz222.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz223",
+   "dir": "csv_fz223",
+   "source_file": "csv_fz223.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz224",
+   "dir": "csv_fz224",
+   "source_file": "csv_fz224.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz225",
+   "dir": "csv_fz225",
+   "source_file": "csv_fz225.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz226",
+   "dir": "csv_fz226",
+   "source_file": "csv_fz226.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz227",
+   "dir": "csv_fz227",
+   "source_file": "csv_fz227.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz228",
+   "dir": "csv_fz228",
+   "source_file": "csv_fz228.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz229",
+   "dir": "csv_fz229",
+   "source_file": "csv_fz229.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz230",
+   "dir": "csv_fz230",
+   "source_file": "csv_fz230.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz231",
+   "dir": "csv_fz231",
+   "source_file": "csv_fz231.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz232",
+   "dir": "csv_fz232",
+   "source_file": "csv_fz232.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz233",
+   "dir": "csv_fz233",
+   "source_file": "csv_fz233.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz234",
+   "dir": "csv_fz234",
+   "source_file": "csv_fz234.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz235",
+   "dir": "csv_fz235",
+   "source_file": "csv_fz235.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz236",
+   "dir": "csv_fz236",
+   "source_file": "csv_fz236.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz237",
+   "dir": "csv_fz237",
+   "source_file": "csv_fz237.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz238",
+   "dir": "csv_fz238",
+   "source_file": "csv_fz238.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz239",
+   "dir": "csv_fz239",
+   "source_file": "csv_fz239.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz240",
+   "dir": "csv_fz240",
+   "source_file": "csv_fz240.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz241",
+   "dir": "csv_fz241",
+   "source_file": "csv_fz241.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz242",
+   "dir": "csv_fz242",
+   "source_file": "csv_fz242.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz243",
+   "dir": "csv_fz243",
+   "source_file": "csv_fz243.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz244",
+   "dir": "csv_fz244",
+   "source_file": "csv_fz244.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz245",
+   "dir": "csv_fz245",
+   "source_file": "csv_fz245.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz246",
+   "dir": "csv_fz246",
+   "source_file": "csv_fz246.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz247",
+   "dir": "csv_fz247",
+   "source_file": "csv_fz247.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz248",
+   "dir": "csv_fz248",
+   "source_file": "csv_fz248.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_fz249",
+   "dir": "csv_fz249",
+   "source_file": "csv_fz249.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_hash",
+   "dir": "csv_hash",
+   "source_file": "csv_hash.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_hdr_blank_then_rows",
+   "dir": "csv_hdr_blank_then_rows",
+   "source_file": "csv_hdr_blank_then_rows.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_hdronly",
+   "dir": "csv_hdronly",
+   "source_file": "csv_hdronly.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "empty",
+   "student_count": 0
+  },
+  {
+   "id": "csv_latin1",
+   "dir": "csv_latin1",
+   "source_file": "csv_latin1.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_lone_cr_field",
+   "dir": "csv_lone_cr_field",
+   "source_file": "csv_lone_cr_field.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_long_first",
+   "dir": "csv_long_first",
+   "source_file": "csv_long_first.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "csv_long_later",
+   "dir": "csv_long_later",
+   "source_file": "csv_long_later.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_newline_only",
+   "dir": "csv_newline_only",
+   "source_file": "csv_newline_only.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_nlquote",
+   "dir": "csv_nlquote",
+   "source_file": "csv_nlquote.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_noeol",
+   "dir": "csv_noeol",
+   "source_file": "csv_noeol.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_nul",
+   "dir": "csv_nul",
+   "source_file": "csv_nul.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_quote",
+   "dir": "csv_quote",
+   "source_file": "csv_quote.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_quote_after",
+   "dir": "csv_quote_after",
+   "source_file": "csv_quote_after.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_quote_mid",
+   "dir": "csv_quote_mid",
+   "source_file": "csv_quote_mid.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_quotedspace",
+   "dir": "csv_quotedspace",
+   "source_file": "csv_quotedspace.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_short",
+   "dir": "csv_short",
+   "source_file": "csv_short.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_spaceline",
+   "dir": "csv_spaceline",
+   "source_file": "csv_spaceline.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_spaces",
+   "dir": "csv_spaces",
+   "source_file": "csv_spaces.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_tab",
+   "dir": "csv_tab",
+   "source_file": "csv_tab.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_tabline",
+   "dir": "csv_tabline",
+   "source_file": "csv_tabline.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_title_then_table",
+   "dir": "csv_title_then_table",
+   "source_file": "csv_title_then_table.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_trailcomma",
+   "dir": "csv_trailcomma",
+   "source_file": "csv_trailcomma.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "csv_unterminated",
+   "dir": "csv_unterminated",
+   "source_file": "csv_unterminated.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "csv_utf8",
+   "dir": "csv_utf8",
+   "source_file": "csv_utf8.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "fuzz__randstr",
+   "dir": "fuzz__randstr",
+   "source_file": "fuzz.xlsx",
+   "sheet": "randstr",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "fuzz__randmix",
+   "dir": "fuzz__randmix",
+   "source_file": "fuzz.xlsx",
+   "sheet": "randmix",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "fuzz2__randstr",
+   "dir": "fuzz2__randstr",
+   "source_file": "fuzz2.xlsx",
+   "sheet": "randstr",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "fuzz2__randmix",
+   "dir": "fuzz2__randmix",
+   "source_file": "fuzz2.xlsx",
+   "sheet": "randmix",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__na",
+   "dir": "headers__na",
+   "source_file": "headers.xlsx",
+   "sheet": "na",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__none",
+   "dir": "headers__none",
+   "source_file": "headers.xlsx",
+   "sheet": "none",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__ints",
+   "dir": "headers__ints",
+   "source_file": "headers.xlsx",
+   "sheet": "ints",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__floats",
+   "dir": "headers__floats",
+   "source_file": "headers.xlsx",
+   "sheet": "floats",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe",
+   "dir": "headers__dupe",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe2",
+   "dir": "headers__dupe2",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe2",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe3",
+   "dir": "headers__dupe3",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe3",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe4",
+   "dir": "headers__dupe4",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe4",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe5",
+   "dir": "headers__dupe5",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe5",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dupe6",
+   "dir": "headers__dupe6",
+   "source_file": "headers.xlsx",
+   "sheet": "dupe6",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__unnamed1",
+   "dir": "headers__unnamed1",
+   "source_file": "headers.xlsx",
+   "sheet": "unnamed1",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__unnamed2",
+   "dir": "headers__unnamed2",
+   "source_file": "headers.xlsx",
+   "sheet": "unnamed2",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__unnamed3",
+   "dir": "headers__unnamed3",
+   "source_file": "headers.xlsx",
+   "sheet": "unnamed3",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__unnamed4",
+   "dir": "headers__unnamed4",
+   "source_file": "headers.xlsx",
+   "sheet": "unnamed4",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__bools",
+   "dir": "headers__bools",
+   "source_file": "headers.xlsx",
+   "sheet": "bools",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dates",
+   "dir": "headers__dates",
+   "source_file": "headers.xlsx",
+   "sheet": "dates",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__dates2",
+   "dir": "headers__dates2",
+   "source_file": "headers.xlsx",
+   "sheet": "dates2",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__spaces",
+   "dir": "headers__spaces",
+   "source_file": "headers.xlsx",
+   "sheet": "spaces",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__big",
+   "dir": "headers__big",
+   "source_file": "headers.xlsx",
+   "sheet": "big",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__mixed",
+   "dir": "headers__mixed",
+   "source_file": "headers.xlsx",
+   "sheet": "mixed",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__newline",
+   "dir": "headers__newline",
+   "source_file": "headers.xlsx",
+   "sheet": "newline",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__floatround",
+   "dir": "headers__floatround",
+   "source_file": "headers.xlsx",
+   "sheet": "floatround",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__intsfloat",
+   "dir": "headers__intsfloat",
+   "source_file": "headers.xlsx",
+   "sheet": "intsfloat",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__leadrow",
+   "dir": "headers__leadrow",
+   "source_file": "headers.xlsx",
+   "sheet": "leadrow",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__leadrows2",
+   "dir": "headers__leadrows2",
+   "source_file": "headers.xlsx",
+   "sheet": "leadrows2",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__leadcol",
+   "dir": "headers__leadcol",
+   "source_file": "headers.xlsx",
+   "sheet": "leadcol",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__single",
+   "dir": "headers__single",
+   "source_file": "headers.xlsx",
+   "sheet": "single",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__singlecell",
+   "dir": "headers__singlecell",
+   "source_file": "headers.xlsx",
+   "sheet": "singlecell",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__onecol",
+   "dir": "headers__onecol",
+   "source_file": "headers.xlsx",
+   "sheet": "onecol",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__onecol_blank_hdr",
+   "dir": "headers__onecol_blank_hdr",
+   "source_file": "headers.xlsx",
+   "sheet": "onecol_blank_hdr",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__trailing",
+   "dir": "headers__trailing",
+   "source_file": "headers.xlsx",
+   "sheet": "trailing",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__midblank",
+   "dir": "headers__midblank",
+   "source_file": "headers.xlsx",
+   "sheet": "midblank",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__offset",
+   "dir": "headers__offset",
+   "source_file": "headers.xlsx",
+   "sheet": "offset",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__ragged",
+   "dir": "headers__ragged",
+   "source_file": "headers.xlsx",
+   "sheet": "ragged",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__firstblank_data",
+   "dir": "headers__firstblank_data",
+   "source_file": "headers.xlsx",
+   "sheet": "firstblank_data",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__comma_quote",
+   "dir": "headers__comma_quote",
+   "source_file": "headers.xlsx",
+   "sheet": "comma_quote",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__allempty_data",
+   "dir": "headers__allempty_data",
+   "source_file": "headers.xlsx",
+   "sheet": "allempty_data",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__wide_blank",
+   "dir": "headers__wide_blank",
+   "source_file": "headers.xlsx",
+   "sheet": "wide_blank",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__num_hdr_text",
+   "dir": "headers__num_hdr_text",
+   "source_file": "headers.xlsx",
+   "sheet": "num_hdr_text",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__emptysheet",
+   "dir": "headers__emptysheet",
+   "source_file": "headers.xlsx",
+   "sheet": "emptysheet",
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "headers__errcell",
+   "dir": "headers__errcell",
+   "source_file": "headers.xlsx",
+   "sheet": "errcell",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__errhdr",
+   "dir": "headers__errhdr",
+   "source_file": "headers.xlsx",
+   "sheet": "errhdr",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers__formula",
+   "dir": "headers__formula",
+   "source_file": "headers.xlsx",
+   "sheet": "formula",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__GRADES",
+   "dir": "headers_detect__GRADES",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "GRADES",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__CARNET",
+   "dir": "headers_detect__CARNET",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "CARNET",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__lateheader",
+   "dir": "headers_detect__lateheader",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "lateheader",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__toolate",
+   "dir": "headers_detect__toolate",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "toolate",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__NOHEADER",
+   "dir": "headers_detect__NOHEADER",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "NOHEADER",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__mixedcase",
+   "dir": "headers_detect__mixedcase",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "mixedcase",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__partial",
+   "dir": "headers_detect__partial",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "partial",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "headers_detect__blank",
+   "dir": "headers_detect__blank",
+   "source_file": "headers_detect.xlsx",
+   "sheet": "blank",
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "types__strnum",
+   "dir": "types__strnum",
+   "source_file": "types.xlsx",
+   "sheet": "strnum",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "types__mix",
+   "dir": "types__mix",
+   "source_file": "types.xlsx",
+   "sheet": "mix",
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  }
+ ]
+}

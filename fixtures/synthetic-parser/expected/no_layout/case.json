@@ -1,0 +1,26 @@
+{
+ "id": "no_layout",
+ "source_file": "no_layout.csv",
+ "sheet": null,
+ "status": "parse_error",
+ "ok": true,
+ "student_count": 0,
+ "audit_report": {
+  "file_name": "no_layout.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "no_layout.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 1,
+  "column_count": 5,
+  "empty_cells_count": 3,
+  "null_values_count": 3,
+  "warnings": [
+   "Columns with all null values: ['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4']"
+  ],
+  "status": "success"
+ }
+}

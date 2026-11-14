@@ -1,0 +1,24 @@
+{
+ "id": "carnet_short_header",
+ "source_file": "carnet_short_header.csv",
+ "sheet": null,
+ "status": "parse_error",
+ "ok": true,
+ "student_count": 0,
+ "audit_report": {
+  "file_name": "carnet_short_header.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "carnet_short_header.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 1,
+  "column_count": 4,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

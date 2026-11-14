@@ -1,0 +1,25 @@
+{
+ "id": "CARNET DE NOTES FRANÇAIS IV 2025__FRANCAIS IV MATIN",
+ "source_file": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+ "sheet": "FRANCAIS IV MATIN",
+ "status": "success",
+ "ok": true,
+ "student_count": 23,
+ "audit_report": {
+  "file_name": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+  "sheet_name": "FRANCAIS IV MATIN",
+  "original_format": ".xlsx",
+  "converted": false,
+  "conversion_path": "CARNET DE NOTES FRANÇAIS IV 2025_FRANCAIS IV MATIN.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 624,
+  "column_count": 5,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

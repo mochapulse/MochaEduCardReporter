@@ -1,0 +1,9 @@
+{
+ "id": "headers__floatround",
+ "source_file": "headers.xlsx",
+ "sheet": "floatround",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_floatround.csv"
+}

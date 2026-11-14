@@ -210,3 +210,13 @@ __marimo__/
 #AI
 **/.agents/
 **/.codex
+
+# --- Tauri rewrite ---
+/target/
+node_modules/
+dist/
+/corpus-private/*
+!/corpus-private/.gitkeep
+/src-tauri/target/
+/src-tauri/gen/
+!/src/lib/

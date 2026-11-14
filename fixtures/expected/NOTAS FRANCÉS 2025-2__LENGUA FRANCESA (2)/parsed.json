@@ -1,0 +1,608 @@
+{
+ "metadata": {
+  "file_name": "NOTAS FRANCÉS 2025-2_LENGUA FRANCESA (2).csv",
+  "university_name": "UNIVERSITÉ DE CALDAS",
+  "program_name": "DÉPARTEMENT DE LANGUES ÉTRANGÈRES",
+  "materia_name": "LENGUA FRANCESA",
+  "group_name": "01",
+  "professor_name": "JOSÉ FERNANDO RAMÍREZ OSORIO",
+  "period_name": "2025",
+  "first_twenty_grade_count": 7,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "component_grade_numbers": [
+   "8",
+   "9",
+   "10"
+  ],
+  "grade_labels": {
+   "1": "EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.",
+   "2": "EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.",
+   "3": "EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.",
+   "4": "COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.",
+   "5": "EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.",
+   "6": "EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.",
+   "7": "EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.",
+   "8": "EXAMEN INTERMÉDIAIRE. Le 8 octobre.",
+   "9": "EXAMEN FINAL. Le 12 novembre.",
+   "10": "EXAMEN ORAL: Le 19 novembre."
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "8": "20%",
+   "9": "25%",
+   "10": "25%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "28652",
+   "student_name": "Álvarez Parra, Juan Diego",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.6",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.0",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "3.0",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.0"
+   },
+   "component_grades": {
+    "1-7 average": "3.8",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.2",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "4.2",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "2.5"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "1.0",
+    "8 weighted 20%": "1.1",
+    "9 weighted 25%": "1.1",
+    "10 weighted 25%": "0.6"
+   },
+   "definitive_grade": "3.7"
+  },
+  {
+   "student_number": 2,
+   "student_code": "64497",
+   "student_name": "Bolaños Restrepo, Karla Tathiana",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.7",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.8",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.8",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "3.8",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "3.7",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "2.8",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.0"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "1.0",
+    "8 weighted 20%": "0.9",
+    "9 weighted 25%": "0.7",
+    "10 weighted 25%": "0.8"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 3,
+   "student_code": "38462",
+   "student_name": "Botero Grajales, María José",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.9",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.5",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "3.9",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.7"
+   },
+   "component_grades": {
+    "1-7 average": "4.4",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.7",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "4.2",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "4.6"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "1.1",
+    "8 weighted 20%": "1.2",
+    "9 weighted 25%": "1.1",
+    "10 weighted 25%": "1.1"
+   },
+   "definitive_grade": "4.5"
+  },
+  {
+   "student_number": 4,
+   "student_code": "33607",
+   "student_name": "Cárdenas Galvis, Jefeerson David",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "0.0",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.0",
+    "8 weighted 20%": "0.0",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.0"
+  },
+  {
+   "student_number": 5,
+   "student_code": "19749",
+   "student_name": "Diaz Utima, Katherin Divana",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "0.9",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.2",
+    "8 weighted 20%": "0.0",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.2"
+  },
+  {
+   "student_number": 6,
+   "student_code": "23264",
+   "student_name": "Escobar Montoya, Simón Felipe",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "5.0",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.7",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.9",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.5",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "3.7",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "5.0",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "4.3",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "4.8"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.9",
+    "8 weighted 20%": "1.2",
+    "9 weighted 25%": "1.1",
+    "10 weighted 25%": "1.2"
+   },
+   "definitive_grade": "4.5"
+  },
+  {
+   "student_number": 7,
+   "student_code": "6084",
+   "student_name": "Gómez Orozco, Luis David",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.6",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "1.2",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.7",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.4",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.3"
+   },
+   "component_grades": {
+    "1-7 average": "4.1",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "3.4",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "1.9",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.0"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "1.0",
+    "8 weighted 20%": "0.8",
+    "9 weighted 25%": "0.5",
+    "10 weighted 25%": "0.8"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 8,
+   "student_code": "63561",
+   "student_name": "Morales Trejos, Katherine Dayana",
+   "abse": "14.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.3",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "3.0",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "3.5",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "3.0",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "3.5"
+   },
+   "component_grades": {
+    "1-7 average": "3.2",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "1.9",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.0",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.8"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.8",
+    "8 weighted 20%": "0.5",
+    "9 weighted 25%": "0.8",
+    "10 weighted 25%": "0.9"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 9,
+   "student_code": "66070",
+   "student_name": "Muñoz Acevedo, Karol Daniela",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.8",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.8",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "2.3",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.9",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.1",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.5"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.6",
+    "8 weighted 20%": "1.2",
+    "9 weighted 25%": "0.8",
+    "10 weighted 25%": "0.9"
+   },
+   "definitive_grade": "3.5"
+  },
+  {
+   "student_number": 10,
+   "student_code": "10792",
+   "student_name": "Niño Peláez, Daniel Libardo",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "0.9",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.2",
+    "8 weighted 20%": "0.0",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.2"
+  },
+  {
+   "student_number": 11,
+   "student_code": "44532",
+   "student_name": "Ortiz Cardona, Elizabeth",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.5",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.3",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.3"
+   },
+   "component_grades": {
+    "1-7 average": "3.0",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "2.0",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.8",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.0"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.8",
+    "8 weighted 20%": "0.5",
+    "9 weighted 25%": "0.9",
+    "10 weighted 25%": "0.8"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 12,
+   "student_code": "29979",
+   "student_name": "Pavas Leiva, David Alberto",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.8",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "5.0",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.7",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.9",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.5",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.2"
+   },
+   "component_grades": {
+    "1-7 average": "4.5",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.1",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.3",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "4.8"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "1.1",
+    "8 weighted 20%": "1.0",
+    "9 weighted 25%": "0.8",
+    "10 weighted 25%": "1.2"
+   },
+   "definitive_grade": "4.2"
+  },
+  {
+   "student_number": 13,
+   "student_code": "50600",
+   "student_name": "Pérez Cuatin, David Santiago",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "0.0",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.0",
+    "8 weighted 20%": "0.0",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.0"
+  },
+  {
+   "student_number": 14,
+   "student_code": "28296",
+   "student_name": "Pinilla Agudelo, Jessica Alejandra",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "0.0",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.0",
+    "8 weighted 20%": "0.0",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.0"
+  },
+  {
+   "student_number": 15,
+   "student_code": "63687",
+   "student_name": "Ramírez Carvajal, Laura Katalina",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.3",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.0",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "3.0",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "1.6",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "1.5",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "",
+    "10 - EXAMEN ORAL: Le 19 novembre.": ""
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.4",
+    "8 weighted 20%": "0.4",
+    "9 weighted 25%": "0.0",
+    "10 weighted 25%": "0.0"
+   },
+   "definitive_grade": "0.8"
+  },
+  {
+   "student_number": 16,
+   "student_code": "70977",
+   "student_name": "Reyes Pérez Igdalias Shavvah",
+   "abse": "14.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "3.8",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.6",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.5",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "3.9",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "3.6",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "2.2",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "2.6",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.5"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.9",
+    "8 weighted 20%": "0.6",
+    "9 weighted 25%": "0.7",
+    "10 weighted 25%": "0.9"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 17,
+   "student_code": "49057",
+   "student_name": "Riasco Gaitan, Jennifer Alejandra",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.9",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.0",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.9",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.7",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.7"
+   },
+   "component_grades": {
+    "1-7 average": "3.7",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "2.6",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.6",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.0"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.9",
+    "8 weighted 20%": "0.7",
+    "9 weighted 25%": "0.9",
+    "10 weighted 25%": "0.8"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 18,
+   "student_code": "55501",
+   "student_name": "Salcedo Chapal, Johana Gabriela",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.0",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.0",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "3.0",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "3.5"
+   },
+   "component_grades": {
+    "1-7 average": "2.6",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "2.6",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "2.8",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.9"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.6",
+    "8 weighted 20%": "0.7",
+    "9 weighted 25%": "0.7",
+    "10 weighted 25%": "1.0"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 19,
+   "student_code": "58490",
+   "student_name": "Uribe Méndez, María Sofia",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.5",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.4",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "3.7",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.5",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.4",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": "4.3"
+   },
+   "component_grades": {
+    "1-7 average": "3.7",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.6",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "3.8",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "5.0"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.9",
+    "8 weighted 20%": "1.1",
+    "9 weighted 25%": "0.9",
+    "10 weighted 25%": "1.2"
+   },
+   "definitive_grade": "4.3"
+  },
+  {
+   "student_number": 20,
+   "student_code": "66345",
+   "student_name": "Vega Posada, Jeronimo",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Fiche d'identité et présentation d'un personnage. Le 8 septembre.": "4.8",
+    "2 - EXPRESSION ORALE: Présentation d'un camarade de classe. Le 29 septembre.": "4.9",
+    "3 - EXPRESSION ÉCRITE: Composition, des annonces d'échanges. Le 29 septembre.": "4.7",
+    "4 - COMPRÈHENSION ORALE. Quiz d'écoute. Le 1 octobre.": "2.5",
+    "5 - EXPRESSION ÉCRITE: Composition en utilisant: être, avoir, aimer, aller, venir, faire. Le 20 octobre.": "4.7",
+    "6 - EXPRESSION ÉCRITE: Composition. Raconter les activités de week-end. Le 22 octobre.": "4.8",
+    "7 - EXPRESSION ÉCRITE. Composition avec le mots: piscine, maison, voiture, appartement, professeur, ami, mère, chanteur, cousin, étudiant. Le 27 octobre.": ""
+   },
+   "component_grades": {
+    "1-7 average": "3.8",
+    "8 - EXAMEN INTERMÉDIAIRE. Le 8 octobre.": "4.1",
+    "9 - EXAMEN FINAL. Le 12 novembre.": "4.3",
+    "10 - EXAMEN ORAL: Le 19 novembre.": "3.7"
+   },
+   "weighted_components": {
+    "1-7 weighted 20%": "0.9",
+    "8 weighted 20%": "1.0",
+    "9 weighted 25%": "1.1",
+    "10 weighted 25%": "0.9"
+   },
+   "definitive_grade": "4.0"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

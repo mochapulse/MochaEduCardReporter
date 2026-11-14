@@ -1,0 +1,46 @@
+[package]
+name = "mocha-edu-card-reporter"
+version.workspace = true
+edition.workspace = true
+description = "Turns a teacher's gradebook spreadsheet into one PDF report card per student."
+publish = false
+
+[lib]
+name = "mocha_edu_card_reporter_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.4", features = [] }
+
+[dependencies]
+mocha-engine = { path = "../crates/mocha-engine" }
+
+# Tauri v2 (verified on crates.io, 2026-11-14: latest stable 2.x of each).
+tauri = { version = "2.12.5", features = [] }
+tauri-plugin-dialog = "2.8.4"
+tauri-plugin-opener = "2.7.3"
+tauri-plugin-store = "2.5.1"
+tauri-plugin-log = "2.10.2"
+tauri-plugin-window-state = "2.5.0"
+tauri-plugin-single-instance = "2.5.5"
+tauri-plugin-updater = "2.14.1"
+tauri-plugin-process = "2.4.0"
+
+# Typed IPC. tauri-specta/specta are release candidates and must move in
+# lockstep, hence the exact pins.
+tauri-specta = { version = "=2.0.0-rc.29", features = ["typescript"] }
+specta = { version = "=2.0.0-rc.28", features = ["derive"] }
+specta-typescript = "=0.0.15"
+
+chrono = "0.4.45"
+indexmap = "2.14.2"
+log = "0.4"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+thiserror = "2.0.21"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+
+[lints]
+workspace = true

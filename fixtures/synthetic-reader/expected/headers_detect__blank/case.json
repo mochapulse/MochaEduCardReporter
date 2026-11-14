@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__blank",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "blank",
+ "status": "parse_error",
+ "ok": true,
+ "grid_error": "EmptyDataError: No columns to parse from file",
+ "csv_file_name": "headers_detect_blank.csv"
+}

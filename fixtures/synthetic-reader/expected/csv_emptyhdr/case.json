@@ -1,0 +1,9 @@
+{
+ "id": "csv_emptyhdr",
+ "source_file": "csv_emptyhdr.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "/tmp/oracle__c8snowz/csv_emptyhdr.csv"
+}

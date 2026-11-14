@@ -1,0 +1,131 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "ALPHA ONE",
+  "rows": [
+   [
+    "COMPÉTENCE.<br/>Quiz",
+    "4.5",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL",
+    "4.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL",
+    "3.0",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.7"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 1,
+   "component_start": 2,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "BETA TWO",
+  "rows": [
+   [
+    "COMPÉTENCE.<br/>Quiz",
+    "4.5",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN FINAL",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    ""
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 1,
+   "component_start": 2,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "GAMMA",
+  "rows": [
+   [
+    "COMPÉTENCE.<br/>Quiz",
+    "4.5",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL",
+    "4.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL",
+    "3.0",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    ""
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 1,
+   "component_start": 2,
+   "component_end": 3,
+   "final_row": 4
+  }
+ }
+]

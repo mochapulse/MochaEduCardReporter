@@ -1,0 +1,214 @@
+{
+ "timestamp_iso": "2026-01-15 10:00:00",
+ "engine_sha256": "4d4c1e7ae03e323c0f24d171ceb53455476d3f6254927846072773eff157464f",
+ "files": [],
+ "cases": [
+  {
+   "id": "broken_enumeration",
+   "dir": "broken_enumeration",
+   "source_file": "broken_enumeration.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 27
+  },
+  {
+   "id": "carnet 2024_FRANCAIS DEMO_A",
+   "dir": "carnet 2024_FRANCAIS DEMO_A",
+   "source_file": "carnet 2024_FRANCAIS DEMO_A.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "carnet_early_blank",
+   "dir": "carnet_early_blank",
+   "source_file": "carnet_early_blank.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 1
+  },
+  {
+   "id": "carnet_header_variants_FRANCES",
+   "dir": "carnet_header_variants_FRANCES",
+   "source_file": "carnet_header_variants_FRANCES.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 1
+  },
+  {
+   "id": "carnet_short_header",
+   "dir": "carnet_short_header",
+   "source_file": "carnet_short_header.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "clean_baseline",
+   "dir": "clean_baseline",
+   "source_file": "clean_baseline.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "dup_header_numbers",
+   "dir": "dup_header_numbers",
+   "source_file": "dup_header_numbers.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "duplicate_labels",
+   "dir": "duplicate_labels",
+   "source_file": "duplicate_labels.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 4
+  },
+  {
+   "id": "header_first_row",
+   "dir": "header_first_row",
+   "source_file": "header_first_row.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "header_n_degree",
+   "dir": "header_n_degree",
+   "source_file": "header_n_degree.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "header_n_ordinal",
+   "dir": "header_n_ordinal",
+   "source_file": "header_n_ordinal.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "header_only",
+   "dir": "header_only",
+   "source_file": "header_only.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 0
+  },
+  {
+   "id": "header_variants_abs",
+   "dir": "header_variants_abs",
+   "source_file": "header_variants_abs.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "huge_number",
+   "dir": "huge_number",
+   "source_file": "huge_number.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "many_corrections",
+   "dir": "many_corrections",
+   "source_file": "many_corrections.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 8
+  },
+  {
+   "id": "meta_fallbacks",
+   "dir": "meta_fallbacks",
+   "source_file": "meta_fallbacks.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "no_definitive",
+   "dir": "no_definitive",
+   "source_file": "no_definitive.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "no_layout",
+   "dir": "no_layout",
+   "source_file": "no_layout.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "parse_error",
+   "student_count": 0
+  },
+  {
+   "id": "no_moy_token",
+   "dir": "no_moy_token",
+   "source_file": "no_moy_token.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "odd_student_rows",
+   "dir": "odd_student_rows",
+   "source_file": "odd_student_rows.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 4
+  },
+  {
+   "id": "some_corrections",
+   "dir": "some_corrections",
+   "source_file": "some_corrections.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 4
+  },
+  {
+   "id": "weights_empty",
+   "dir": "weights_empty",
+   "source_file": "weights_empty.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  },
+  {
+   "id": "weights_variants",
+   "dir": "weights_variants",
+   "source_file": "weights_variants.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 3
+  }
+ ]
+}

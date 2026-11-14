@@ -1,0 +1,9 @@
+{
+ "id": "headers__errcell",
+ "source_file": "headers.xlsx",
+ "sheet": "errcell",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_errcell.csv"
+}

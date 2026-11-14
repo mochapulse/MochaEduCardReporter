@@ -1,0 +1,24 @@
+{
+ "id": "header_first_row",
+ "source_file": "header_first_row.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 3,
+ "audit_report": {
+  "file_name": "header_first_row.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "header_first_row.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 3,
+  "column_count": 12,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

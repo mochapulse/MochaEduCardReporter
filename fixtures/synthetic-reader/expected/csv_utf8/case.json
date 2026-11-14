@@ -1,0 +1,9 @@
+{
+ "id": "csv_utf8",
+ "source_file": "csv_utf8.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "/tmp/oracle_62fjqnr3/csv_utf8.csv"
+}

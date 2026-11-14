@@ -1,0 +1,25 @@
+{
+ "id": "CARNET DE NOTES FRANÇAIS IV 2025__FRANÇAIS IV APRÈS-MIDI",
+ "source_file": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+ "sheet": "FRANÇAIS IV APRÈS-MIDI",
+ "status": "success",
+ "ok": true,
+ "student_count": 11,
+ "audit_report": {
+  "file_name": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+  "sheet_name": "FRANÇAIS IV APRÈS-MIDI",
+  "original_format": ".xlsx",
+  "converted": false,
+  "conversion_path": "CARNET DE NOTES FRANÇAIS IV 2025_FRANÇAIS IV APRÈS-MIDI.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 299,
+  "column_count": 5,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

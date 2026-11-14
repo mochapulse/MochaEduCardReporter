@@ -1,0 +1,35 @@
+{
+ "metadata": {
+  "file_name": "carnet_early_blank.csv",
+  "university_name": "",
+  "program_name": "",
+  "materia_name": "MATH",
+  "group_name": "",
+  "professor_name": "",
+  "period_name": "carnet_early_blank",
+  "first_twenty_grade_count": 0,
+  "first_twenty_grade_numbers": [],
+  "component_grade_numbers": [],
+  "grade_labels": {},
+  "first_block_weight_label": "50%",
+  "component_weight_labels": {}
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "",
+   "student_name": "STUDENT",
+   "abse": "1.0",
+   "first_twenty_grades": {},
+   "component_grades": {
+    "1-0 average": ""
+   },
+   "weighted_components": {
+    "1-0 weighted 50%": ""
+   },
+   "definitive_grade": ""
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

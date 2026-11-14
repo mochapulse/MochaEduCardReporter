@@ -1,0 +1,9 @@
+{
+ "id": "csv_quote_mid",
+ "source_file": "csv_quote_mid.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "/tmp/oracle_8zcha2i8/csv_quote_mid.csv"
+}

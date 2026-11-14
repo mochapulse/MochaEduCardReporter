@@ -1,0 +1,48 @@
+{
+ "metadata": {
+  "file_name": "carnet_header_variants_FRANCES.csv",
+  "university_name": "",
+  "program_name": "",
+  "materia_name": "MATIÈRE",
+  "group_name": "FRANCES",
+  "professor_name": "",
+  "period_name": "carnet_header_variants_FRANCES",
+  "first_twenty_grade_count": 1,
+  "first_twenty_grade_numbers": [
+   "1"
+  ],
+  "component_grade_numbers": [
+   "2"
+  ],
+  "grade_labels": {
+   "1": "Algo",
+   "2": "Examen final"
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "2": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "",
+   "student_name": "ÉLÈVE",
+   "abse": "3.5",
+   "first_twenty_grades": {
+    "1 - Algo": "3.0"
+   },
+   "component_grades": {
+    "2 - Examen final": "2.0",
+    "1-1 average": "4.0"
+   },
+   "weighted_components": {
+    "2 weighted 20%": "1.0",
+    "1-1 weighted 20%": "1.0"
+   },
+   "definitive_grade": "3.0"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

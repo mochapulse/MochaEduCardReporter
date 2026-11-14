@@ -1,0 +1,9 @@
+{
+ "id": "types__mix",
+ "source_file": "types.xlsx",
+ "sheet": "mix",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "types_mix.csv"
+}

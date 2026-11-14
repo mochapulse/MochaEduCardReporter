@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__CARNET",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "CARNET",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_detect_CARNET.csv"
+}

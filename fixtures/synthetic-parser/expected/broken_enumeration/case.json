@@ -1,0 +1,26 @@
+{
+ "id": "broken_enumeration",
+ "source_file": "broken_enumeration.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 27,
+ "audit_report": {
+  "file_name": "broken_enumeration.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "broken_enumeration.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 62,
+  "column_count": 31,
+  "empty_cells_count": 1104,
+  "null_values_count": 1104,
+  "warnings": [
+   "Found 4 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

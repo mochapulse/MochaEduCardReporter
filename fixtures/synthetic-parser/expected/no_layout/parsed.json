@@ -1,0 +1,6 @@
+{
+ "metadata": null,
+ "students": [],
+ "warnings": [],
+ "error": "ValueError: Could not find a supported gradebook or carnet layout"
+}

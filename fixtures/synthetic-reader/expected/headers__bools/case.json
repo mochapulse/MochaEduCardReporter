@@ -1,0 +1,9 @@
+{
+ "id": "headers__bools",
+ "source_file": "headers.xlsx",
+ "sheet": "bools",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_bools.csv"
+}

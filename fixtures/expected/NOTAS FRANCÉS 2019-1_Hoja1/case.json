@@ -1,0 +1,26 @@
+{
+ "id": "NOTAS FRANCÉS 2019-1_Hoja1",
+ "source_file": "NOTAS FRANCÉS 2019-1_Hoja1.csv",
+ "sheet": null,
+ "status": "corrupted",
+ "ok": false,
+ "student_count": 0,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2019-1_Hoja1.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2019-1_Hoja1.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": true,
+  "corruption_details": [
+   "Critical error reading file: No columns to parse from file"
+  ],
+  "row_count": 0,
+  "column_count": 0,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "corrupted"
+ }
+}

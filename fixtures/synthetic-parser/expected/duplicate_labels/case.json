@@ -1,0 +1,26 @@
+{
+ "id": "duplicate_labels",
+ "source_file": "duplicate_labels.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 4,
+ "audit_report": {
+  "file_name": "duplicate_labels.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "duplicate_labels.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 21,
+  "column_count": 12,
+  "empty_cells_count": 186,
+  "null_values_count": 186,
+  "warnings": [
+   "Found 1 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01",
+ "source_file": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 19,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 38,
+  "column_count": 27,
+  "empty_cells_count": 496,
+  "null_values_count": 496,
+  "warnings": [
+   "Found 3 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

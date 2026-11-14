@@ -1,0 +1,95 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "Student 1",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "2.8",
+    "30%",
+    "1.0"
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 0,
+   "component_start": 1,
+   "component_end": 1,
+   "final_row": 2
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "Student 2",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "2.8",
+    "30%",
+    "1.0"
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 0,
+   "component_start": 1,
+   "component_end": 1,
+   "final_row": 2
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "Student 3",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "2.8",
+    "30%",
+    "1.0"
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 0,
+   "component_start": 1,
+   "component_end": 1,
+   "final_row": 2
+  }
+ }
+]

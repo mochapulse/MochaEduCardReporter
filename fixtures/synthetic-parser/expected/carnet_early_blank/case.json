@@ -1,0 +1,26 @@
+{
+ "id": "carnet_early_blank",
+ "source_file": "carnet_early_blank.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 1,
+ "audit_report": {
+  "file_name": "carnet_early_blank.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "carnet_early_blank.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 7,
+  "column_count": 5,
+  "empty_cells_count": 17,
+  "null_values_count": 17,
+  "warnings": [
+   "Found 1 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

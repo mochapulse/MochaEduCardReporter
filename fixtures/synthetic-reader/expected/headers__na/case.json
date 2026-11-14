@@ -1,0 +1,9 @@
+{
+ "id": "headers__na",
+ "source_file": "headers.xlsx",
+ "sheet": "na",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_na.csv"
+}

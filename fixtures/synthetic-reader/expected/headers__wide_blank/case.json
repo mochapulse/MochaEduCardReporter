@@ -1,0 +1,9 @@
+{
+ "id": "headers__wide_blank",
+ "source_file": "headers.xlsx",
+ "sheet": "wide_blank",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_wide_blank.csv"
+}

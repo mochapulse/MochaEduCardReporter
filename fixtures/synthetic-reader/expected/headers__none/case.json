@@ -1,0 +1,9 @@
+{
+ "id": "headers__none",
+ "source_file": "headers.xlsx",
+ "sheet": "none",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_none.csv"
+}

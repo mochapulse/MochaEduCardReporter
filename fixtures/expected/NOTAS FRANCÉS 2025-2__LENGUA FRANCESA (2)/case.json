@@ -1,0 +1,25 @@
+{
+ "id": "NOTAS FRANCÉS 2025-2__LENGUA FRANCESA (2)",
+ "source_file": "NOTAS FRANCÉS 2025-2.xls",
+ "sheet": "LENGUA FRANCESA (2)",
+ "status": "success",
+ "ok": true,
+ "student_count": 20,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2025-2.xls",
+  "sheet_name": "LENGUA FRANCESA (2)",
+  "original_format": ".xls",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2025-2_LENGUA FRANCESA (2).csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 46,
+  "column_count": 20,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}
