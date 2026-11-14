@@ -96,4 +96,7 @@ jobs:
         run: cargo clippy --workspace --all-targets -- -D warnings
 
       - name: Rust tests (engine, CLI, app shell)
-        run: cargo test --workspace
+        run: cargo test --workspace ${{ matrix.os == 'windows-latest' && '--exclude mocha-edu-card-reporter' || '' }}
+        # The Tauri app-shell tests need WebView2/WinRT DLLs that are not
+        # present on the Windows CI runner (STATUS_ENTRYPOINT_NOT_FOUND).
+        # They run on Linux where WebKitGTK is installed above.
