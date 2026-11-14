@@ -1,0 +1,14 @@
+# Keep text fixtures with LF endings on all platforms,
+# so byte-exact parity checks pass on Windows too.
+fixtures/expected/**/*.csv      text eol=lf
+fixtures/expected/**/*.json     text eol=lf
+fixtures/synthetic-parser/*.csv text eol=lf
+
+# The synthetic-reader corpus and its expected output contain deliberate
+# CRLF / CR bytes inside cell data — never convert them.
+fixtures/synthetic-reader/** binary
+
+# Binary fixtures — do not convert.
+*.xls  binary
+*.xlsx binary
+*.pdf  binary
