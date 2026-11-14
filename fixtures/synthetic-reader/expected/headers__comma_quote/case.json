@@ -1,0 +1,9 @@
+{
+ "id": "headers__comma_quote",
+ "source_file": "headers.xlsx",
+ "sheet": "comma_quote",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_comma_quote.csv"
+}

@@ -1,0 +1,9 @@
+{
+ "id": "csv_long_later",
+ "source_file": "csv_long_later.csv",
+ "sheet": null,
+ "status": "corrupted",
+ "ok": false,
+ "grid_error": null,
+ "csv_file_name": null
+}

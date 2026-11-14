@@ -1,0 +1,9 @@
+{
+ "id": "fuzz2__randmix",
+ "source_file": "fuzz2.xlsx",
+ "sheet": "randmix",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "fuzz2_randmix.csv"
+}

@@ -1,0 +1,131 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "Student 1",
+  "rows": [
+   [
+    "Grade 1",
+    "4.5",
+    "25%",
+    "1.0"
+   ],
+   [
+    "Grade 2",
+    "3.0",
+    "25%",
+    ""
+   ],
+   [
+    "Grade 3",
+    "2.8",
+    "25%",
+    ""
+   ],
+   [
+    "NOTE 4",
+    "3.9",
+    "abc",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "Student 2",
+  "rows": [
+   [
+    "Grade 1",
+    "4.5",
+    "25%",
+    "1.0"
+   ],
+   [
+    "Grade 2",
+    "3.0",
+    "25%",
+    ""
+   ],
+   [
+    "Grade 3",
+    "2.8",
+    "25%",
+    ""
+   ],
+   [
+    "NOTE 4",
+    "3.9",
+    "abc",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "Student 3",
+  "rows": [
+   [
+    "Grade 1",
+    "4.5",
+    "25%",
+    "1.0"
+   ],
+   [
+    "Grade 2",
+    "3.0",
+    "25%",
+    ""
+   ],
+   [
+    "Grade 3",
+    "2.8",
+    "25%",
+    ""
+   ],
+   [
+    "NOTE 4",
+    "3.9",
+    "abc",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ }
+]

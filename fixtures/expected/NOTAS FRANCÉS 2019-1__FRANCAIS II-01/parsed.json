@@ -1,0 +1,726 @@
+{
+ "metadata": {
+  "file_name": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01.csv",
+  "university_name": "UNIVERSITÉ DE CALDAS",
+  "program_name": "PROGRAMME DE LANGUES MODERNES",
+  "materia_name": "FRANÇAIS II",
+  "group_name": "01",
+  "professor_name": "JOSÉ FERNANDO RAMÍREZ OSORIO",
+  "period_name": "2019",
+  "first_twenty_grade_count": 12,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "component_grade_numbers": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "grade_labels": {
+   "1": "EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.",
+   "9": "EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.",
+   "2": "CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.",
+   "10": "EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.",
+   "3": "ATELIER: Maquette de la maison. Le 5 juin.",
+   "11": "COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.",
+   "4": "EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.",
+   "12": "EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.",
+   "5": "CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.",
+   "13": "EXAMEN PARTIEL I. Le 7 juin.",
+   "6": "CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin",
+   "14": "EXAMEN PARTIEL II. Le 11 juillet",
+   "7": "EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.",
+   "15": "EXAMEN FINAL: Le 8 août",
+   "8": "EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.",
+   "16": "EXAMEN ORAL: Le 15 août"
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "13": "20%",
+   "14": "20%",
+   "15": "20%",
+   "16": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "221812812",
+   "student_name": "Alzate Alzate Estefanny",
+   "abse": "36.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.3",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "4.5",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.7",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.2",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "2.1",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.9",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "1.1",
+    "15 - EXAMEN FINAL: Le 8 août": "",
+    "16 - EXAMEN ORAL: Le 15 août": ""
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.4",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.2",
+    "15 weighted 20%": "0.0",
+    "16 weighted 20%": "0.0"
+   },
+   "definitive_grade": "1.2"
+  },
+  {
+   "student_number": 2,
+   "student_code": "221820595",
+   "student_name": "Bedoya Arias Yesika Milena",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "2.9",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.6",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "4.2",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "2.9",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.0",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.2",
+    "15 - EXAMEN FINAL: Le 8 août": "1.9",
+    "16 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.4",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 3,
+   "student_code": "221825761",
+   "student_name": "Bermudez Carabali Elizabeth",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.5",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "2.0",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "5.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.2",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.4",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.4",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "1.9",
+    "15 - EXAMEN FINAL: Le 8 août": "2.6",
+    "16 - EXAMEN ORAL: Le 15 août": "2.9"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.5",
+    "14 weighted 20%": "0.4",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 4,
+   "student_code": "221713098",
+   "student_name": "Buitrago Acosta Diana",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "5.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.8",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "3.0",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "2.8",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.9"
+   },
+   "component_grades": {
+    "1-12 average": "3.8",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.9",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "3.0",
+    "15 - EXAMEN FINAL: Le 8 août": "2.2",
+    "16 - EXAMEN ORAL: Le 15 août": "2.9"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.8",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.6",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 5,
+   "student_code": "221423777",
+   "student_name": "Castaño Agudelo Jarid Daniela",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.5",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.1",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "5.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "3.0",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.0",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.9"
+   },
+   "component_grades": {
+    "1-12 average": "3.8",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.7",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.2",
+    "15 - EXAMEN FINAL: Le 8 août": "1.8",
+    "16 - EXAMEN ORAL: Le 15 août": "2.6"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.8",
+    "13 weighted 20%": "0.5",
+    "14 weighted 20%": "0.4",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 6,
+   "student_code": "221720788",
+   "student_name": "Castrillon Escudero Vanessa",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.3",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.8",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.0",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "2.3",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.4",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.3",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.6",
+    "15 - EXAMEN FINAL: Le 8 août": "2.5",
+    "16 - EXAMEN ORAL: Le 15 août": "2.9"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.5",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 7,
+   "student_code": "221810957",
+   "student_name": "Estacio Lucero Elizabeth Antonia",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "5.0",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.0",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.3",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.7",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.8",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "3.9",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.7",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "3.8",
+    "15 - EXAMEN FINAL: Le 8 août": "2.4",
+    "16 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.8",
+    "13 weighted 20%": "0.5",
+    "14 weighted 20%": "0.8",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 8,
+   "student_code": "221822448",
+   "student_name": "Grisales Villada Valentina",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.5",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "5.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "4.3",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "4.1",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.2",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.3",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.0",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "3.2",
+    "15 - EXAMEN FINAL: Le 8 août": "2.1",
+    "16 - EXAMEN ORAL: Le 15 août": "2.0"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.4",
+    "14 weighted 20%": "0.6",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.4"
+   },
+   "definitive_grade": "2.5"
+  },
+  {
+   "student_number": 9,
+   "student_code": "221727170",
+   "student_name": "Ibargüen Trejos Gabriel Sebastian",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "5.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "1.2",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "4.0",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.6",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "3.4",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "0.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "3.4",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.3",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "1.7",
+    "15 - EXAMEN FINAL: Le 8 août": "1.7",
+    "16 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.5",
+    "14 weighted 20%": "0.3",
+    "15 weighted 20%": "0.3",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.4"
+  },
+  {
+   "student_number": 10,
+   "student_code": "221821501",
+   "student_name": "León Duarte Laura Nayelly",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.5",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.7",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.6",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.2",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.2",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.3",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "4.3",
+    "15 - EXAMEN FINAL: Le 8 août": "2.6",
+    "16 - EXAMEN ORAL: Le 15 août": "2.4"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.5",
+    "14 weighted 20%": "0.9",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 11,
+   "student_code": "221714535",
+   "student_name": "Londoño Urrea Valeria",
+   "abse": "24.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "1.4",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "1.4",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.0",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "0.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "2.0",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.8",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "1.8",
+    "15 - EXAMEN FINAL: Le 8 août": "1.5",
+    "16 - EXAMEN ORAL: Le 15 août": "1.5"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.4",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.4",
+    "15 weighted 20%": "0.3",
+    "16 weighted 20%": "0.3"
+   },
+   "definitive_grade": "1.9"
+  },
+  {
+   "student_number": 12,
+   "student_code": "221826644",
+   "student_name": "López Gómez Carlos",
+   "abse": "18.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.2",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.3",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.9",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.8",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.8",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "2.9",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.1",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "4.0",
+    "15 - EXAMEN FINAL: Le 8 août": "1.8",
+    "16 - EXAMEN ORAL: Le 15 août": "2.1"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.8",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.4"
+   },
+   "definitive_grade": "2.8"
+  },
+  {
+   "student_number": 13,
+   "student_code": "221721343",
+   "student_name": "Lozano García Santiago Tomás",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "5.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "4.1",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.2",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.0",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.7",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.9",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "3.0",
+    "15 - EXAMEN FINAL: Le 8 août": "2.3",
+    "16 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.6",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 14,
+   "student_code": "221811701",
+   "student_name": "Parra Ortiz Paula Andrea",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.8",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "5.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "4.1",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "5.0",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.4",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "4.7",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "4.2",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "4.0",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.2",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "4.4",
+    "15 - EXAMEN FINAL: Le 8 août": "2.4",
+    "16 - EXAMEN ORAL: Le 15 août": "3.1"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.8",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.9",
+    "15 weighted 20%": "0.5",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.4"
+  },
+  {
+   "student_number": 15,
+   "student_code": "221822512",
+   "student_name": "Rubio Romero David",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.2",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "4.5",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.9",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.2",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.4",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "2.7",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "3.3",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "1.6",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.1",
+    "15 - EXAMEN FINAL: Le 8 août": "1.9",
+    "16 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.3",
+    "14 weighted 20%": "0.4",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.3"
+  },
+  {
+   "student_number": 16,
+   "student_code": "221720854",
+   "student_name": "Serna Rivera Jose Antonio",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "4.0",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "3.3",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "3.4",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "4.2",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "3.0",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "2.1",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.4",
+    "15 - EXAMEN FINAL: Le 8 août": "1.6",
+    "16 - EXAMEN ORAL: Le 15 août": "2.6"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.4",
+    "14 weighted 20%": "0.5",
+    "15 weighted 20%": "0.3",
+    "16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.3"
+  },
+  {
+   "student_number": 17,
+   "student_code": "221717804",
+   "student_name": "Sinisterra Satizabal Yina Gabriela",
+   "abse": "16.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.8",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.5",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.8",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "4.0",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.8",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "2.9",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.0",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.6",
+    "15 - EXAMEN FINAL: Le 8 août": "2.0",
+    "16 - EXAMEN ORAL: Le 15 août": "2.3"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.6",
+    "14 weighted 20%": "0.5",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 18,
+   "student_code": "221824775",
+   "student_name": "Tabares Sánchez Juan Sebastián",
+   "abse": "20.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "5.0",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.3",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "4.2",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.5",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.3",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "2.7",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": "3.0"
+   },
+   "component_grades": {
+    "1-12 average": "2.6",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.4",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "4.4",
+    "15 - EXAMEN FINAL: Le 8 août": "2.8",
+    "16 - EXAMEN ORAL: Le 15 août": "1.7"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.5",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.9",
+    "15 weighted 20%": "0.6",
+    "16 weighted 20%": "0.3"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 19,
+   "student_code": "221810341",
+   "student_name": "Torres Ardila Gesny Johana",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Composition: Suite d'un récit. Le 17 mai.": "3.3",
+    "2 - CONTRÖLE DE LECTURE: Ali Baba (les voleurs, dans la grotte), le 24 mai.": "3.5",
+    "3 - ATELIER: Maquette de la maison. Le 5 juin.": "4.5",
+    "4 - EXPRESSION ORALE: Exposé maquette de la maison. Le 5 juin.": "4.0",
+    "5 - CONTRÖLE DE LECTURE: Ali Baba (Le secret est découvert/Le retour des voleurs).Le 11 juin.": "2.5",
+    "6 - CONTRÖLE DE LECTURE: Ali Baba (Triste retour/Le marchand d'huile). Le 26 juin": "3.2",
+    "7 - EXPRESSION ÉCRITE: Rédaction importance du sport. Le 4 juillet.": "3.0",
+    "8 - EXPRESSION ORALE: interrogation Le Sport. Le 16 juillet.": "",
+    "9 - EXPRESSION ORALE: Des exposes des personnages célèbres. Le 18,19 juillet.": "3.0",
+    "10 - EXPRESSION ECRITE: Composition comparaison. Le 23 juillet.": "",
+    "11 - COMPRÉHENSION ORALE: Contrôle de lecture Le Cheval Enchanté. Le 26 juillet.": "3.4",
+    "12 - EXPRESSION ÉCRITE: Composition en utilisant le Conditionnel Présent. Le 1 août.": ""
+   },
+   "component_grades": {
+    "1-12 average": "2.5",
+    "13 - EXAMEN PARTIEL I. Le 7 juin.": "3.5",
+    "14 - EXAMEN PARTIEL II. Le 11 juillet": "2.6",
+    "15 - EXAMEN FINAL: Le 8 août": "2.2",
+    "16 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-12 weighted 20%": "0.5",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.5",
+    "15 weighted 20%": "0.4",
+    "16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.8"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

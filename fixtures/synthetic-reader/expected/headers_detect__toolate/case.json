@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__toolate",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "toolate",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_detect_toolate.csv"
+}

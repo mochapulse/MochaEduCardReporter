@@ -1,0 +1,116 @@
+{
+ "metadata": {
+  "file_name": "odd_student_rows.csv",
+  "university_name": "UNIVERSITÉ DE TEST",
+  "program_name": "LICENCE LANGUES",
+  "materia_name": "FRANÇAIS I",
+  "group_name": "02",
+  "professor_name": "ANA PÉREZ",
+  "period_name": "2025",
+  "first_twenty_grade_count": 3,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3"
+  ],
+  "component_grade_numbers": [
+   "4"
+  ],
+  "grade_labels": {
+   "1": "EXPRESSION ÉCRITE. Atelier. Le 5 mars.",
+   "2": "COMPRÉHENSION ORALE. Quiz.",
+   "3": "EXPRESSION ORALE: Exposé.",
+   "4": "EXAMEN FINAL. Le 9 mai."
+  },
+  "first_block_weight_label": "30%",
+  "component_weight_labels": {
+   "4": "25%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "c1",
+   "student_name": "Alpha",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE. Atelier. Le 5 mars.": "4.5",
+    "2 - COMPRÉHENSION ORALE. Quiz.": "3.0",
+    "3 - EXPRESSION ORALE: Exposé.": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - EXAMEN FINAL. Le 9 mai.": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 2,
+   "student_code": "",
+   "student_name": "Numonly",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE. Atelier. Le 5 mars.": "4.5",
+    "2 - COMPRÉHENSION ORALE. Quiz.": "3.0",
+    "3 - EXPRESSION ORALE: Exposé.": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - EXAMEN FINAL. Le 9 mai.": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 3,
+   "student_code": "c4",
+   "student_name": "Codeonly",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE. Atelier. Le 5 mars.": "4.5",
+    "2 - COMPRÉHENSION ORALE. Quiz.": "3.0",
+    "3 - EXPRESSION ORALE: Exposé.": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - EXAMEN FINAL. Le 9 mai.": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 4,
+   "student_code": "",
+   "student_name": "Delta",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE. Atelier. Le 5 mars.": "4.5",
+    "2 - COMPRÉHENSION ORALE. Quiz.": "3.0",
+    "3 - EXPRESSION ORALE: Exposé.": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - EXAMEN FINAL. Le 9 mai.": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  }
+ ],
+ "warnings": [
+  "Student enumeration corrected from row order: Codeonly: blank/non-numeric -> 3; Delta: 3 -> 4"
+ ],
+ "error": null
+}

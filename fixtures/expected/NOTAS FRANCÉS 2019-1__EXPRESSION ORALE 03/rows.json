@@ -1,0 +1,1032 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "Alzate Cardona Natalia",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "2.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.4",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "4.2",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.6"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "Betancur Ramírez Mateo",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "3.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "2.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.6",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.1",
+    "20%",
+    "0.6"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "3.7",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.2"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "Correa Ramirez Laura",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.9"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "3.4",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "3.9",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.6",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "4.4",
+    "20%",
+    "0.9"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "3.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.0"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 4,
+  "student_name": "Escalante Villa Daniela",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.9"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "3.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.9",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "2.6",
+    "20%",
+    "0.5"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "3.8",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.4"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 5,
+  "student_name": "Guayara Reyes Yazmin Andrea",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "1.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.4",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "2.6",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.0"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 6,
+  "student_name": "Llanos Mabesoy Ana María",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "3.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "1.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "3.4",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "2.0",
+    "20%",
+    "0.4"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "3.6",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "2.4",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 7,
+  "student_name": "Manso Gómez Daniela",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "3.4",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "1.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.7",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "2.2",
+    "20%",
+    "0.4"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "3.6",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "3.1",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.0"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 8,
+  "student_name": "Naranjo Murillo Dira Estefania",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "4.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "2.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.1",
+    "20%",
+    "0.6"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "4.6",
+    "20%",
+    "0.9"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "2.8",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.6"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 9,
+  "student_name": "Ospina Valencia Juan Diego",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "1.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.2",
+    "20%",
+    "0.4"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.0",
+    "20%",
+    "0.6"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "4.1",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "2.3",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ },
+ {
+  "student_number": 10,
+  "student_name": "Toro Mutumbajoy Paola Andrea",
+  "rows": [
+   [
+    "EXPRESSION ORALE:<br/>Contröle de lecture: Bonjour tristesse chap. 1 et 2.<br/>Le 30 mai.",
+    "5.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 3 et 4.<br/>Le 6 mai.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSIO ORALE:<br/>Exercice d'entraînement.<br/>Le 10 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé les courant artistiques.<br/>Le 20 juin.",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. 5 et 6.<br/>Le 20 juin.",
+    "0.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. I et II.<br/>Le 27 juin.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>Quiz d'écoute.<br/>Le 27 juin",
+    "2.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonjour tristesse chap. III et IV,<br/>Le 8 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Contrôle de lecture: Bonour tristesse chap. V et VI.,<br/>Le 15 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Cotrôle de lecture: Bonjour tristesse chap. VII et VIII.<br/>Le 22 juillet.",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 4 juillet.",
+    "2.7",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXPRESSION ORALE:<br/>B2.<br/>Le 29 juillet.",
+    "3.0",
+    "20%",
+    "0.6"
+   ],
+   [
+    "COMPRÉHENSION ORALE:<br/>B2.<br/>Le 1 août.",
+    "4.2",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXPRESSION ORALE B2:<br/>le 5 août.",
+    "2.8",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.4"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 9,
+   "component_start": 10,
+   "component_end": 13,
+   "final_row": 14
+  }
+ }
+]

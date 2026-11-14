@@ -1,0 +1,9 @@
+{
+ "id": "headers__trailing",
+ "source_file": "headers.xlsx",
+ "sheet": "trailing",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_trailing.csv"
+}

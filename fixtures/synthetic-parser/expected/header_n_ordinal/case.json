@@ -1,0 +1,26 @@
+{
+ "id": "header_n_ordinal",
+ "source_file": "header_n_ordinal.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 3,
+ "audit_report": {
+  "file_name": "header_n_ordinal.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "header_n_ordinal.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 15,
+  "column_count": 12,
+  "empty_cells_count": 122,
+  "null_values_count": 122,
+  "warnings": [
+   "Found 1 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

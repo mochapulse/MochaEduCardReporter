@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__GRADES",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "GRADES",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_detect_GRADES.csv"
+}

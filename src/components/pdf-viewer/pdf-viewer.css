@@ -1,0 +1,88 @@
+/*
+ * Viewer styles that Tailwind utilities do not express. Colors come from the design
+ * tokens, except the page sheet, which is paper and stays white in both themes.
+ */
+
+.pdf-scroll {
+  overflow: auto;
+  overscroll-behavior: contain;
+  position: relative;
+}
+
+/* Smooth page jumps only for people who have not asked for reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .pdf-scroll {
+    scroll-behavior: smooth;
+  }
+}
+
+.pdf-sheet {
+  background-color: white; /* paper: not themed on purpose */
+}
+
+.pdf-page-holder canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+ * pdf.js lays out one absolutely positioned span per text run; the layout depends on
+ * --total-scale-factor, which the engine sets on the container. The text is invisible
+ * but selectable.
+ */
+.pdf-text-layer {
+  position: absolute;
+  inset: 0;
+  overflow: clip;
+  line-height: 1;
+  text-align: initial;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  --min-font-size: 1;
+  --text-scale-factor: calc(var(--total-scale-factor) * var(--min-font-size));
+  --min-font-size-inv: calc(1 / var(--min-font-size));
+}
+
+.pdf-text-layer :is(span, br) {
+  position: absolute;
+  color: transparent;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.pdf-text-layer > :not(.markedContent),
+.pdf-text-layer .markedContent span:not(.markedContent) {
+  --font-height: 0;
+  --scale-x: 1;
+  --rotate: 0deg;
+  font-size: calc(var(--text-scale-factor) * var(--font-height));
+  transform: rotate(var(--rotate)) scaleX(var(--scale-x)) scale(var(--min-font-size-inv));
+}
+
+.pdf-text-layer .markedContent {
+  display: contents;
+}
+
+.pdf-text-layer ::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: transparent;
+}
+
+.pdf-text-layer .endOfContent {
+  display: block;
+  position: absolute;
+  inset: 100% 0 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Line breaks inside the layer must not paint a selection stripe at the page edge. */
+.pdf-text-layer br::selection {
+  background: transparent;
+}

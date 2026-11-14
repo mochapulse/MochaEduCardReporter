@@ -1,0 +1,766 @@
+{
+ "metadata": {
+  "file_name": "NOTAS FRANCÉS 2019-1_FRANCAIS I-01.csv",
+  "university_name": "UNIVERSITÉ DE CALDAS",
+  "program_name": "PROGRAMME DE LANGUES MODERNES",
+  "materia_name": "FRANÇAIS I",
+  "group_name": "01",
+  "professor_name": "JOSÉ FERNANDO RAMÍREZ OSORIO",
+  "period_name": "2019",
+  "first_twenty_grade_count": 8,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "component_grade_numbers": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "grade_labels": {
+   "7": "EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.",
+   "1": "EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.",
+   "8": "COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.",
+   "2": "EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.",
+   "9": "EXAMEN PARTIEL I. Le 5 juin.",
+   "3": "EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.",
+   "10": "EXAMEN PARTIEL II. Le 10 juillet.",
+   "4": "EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.",
+   "11": "EXAMEN FINAL: Le 6 août",
+   "5": "EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.",
+   "12": "EXAMEN ORAL: Le 15 août",
+   "6": "COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet."
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "9": "20%",
+   "10": "20%",
+   "11": "20%",
+   "12": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "221917060",
+   "student_name": "Caicedo Caicedo Thalia Stefan",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "2.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.0",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.4",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.6",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "5.0",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "1.3",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.4",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.2"
+   },
+   "component_grades": {
+    "1-8 average": "3.0",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "2.6",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.3",
+    "11 - EXAMEN FINAL: Le 6 août": "1.7",
+    "12 - EXAMEN ORAL: Le 15 août": "2.4"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.6",
+    "9 weighted 20%": "0.5",
+    "10 weighted 20%": "0.5",
+    "11 weighted 20%": "0.3",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.4"
+  },
+  {
+   "student_number": 2,
+   "student_code": "221914477",
+   "student_name": "Castaño Castaño Cristian Camilo",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.5",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "5.0",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "5.0",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "4.2",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.9"
+   },
+   "component_grades": {
+    "1-8 average": "4.4",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "4.3",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.8",
+    "11 - EXAMEN FINAL: Le 6 août": "4.0",
+    "12 - EXAMEN ORAL: Le 15 août": "2.3"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.9",
+    "9 weighted 20%": "0.9",
+    "10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.8",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.8"
+  },
+  {
+   "student_number": 3,
+   "student_code": "221911999",
+   "student_name": "Cruz Orozco Ana Sofía",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.5",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "5.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "3.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.3",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.2"
+   },
+   "component_grades": {
+    "1-8 average": "3.9",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "4.0",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "4.1",
+    "11 - EXAMEN FINAL: Le 6 août": "3.3",
+    "12 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.8",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.7",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 4,
+   "student_code": "221823190",
+   "student_name": "Escobar Buritica Laura Juliana",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "5.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.1",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.8",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "3.5",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "3.4",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "2.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.4"
+   },
+   "component_grades": {
+    "1-8 average": "3.4",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.7",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.6",
+    "11 - EXAMEN FINAL: Le 6 août": "2.3",
+    "12 - EXAMEN ORAL: Le 15 août": "3.2"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.7",
+    "10 weighted 20%": "0.5",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 5,
+   "student_code": "221918260",
+   "student_name": "Franco Cardona Miguel Angel",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.7",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "2.4",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.5",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.1",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.3",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.4"
+   },
+   "component_grades": {
+    "1-8 average": "3.6",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "4.0",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.7",
+    "11 - EXAMEN FINAL: Le 6 août": "2.5",
+    "12 - EXAMEN ORAL: Le 15 août": "2.7"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.5",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 6,
+   "student_code": "221914823",
+   "student_name": "García Estupiñán Angélica María",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "5.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "5.0",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.8",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.0",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "5.0",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "4.6",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "4.7"
+   },
+   "component_grades": {
+    "1-8 average": "4.7",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "5.0",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "4.7",
+    "11 - EXAMEN FINAL: Le 6 août": "4.6",
+    "12 - EXAMEN ORAL: Le 15 août": "3.2"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.9",
+    "9 weighted 20%": "1.0",
+    "10 weighted 20%": "0.9",
+    "11 weighted 20%": "0.9",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "4.4"
+  },
+  {
+   "student_number": 7,
+   "student_code": "221917260",
+   "student_name": "Giraldo Gonzalez Maria Camila",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "5.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.3",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.4",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.6",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "3.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "5.0",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.4"
+   },
+   "component_grades": {
+    "1-8 average": "3.9",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "2.3",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.8",
+    "11 - EXAMEN FINAL: Le 6 août": "2.0",
+    "12 - EXAMEN ORAL: Le 15 août": "2.4"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.8",
+    "9 weighted 20%": "0.5",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.7"
+  },
+  {
+   "student_number": 8,
+   "student_code": "221821189",
+   "student_name": "Giraldo Oviedo Ana María",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": ""
+   },
+   "component_grades": {
+    "1-8 average": "0.0",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "",
+    "11 - EXAMEN FINAL: Le 6 août": "",
+    "12 - EXAMEN ORAL: Le 15 août": ""
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.0",
+    "9 weighted 20%": "0.0",
+    "10 weighted 20%": "0.0",
+    "11 weighted 20%": "0.0",
+    "12 weighted 20%": "0.0"
+   },
+   "definitive_grade": "0.0"
+  },
+  {
+   "student_number": 9,
+   "student_code": "221820807",
+   "student_name": "Giraldo Soto Yeison Mauricio",
+   "abse": "20.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "2.4",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.7",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.1",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.3"
+   },
+   "component_grades": {
+    "1-8 average": "1.8",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.2",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.0",
+    "11 - EXAMEN FINAL: Le 6 août": "2.1",
+    "12 - EXAMEN ORAL: Le 15 août": "3.3"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.4",
+    "9 weighted 20%": "0.6",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.7"
+   },
+   "definitive_grade": "2.7"
+  },
+  {
+   "student_number": 10,
+   "student_code": "221820087",
+   "student_name": "Gómez Arias Sergio Andrés",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.7",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.9",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "3.4",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.8",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.0"
+   },
+   "component_grades": {
+    "1-8 average": "3.8",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.5",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.8",
+    "11 - EXAMEN FINAL: Le 6 août": "2.5",
+    "12 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.8",
+    "9 weighted 20%": "0.7",
+    "10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 11,
+   "student_code": "221826781",
+   "student_name": "Gómez Ospina Mariana",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.6",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.5",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "3.3",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "1.7",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "2.4",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.8"
+   },
+   "component_grades": {
+    "1-8 average": "3.1",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.6",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.1",
+    "11 - EXAMEN FINAL: Le 6 août": "2.2",
+    "12 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.6",
+    "9 weighted 20%": "0.7",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 12,
+   "student_code": "221822944",
+   "student_name": "Gutierrez León Angela Maria",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "5.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "5.0",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.8",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "5.0",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "3.4",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.4"
+   },
+   "component_grades": {
+    "1-8 average": "4.4",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "4.3",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "4.0",
+    "11 - EXAMEN FINAL: Le 6 août": "4.0",
+    "12 - EXAMEN ORAL: Le 15 août": "3.8"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.9",
+    "9 weighted 20%": "0.9",
+    "10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.8",
+    "12 weighted 20%": "0.8"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 13,
+   "student_code": "221823449",
+   "student_name": "Hincapie Benavides Jant Carlos",
+   "abse": "36.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.5",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.3",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.6"
+   },
+   "component_grades": {
+    "1-8 average": "2.9",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.2",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "1.7",
+    "11 - EXAMEN FINAL: Le 6 août": "1.0",
+    "12 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.6",
+    "9 weighted 20%": "0.6",
+    "10 weighted 20%": "0.3",
+    "11 weighted 20%": "0.2",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.4"
+  },
+  {
+   "student_number": 14,
+   "student_code": "221910994",
+   "student_name": "Lopez Marulanda Natalia",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.7",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.7",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "0.8"
+   },
+   "component_grades": {
+    "1-8 average": "2.5",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.4",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.9",
+    "11 - EXAMEN FINAL: Le 6 août": "2.3",
+    "12 - EXAMEN ORAL: Le 15 août": "2.1"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.5",
+    "9 weighted 20%": "0.7",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.4"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 15,
+   "student_code": "221911218",
+   "student_name": "Muñoz Giraldo Estiven",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.4",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.6",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "5.0",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.7",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.9"
+   },
+   "component_grades": {
+    "1-8 average": "3.7",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.2",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.1",
+    "11 - EXAMEN FINAL: Le 6 août": "2.4",
+    "12 - EXAMEN ORAL: Le 15 août": "2.4"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.6",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 16,
+   "student_code": "221910158",
+   "student_name": "Ospina Velasquez Manuela",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.5",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.2",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.3"
+   },
+   "component_grades": {
+    "1-8 average": "3.6",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.2",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.4",
+    "11 - EXAMEN FINAL: Le 6 août": "1.8",
+    "12 - EXAMEN ORAL: Le 15 août": "2.8"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.6",
+    "10 weighted 20%": "0.5",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.8"
+  },
+  {
+   "student_number": 17,
+   "student_code": "221910896",
+   "student_name": "Ramirez Bastidas Juan Camilo",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.7",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.5",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.0",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.1",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.6"
+   },
+   "component_grades": {
+    "1-8 average": "3.8",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "4.0",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.7",
+    "11 - EXAMEN FINAL: Le 6 août": "3.3",
+    "12 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.8",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.7",
+    "11 weighted 20%": "0.7",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 18,
+   "student_code": "221912072",
+   "student_name": "Ramirez Marulanda Laura Valentina",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.7",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.4",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.5",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.9"
+   },
+   "component_grades": {
+    "1-8 average": "3.6",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.9",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.9",
+    "11 - EXAMEN FINAL: Le 6 août": "2.7",
+    "12 - EXAMEN ORAL: Le 15 août": "2.1"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.4"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 19,
+   "student_code": "221911712",
+   "student_name": "Rios Montes Veronica",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "5.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.9",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "4.7",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.6",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.8",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "5.0",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.3",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "3.0"
+   },
+   "component_grades": {
+    "1-8 average": "4.4",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.9",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.8",
+    "11 - EXAMEN FINAL: Le 6 août": "2.6",
+    "12 - EXAMEN ORAL: Le 15 août": "2.0"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.9",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.4"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 20,
+   "student_code": "221913817",
+   "student_name": "Sabogal Olarte Sofía",
+   "abse": "8.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.0",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "2.8",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.0",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.0",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.9",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "3.1",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.6"
+   },
+   "component_grades": {
+    "1-8 average": "2.6",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.8",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.0",
+    "11 - EXAMEN FINAL: Le 6 août": "2.2",
+    "12 - EXAMEN ORAL: Le 15 août": "3.2"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.5",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 21,
+   "student_code": "221914028",
+   "student_name": "Tamayo Pardo Vanessa",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "2.2",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.6",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "4.6",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.1",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "2.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "1.6"
+   },
+   "component_grades": {
+    "1-8 average": "3.2",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.0",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.6",
+    "11 - EXAMEN FINAL: Le 6 août": "1.7",
+    "12 - EXAMEN ORAL: Le 15 août": "2.3"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.6",
+    "9 weighted 20%": "0.6",
+    "10 weighted 20%": "0.5",
+    "11 weighted 20%": "0.3",
+    "12 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 22,
+   "student_code": "221912570",
+   "student_name": "Tamayo Vargas Sergio",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "3.2",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "3.7",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "3.5",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "2.8",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "4.9",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "2.9",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "4.3",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "3.3"
+   },
+   "component_grades": {
+    "1-8 average": "3.6",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.9",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "3.2",
+    "11 - EXAMEN FINAL: Le 6 août": "2.7",
+    "12 - EXAMEN ORAL: Le 15 août": "3.0"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.7",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 23,
+   "student_code": "221814787",
+   "student_name": "Valencia Buitrago Mateo",
+   "abse": "20.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ÉCRITE: Présentation de l'artiste préféré. Le 21 mai.": "4.8",
+    "2 - EXPRESSION ECRITE: Quiz: Les nombres. Le 27 mai.": "4.3",
+    "3 - EXPRESSION ÉCRITE: Composition: Les loisirs. Le 19 juin.": "",
+    "4 - EXPRESSION ÉCRITE: Description de la famille. Le 20 juin.": "",
+    "5 - EXPRESSION ÉCRITE: Composition: Ce que vous mangez. Le 18 juillet.": "2.5",
+    "6 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 24 juillet.": "3.4",
+    "7 - EXPRESSION ÉCRITE: La Photo de classe., Le 24 juillet.": "2.6",
+    "8 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 5 août.": "2.0"
+   },
+   "component_grades": {
+    "1-8 average": "2.5",
+    "9 - EXAMEN PARTIEL I. Le 5 juin.": "3.9",
+    "10 - EXAMEN PARTIEL II. Le 10 juillet.": "2.9",
+    "11 - EXAMEN FINAL: Le 6 août": "2.0",
+    "12 - EXAMEN ORAL: Le 15 août": "3.5"
+   },
+   "weighted_components": {
+    "1-8 weighted 20%": "0.5",
+    "9 weighted 20%": "0.8",
+    "10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.0"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

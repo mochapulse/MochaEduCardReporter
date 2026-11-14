@@ -1,0 +1,24 @@
+{
+ "id": "carnet_header_variants_FRANCES",
+ "source_file": "carnet_header_variants_FRANCES.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 1,
+ "audit_report": {
+  "file_name": "carnet_header_variants_FRANCES.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "carnet_header_variants_FRANCES.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 6,
+  "column_count": 5,
+  "empty_cells_count": 12,
+  "null_values_count": 12,
+  "warnings": [],
+  "status": "success"
+ }
+}

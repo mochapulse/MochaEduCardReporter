@@ -1,0 +1,164 @@
+{
+ "timestamp_iso": "2026-01-15 10:00:00",
+ "engine_sha256": "4d4c1e7ae03e323c0f24d171ceb53455476d3f6254927846072773eff157464f",
+ "files": [
+  {
+   "file": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+   "sheets": [
+    "FRANCAIS IV MATIN",
+    "FRANÇAIS IV APRÈS-MIDI"
+   ],
+   "sheets_including_empty": [
+    "FRANCAIS IV MATIN",
+    "FRANÇAIS IV APRÈS-MIDI"
+   ]
+  },
+  {
+   "file": "NOTAS FRANCÉS 2019-1.xls",
+   "sheets": [
+    "FRANCAIS I-01",
+    "FRANCAIS II-01",
+    "EXPRESSION ORALE 03"
+   ],
+   "sheets_including_empty": [
+    "FRANCAIS I-01",
+    "FRANCAIS II-01",
+    "EXPRESSION ORALE 03",
+    "Hoja1"
+   ]
+  },
+  {
+   "file": "NOTAS FRANCÉS 2025-2.xls",
+   "sheets": [
+    "FRANCAIS IV LE MATIN",
+    "FRANCAIS IV L'APRÈS-MIDI",
+    "LENGUA FRANCESA (2)"
+   ],
+   "sheets_including_empty": [
+    "FRANCAIS IV LE MATIN",
+    "FRANCAIS IV L'APRÈS-MIDI",
+    "LENGUA FRANCESA (2)",
+    "Hoja1"
+   ]
+  }
+ ],
+ "cases": [
+  {
+   "id": "CARNET DE NOTES FRANÇAIS IV 2025__FRANCAIS IV MATIN",
+   "dir": "CARNET DE NOTES FRANÇAIS IV 2025__FRANCAIS IV MATIN",
+   "source_file": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+   "sheet": "FRANCAIS IV MATIN",
+   "ok": true,
+   "status": "success",
+   "student_count": 23
+  },
+  {
+   "id": "CARNET DE NOTES FRANÇAIS IV 2025__FRANÇAIS IV APRÈS-MIDI",
+   "dir": "CARNET DE NOTES FRANÇAIS IV 2025__FRANÇAIS IV APRÈS-MIDI",
+   "source_file": "CARNET DE NOTES FRANÇAIS IV 2025.xlsx",
+   "sheet": "FRANÇAIS IV APRÈS-MIDI",
+   "ok": true,
+   "status": "success",
+   "student_count": 11
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1__FRANCAIS I-01",
+   "dir": "NOTAS FRANCÉS 2019-1__FRANCAIS I-01",
+   "source_file": "NOTAS FRANCÉS 2019-1.xls",
+   "sheet": "FRANCAIS I-01",
+   "ok": true,
+   "status": "success",
+   "student_count": 23
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1__FRANCAIS II-01",
+   "dir": "NOTAS FRANCÉS 2019-1__FRANCAIS II-01",
+   "source_file": "NOTAS FRANCÉS 2019-1.xls",
+   "sheet": "FRANCAIS II-01",
+   "ok": true,
+   "status": "success",
+   "student_count": 19
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1__EXPRESSION ORALE 03",
+   "dir": "NOTAS FRANCÉS 2019-1__EXPRESSION ORALE 03",
+   "source_file": "NOTAS FRANCÉS 2019-1.xls",
+   "sheet": "EXPRESSION ORALE 03",
+   "ok": true,
+   "status": "success",
+   "student_count": 10
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1_EXPRESSION ORALE 03",
+   "dir": "NOTAS FRANCÉS 2019-1_EXPRESSION ORALE 03",
+   "source_file": "NOTAS FRANCÉS 2019-1_EXPRESSION ORALE 03.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 10
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1_FRANCAIS I-01",
+   "dir": "NOTAS FRANCÉS 2019-1_FRANCAIS I-01",
+   "source_file": "NOTAS FRANCÉS 2019-1_FRANCAIS I-01.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 23
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01",
+   "dir": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01",
+   "source_file": "NOTAS FRANCÉS 2019-1_FRANCAIS II-01.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 19
+  },
+  {
+   "id": "NOTAS FRANCÉS 2019-1_Hoja1",
+   "dir": "NOTAS FRANCÉS 2019-1_Hoja1",
+   "source_file": "NOTAS FRANCÉS 2019-1_Hoja1.csv",
+   "sheet": null,
+   "ok": false,
+   "status": "corrupted",
+   "student_count": 0
+  },
+  {
+   "id": "NOTAS FRANCÉS 2025-2__FRANCAIS IV LE MATIN",
+   "dir": "NOTAS FRANCÉS 2025-2__FRANCAIS IV LE MATIN",
+   "source_file": "NOTAS FRANCÉS 2025-2.xls",
+   "sheet": "FRANCAIS IV LE MATIN",
+   "ok": true,
+   "status": "success",
+   "student_count": 27
+  },
+  {
+   "id": "NOTAS FRANCÉS 2025-2__FRANCAIS IV L'APRÈS-MIDI",
+   "dir": "NOTAS FRANCÉS 2025-2__FRANCAIS IV L'APRÈS-MIDI",
+   "source_file": "NOTAS FRANCÉS 2025-2.xls",
+   "sheet": "FRANCAIS IV L'APRÈS-MIDI",
+   "ok": true,
+   "status": "success",
+   "student_count": 20
+  },
+  {
+   "id": "NOTAS FRANCÉS 2025-2__LENGUA FRANCESA (2)",
+   "dir": "NOTAS FRANCÉS 2025-2__LENGUA FRANCESA (2)",
+   "source_file": "NOTAS FRANCÉS 2025-2.xls",
+   "sheet": "LENGUA FRANCESA (2)",
+   "ok": true,
+   "status": "success",
+   "student_count": 20
+  },
+  {
+   "id": "NOTAS FRANCÉS 2025-2_FRANCAIS IV LE MATIN",
+   "dir": "NOTAS FRANCÉS 2025-2_FRANCAIS IV LE MATIN",
+   "source_file": "NOTAS FRANCÉS 2025-2_FRANCAIS IV LE MATIN.csv",
+   "sheet": null,
+   "ok": true,
+   "status": "success",
+   "student_count": 27
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "metadata": {
+  "file_name": "NOTAS FRANCÉS 2019-1_EXPRESSION ORALE 03.csv",
+  "university_name": "UNIVERSITÉ DE CALDAS",
+  "program_name": "PROGRAMME DE LANGUES MODERNES",
+  "materia_name": "EXPRESSION ORALE",
+  "group_name": "03",
+  "professor_name": "JOSÉ FERNANDO RAMÍREZ OSORIO",
+  "period_name": "2019",
+  "first_twenty_grade_count": 10,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "component_grade_numbers": [
+   "11",
+   "12",
+   "13",
+   "14"
+  ],
+  "grade_labels": {
+   "1": "EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.",
+   "10": "EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.",
+   "2": "EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.",
+   "11": "COMPRÉHENSION ORALE: B2. Le 4 juillet.",
+   "3": "COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.",
+   "12": "EXPRESSION ORALE: B2. Le 29 juillet.",
+   "4": "EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.",
+   "13": "COMPRÉHENSION ORALE: B2. Le 1 août.",
+   "5": "EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.",
+   "14": "EXPRESSION ORALE B2: le 5 août.",
+   "6": "EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.",
+   "7": "COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin",
+   "8": "EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.",
+   "9": "EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet."
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "11": "20%",
+   "12": "20%",
+   "13": "20%",
+   "14": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "221713273",
+   "student_name": "Alzate Cardona Natalia",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.9",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "2.0",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.1",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "3.2",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.4",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "4.2",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "3.2"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.6",
+    "12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.8",
+    "14 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 2,
+   "student_code": "221522533",
+   "student_name": "Betancur Ramírez Mateo",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "3.7",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.0",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "2.3",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "3.4",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.6",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.1",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "3.7",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "3.3"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.7",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 3,
+   "student_code": "221717759",
+   "student_name": "Correa Ramirez Laura",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "4.7",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.9",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "3.4",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.7",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "3.9",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.6",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "4.4",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "3.5"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.9",
+    "11 weighted 20%": "0.8",
+    "12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.9",
+    "14 weighted 20%": "0.7"
+   },
+   "definitive_grade": "4.0"
+  },
+  {
+   "student_number": 4,
+   "student_code": "221623958",
+   "student_name": "Escalante Villa Daniela",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "3.7",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.3",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "2.5",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.5",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.9",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "2.6",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "3.8",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "3.3"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.9",
+    "11 weighted 20%": "0.6",
+    "12 weighted 20%": "0.5",
+    "13 weighted 20%": "0.8",
+    "14 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.4"
+  },
+  {
+   "student_number": 5,
+   "student_code": "221713520",
+   "student_name": "Guayara Reyes Yazmin Andrea",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "3.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "1.3",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "3.0"
+   },
+   "component_grades": {
+    "1-10 average": "3.2",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.4",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.3",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "3.3",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "2.6"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.7",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 6,
+   "student_code": "221622580",
+   "student_name": "Llanos Mabesoy Ana María",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "3.7",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.2",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "1.1",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "3.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.1",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "3.4",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "2.0",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "3.6",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "2.4"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.7",
+    "12 weighted 20%": "0.4",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 7,
+   "student_code": "221514348",
+   "student_name": "Manso Gómez Daniela",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "3.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "3.4",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.0",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "3.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "1.7",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "3.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "3.2",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.7",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "2.2",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "3.6",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "3.1"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.6",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.4",
+    "13 weighted 20%": "0.7",
+    "14 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 8,
+   "student_code": "221710692",
+   "student_name": "Naranjo Murillo Dira Estefania",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "4.7",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "4.2",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "3.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "2.0",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "3.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.2",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "3.2",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.1",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "4.6",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "2.8"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.6",
+    "12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.9",
+    "14 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 9,
+   "student_code": "221626765",
+   "student_name": "Ospina Valencia Juan Diego",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.2",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "5.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "3.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "1.0",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "3.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.0",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.2",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.0",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "4.1",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "2.3"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.4",
+    "12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.8",
+    "14 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 10,
+   "student_code": "221627214",
+   "student_name": "Toro Mutumbajoy Paola Andrea",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - EXPRESSION ORALE: Contröle de lecture: Bonjour tristesse chap. 1 et 2. Le 30 mai.": "5.0",
+    "2 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 3 et 4. Le 6 mai.": "5.0",
+    "3 - COMPRÉHENSIO ORALE: Exercice d'entraînement. Le 10 juin.": "5.0",
+    "4 - EXPRESSION ORALE: Exposé les courant artistiques. Le 20 juin.": "3.9",
+    "5 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. 5 et 6. Le 20 juin.": "0.0",
+    "6 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap.I et II. Le 27 juin.": "5.0",
+    "7 - COMPRÉHENSION ORALE: Quiz d'écoute. Le 27 juin": "2.3",
+    "8 - EXPRESSION ORALE: Contrôle de lecture: Bonjour tristesse chap. III et IV, Le 8 juillet.": "5.0",
+    "9 - EXPRESSION ORALE: Contrôle de lecture: Bonour tristesse chap. V et VI., Le 15 juillet.": "5.0",
+    "10 - EXPRESSION ORALE: Cotrôle de lecture: Bonjour tristesse chap. VII et VIII. Le 22 juillet.": "5.0"
+   },
+   "component_grades": {
+    "1-10 average": "4.1",
+    "11 - COMPRÉHENSION ORALE: B2. Le 4 juillet.": "2.7",
+    "12 - EXPRESSION ORALE: B2. Le 29 juillet.": "3.0",
+    "13 - COMPRÉHENSION ORALE: B2. Le 1 août.": "4.2",
+    "14 - EXPRESSION ORALE B2: le 5 août.": "2.8"
+   },
+   "weighted_components": {
+    "1-10 weighted 20%": "0.8",
+    "11 weighted 20%": "0.5",
+    "12 weighted 20%": "0.6",
+    "13 weighted 20%": "0.8",
+    "14 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.4"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

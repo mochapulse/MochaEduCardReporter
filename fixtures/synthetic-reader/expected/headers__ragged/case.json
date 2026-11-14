@@ -1,0 +1,9 @@
+{
+ "id": "headers__ragged",
+ "source_file": "headers.xlsx",
+ "sheet": "ragged",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_ragged.csv"
+}

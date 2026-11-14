@@ -1,0 +1,9 @@
+{
+ "id": "csv_fz241",
+ "source_file": "csv_fz241.csv",
+ "sheet": null,
+ "status": "parse_error",
+ "ok": true,
+ "grid_error": "ParserError: Error tokenizing data. C error: Expected 1 fields in line 2, saw 3\n",
+ "csv_file_name": "/tmp/oracle_ifygfmi5/csv_fz241.csv"
+}

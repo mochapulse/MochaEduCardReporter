@@ -1,0 +1,9 @@
+{
+ "id": "csv_enddelim",
+ "source_file": "csv_enddelim.csv",
+ "sheet": null,
+ "status": "parse_error",
+ "ok": true,
+ "grid_error": "ParserError: Error tokenizing data. C error: Expected 2 fields in line 2, saw 3\n",
+ "csv_file_name": "/tmp/oracle_8o4v1eo1/csv_enddelim.csv"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "NOTAS FRANCÉS 2019-1__EXPRESSION ORALE 03",
+ "source_file": "NOTAS FRANCÉS 2019-1.xls",
+ "sheet": "EXPRESSION ORALE 03",
+ "status": "success",
+ "ok": true,
+ "student_count": 10,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2019-1.xls",
+  "sheet_name": "EXPRESSION ORALE 03",
+  "original_format": ".xls",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2019-1_EXPRESSION ORALE 03.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 39,
+  "column_count": 25,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

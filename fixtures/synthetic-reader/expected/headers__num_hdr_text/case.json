@@ -1,0 +1,9 @@
+{
+ "id": "headers__num_hdr_text",
+ "source_file": "headers.xlsx",
+ "sheet": "num_hdr_text",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_num_hdr_text.csv"
+}

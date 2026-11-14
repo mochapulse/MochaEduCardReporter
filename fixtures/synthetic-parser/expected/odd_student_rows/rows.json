@@ -1,0 +1,174 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "Alpha",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "4.5",
+    "30%",
+    "1.0"
+   ],
+   [
+    "COMPRÉHENSION ORALE.<br/>Quiz.",
+    "3.0",
+    "30%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé.",
+    "2.8",
+    "30%",
+    ""
+   ],
+   [
+    "EXAMEN FINAL.<br/>Le 9 mai.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "Numonly",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "4.5",
+    "30%",
+    "1.0"
+   ],
+   [
+    "COMPRÉHENSION ORALE.<br/>Quiz.",
+    "3.0",
+    "30%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé.",
+    "2.8",
+    "30%",
+    ""
+   ],
+   [
+    "EXAMEN FINAL.<br/>Le 9 mai.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "Codeonly",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "4.5",
+    "30%",
+    "1.0"
+   ],
+   [
+    "COMPRÉHENSION ORALE.<br/>Quiz.",
+    "3.0",
+    "30%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé.",
+    "2.8",
+    "30%",
+    ""
+   ],
+   [
+    "EXAMEN FINAL.<br/>Le 9 mai.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ },
+ {
+  "student_number": 4,
+  "student_name": "Delta",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier.<br/>Le 5 mars.",
+    "4.5",
+    "30%",
+    "1.0"
+   ],
+   [
+    "COMPRÉHENSION ORALE.<br/>Quiz.",
+    "3.0",
+    "30%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE:<br/>Exposé.",
+    "2.8",
+    "30%",
+    ""
+   ],
+   [
+    "EXAMEN FINAL.<br/>Le 9 mai.",
+    "3.9",
+    "25%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 2,
+   "component_start": 3,
+   "component_end": 3,
+   "final_row": 4
+  }
+ }
+]

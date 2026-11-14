@@ -1,0 +1,94 @@
+{
+ "metadata": {
+  "file_name": "carnet 2024_FRANCAIS DEMO_A.csv",
+  "university_name": "",
+  "program_name": "",
+  "materia_name": "Unnamed",
+  "group_name": "FRANCAIS DEMO A",
+  "professor_name": "",
+  "period_name": "2024",
+  "first_twenty_grade_count": 2,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2"
+  ],
+  "component_grade_numbers": [
+   "3",
+   "4"
+  ],
+  "grade_labels": {
+   "1": "COMPÉTENCE. Quiz",
+   "2": "EXPRESSION ORALE",
+   "3": "EXAMEN PARTIEL",
+   "4": "EXAMEN FINAL"
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "3": "20%",
+   "4": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "",
+   "student_name": "ALPHA ONE",
+   "abse": "2.5",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE. Quiz": "4.5",
+    "2 - EXPRESSION ORALE": "3.5"
+   },
+   "component_grades": {
+    "3 - EXAMEN PARTIEL": "4.0",
+    "4 - EXAMEN FINAL": "3.0",
+    "1-2 average": "3.2"
+   },
+   "weighted_components": {
+    "3 weighted 20%": "0.8",
+    "4 weighted 20%": "0.6",
+    "1-2 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.7"
+  },
+  {
+   "student_number": 2,
+   "student_code": "",
+   "student_name": "BETA TWO",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE. Quiz": "4.5",
+    "2 - EXPRESSION ORALE": "3.5"
+   },
+   "component_grades": {
+    "1-2 average": "3.2"
+   },
+   "weighted_components": {
+    "1-2 weighted 20%": "0.6"
+   },
+   "definitive_grade": ""
+  },
+  {
+   "student_number": 3,
+   "student_code": "",
+   "student_name": "GAMMA",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE. Quiz": "4.5",
+    "2 - EXPRESSION ORALE": "3.5"
+   },
+   "component_grades": {
+    "3 - EXAMEN PARTIEL": "4.0",
+    "4 - EXAMEN FINAL": "3.0",
+    "1-2 average": "3.2"
+   },
+   "weighted_components": {
+    "3 weighted 20%": "0.8",
+    "4 weighted 20%": "0.6",
+    "1-2 weighted 20%": "0.6"
+   },
+   "definitive_grade": ""
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

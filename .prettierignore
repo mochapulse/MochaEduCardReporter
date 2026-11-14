@@ -1,0 +1,16 @@
+node_modules
+dist
+target
+crates
+legacy
+fixtures
+tools
+corpus-private
+lancedb
+.atl
+src-tauri
+pnpm-lock.yaml
+*.md
+*.toml
+*.lock
+src/lib/bindings.ts

@@ -1,0 +1,9 @@
+{
+ "id": "headers__onecol_blank_hdr",
+ "source_file": "headers.xlsx",
+ "sheet": "onecol_blank_hdr",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_onecol_blank_hdr.csv"
+}

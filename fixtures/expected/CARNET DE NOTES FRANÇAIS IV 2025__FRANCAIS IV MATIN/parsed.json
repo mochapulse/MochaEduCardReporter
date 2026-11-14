@@ -1,0 +1,966 @@
+{
+ "metadata": {
+  "file_name": "CARNET DE NOTES FRANÇAIS IV 2025_FRANCAIS IV MATIN.csv",
+  "university_name": "",
+  "program_name": "",
+  "materia_name": "FRANÇAIS IV",
+  "group_name": "FRANCAIS IV MATIN",
+  "professor_name": "",
+  "period_name": "2025",
+  "first_twenty_grade_count": 16,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "component_grade_numbers": [
+   "17",
+   "18",
+   "19",
+   "20"
+  ],
+  "grade_labels": {
+   "1": "COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,",
+   "2": "COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,",
+   "3": "COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,",
+   "4": "EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,",
+   "5": "EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,",
+   "6": "COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,",
+   "7": "COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,",
+   "8": "EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,",
+   "9": "COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,",
+   "10": "EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,",
+   "11": "EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,",
+   "12": "COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,",
+   "13": "COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,",
+   "14": "EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,",
+   "15": "COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,",
+   "16": "EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,",
+   "17": "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+   "18": "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+   "19": "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+   "20": "EXAMEN ORAL Le 20 novembre 2025,"
+  },
+  "first_block_weight_label": "20%",
+  "component_weight_labels": {
+   "17": "20%",
+   "18": "20%",
+   "19": "20%",
+   "20": "20%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "",
+   "student_name": "AGUILAR GONZALEZ LORENA",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.5",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "3.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.5",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.5",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.3",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "2.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "0.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.7",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.9"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.0",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "2.8",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.4",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.6",
+    "1-16 average": "3.2"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.6",
+    "18 weighted 20%": "0.6",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.8"
+  },
+  {
+   "student_number": 2,
+   "student_code": "",
+   "student_name": "ARCILA CASTAÑO HAROLD STIVEN",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "3.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.6",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.8",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "0.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.6",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.3",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "2.9",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.5",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.6",
+    "1-16 average": "2.9"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.6",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.8"
+  },
+  {
+   "student_number": 3,
+   "student_code": "",
+   "student_name": "ARENAS GIRALDO VALENTINA",
+   "abse": "16.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.7",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.8",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.3",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.7",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.7",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.8",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.3",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "3.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "5.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.4",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.4",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.9",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.7",
+    "1-16 average": "3.8"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.6",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 4,
+   "student_code": "",
+   "student_name": "BUSTOS OSPINA KAREN SOFIA",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.5",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.1",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.7",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.4",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.9",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.4",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.3",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.7",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.6",
+    "1-16 average": "3.8"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 5,
+   "student_code": "",
+   "student_name": "GAMBOA QUINTERO LAURA VALENTINA",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.6",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "3.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.1",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "5.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.8",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.1",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.7",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.5",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "2.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "1.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.4",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "1.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.5"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.1",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.2",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.4",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.7",
+    "1-16 average": "3.4"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.6",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 6,
+   "student_code": "",
+   "student_name": "GARCES CASTAÑEDA VALENTINA",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "2.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "2.4",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.9",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.6",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.5",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "5.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.6",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "4.4",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "3.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "5.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "2.6",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.4",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.7",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.9",
+    "1-16 average": "3.2"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.5",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 7,
+   "student_code": "",
+   "student_name": "GOMEZ MUÑOZ JUAN DAVID",
+   "abse": "0.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.8",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "5.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.8",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.4",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.2",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "4.2",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "2.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "4.1",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "5.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "4.0",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.7",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.2",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.2",
+    "1-16 average": "4.1"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.8",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.6",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 8,
+   "student_code": "",
+   "student_name": "GONZALEZ SANGRONIS ARIANGEL JOSE",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.5",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "3.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.7",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "3.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "5.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.9",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.9",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.9",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "4.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.0",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "5.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "2.6",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.5",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.7",
+    "1-16 average": "3.7"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.5",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.0"
+  },
+  {
+   "student_number": 9,
+   "student_code": "",
+   "student_name": "HENAO QUINTERO VALENTINA",
+   "abse": "14.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.8",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "3.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.3",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "3.8",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.8",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.1",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.2",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.5",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "2.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.3",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "3.8",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.5"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.0",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "2.4",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.3",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.9",
+    "1-16 average": "3.5"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.6",
+    "18 weighted 20%": "0.5",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.7"
+   },
+   "definitive_grade": "2.8"
+  },
+  {
+   "student_number": 10,
+   "student_code": "",
+   "student_name": "LOAIZA CARDONA JOSÉ DAVID",
+   "abse": "6.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.5",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "1.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "3.8",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.8",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.5",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.4",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.9",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "1.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "0.5"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.2",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.9",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.6",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.0",
+    "1-16 average": "2.9"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.6",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 11,
+   "student_code": "",
+   "student_name": "MARIN RAMIREZ JUAN ANDRÉS",
+   "abse": "10.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "3.3",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "1.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "3.7",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "1.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "2.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": ""
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "2.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.2",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "1.8",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.1",
+    "1-16 average": "2.1"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.5",
+    "18 weighted 20%": "0.6",
+    "19 weighted 20%": "0.4",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.4"
+   },
+   "definitive_grade": "2.6"
+  },
+  {
+   "student_number": 12,
+   "student_code": "",
+   "student_name": "MARTINEZ VALENCIA ROMEO",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.8",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "2.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.1",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.9",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.4",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "5.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "5.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "5.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.4",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.1",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.6",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.5",
+    "1-16 average": "2.7"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.7",
+    "1-16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 13,
+   "student_code": "",
+   "student_name": "MURIEL GONZALEZ SERGIO",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.2",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.3",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "4.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.8",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "2.9",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.3",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.3",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.2",
+    "1-16 average": "3.7"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.6",
+    "18 weighted 20%": "0.9",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.7"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 14,
+   "student_code": "",
+   "student_name": "OSINA HERNANDEZ JENIFER",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.8",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "5.0",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "5.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "4.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.2",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "5.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "4.2",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.6",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.5"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.0",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.6",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.1",
+    "1-16 average": "4.3"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.7",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.9"
+   },
+   "definitive_grade": "3.7"
+  },
+  {
+   "student_number": 15,
+   "student_code": "",
+   "student_name": "PULIDO RAMIREZ BRENDA ISABEL",
+   "abse": "",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "5.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "5.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "5.0",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "5.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.5",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "5.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.1",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.9",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.4",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "5.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "5.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "4.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "4.9",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.9"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "5.0",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.8",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "4.0",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.9",
+    "1-16 average": "4.8"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "1.0",
+    "18 weighted 20%": "1.0",
+    "19 weighted 20%": "0.8",
+    "20 weighted 20%": "0.8",
+    "1-16 weighted 20%": "1.0"
+   },
+   "definitive_grade": "4.5"
+  },
+  {
+   "student_number": 16,
+   "student_code": "",
+   "student_name": "QUINTERO AGUDELO MARIA CAMILA",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.7",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "1.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.5",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.8",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.8",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.4",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.4",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "2.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.8",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "1.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": ""
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "2.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "2.4",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "1.9",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.0",
+    "1-16 average": "2.4"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.5",
+    "18 weighted 20%": "0.5",
+    "19 weighted 20%": "0.4",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.5"
+   },
+   "definitive_grade": "2.5"
+  },
+  {
+   "student_number": 17,
+   "student_code": "",
+   "student_name": "QUINTERO BETANCURTH MARIANA",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.7",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.3",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.5",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "4.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.3",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.7",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.8",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.3",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.5",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.8",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.6",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.8",
+    "1-16 average": "3.9"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.7",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.5"
+  },
+  {
+   "student_number": 18,
+   "student_code": "",
+   "student_name": "QUIÑONES ERASO WISTON JONATHAN",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "1.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "3.5",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "3.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.2",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.3",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "1.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.8"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "1.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.3",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.2",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.5",
+    "1-16 average": "3.0"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.3",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.4",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.6"
+   },
+   "definitive_grade": "2.5"
+  },
+  {
+   "student_number": 19,
+   "student_code": "",
+   "student_name": "RODRIGUEZ ZAMBRANO MARIA JOSE",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.8",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "5.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.3",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "4.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.7",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.7",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.8",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.8",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.7"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.5",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.0",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.0",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.5",
+    "1-16 average": "4.0"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.6",
+    "19 weighted 20%": "0.6",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.2"
+  },
+  {
+   "student_number": 20,
+   "student_code": "",
+   "student_name": "ROMAN LOPEZ SOPHIA",
+   "abse": "12.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.0",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.4",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "5.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.8",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.9",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "5.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.6",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.0",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "4.0",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "3.5",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "5.0"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.3",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.7",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.7",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.7",
+    "1-16 average": "3.9"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.3"
+  },
+  {
+   "student_number": 21,
+   "student_code": "",
+   "student_name": "ROSAS CASTRO MARIA ANDREA",
+   "abse": "2.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.9",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.8",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.2",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "5.0",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.9",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "5.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "4.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "4.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "4.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "4.0",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "4.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.8"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.6",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.7",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.6",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.8",
+    "1-16 average": "4.3"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.7",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.9"
+   },
+   "definitive_grade": "3.6"
+  },
+  {
+   "student_number": 22,
+   "student_code": "",
+   "student_name": "SANABRIA SIERRA VALERIA",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.6",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.0",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "3.9",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.5",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "3.5",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "2.0",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.1",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "3.7",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "4.2",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "4.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.0",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.0",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "2.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.7",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "5.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.5"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "2.7",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "3.5",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "2.3",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "3.1",
+    "1-16 average": "3.8"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.5",
+    "18 weighted 20%": "0.7",
+    "19 weighted 20%": "0.5",
+    "20 weighted 20%": "0.6",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.1"
+  },
+  {
+   "student_number": 23,
+   "student_code": "",
+   "student_name": "VALENCIA MONTENEGRO SHARIK DAHIANA",
+   "abse": "4.0",
+   "first_twenty_grades": {
+    "1 - COMPÉTENCE LINGUISTIQUE. Révision atelier temps de l'indicatif. Le 20 août 2025,": "4.7",
+    "2 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres I à V. Liv1 Le 28 août 2025,": "4.5",
+    "3 - COMPÉTENCE LINGUISTIQUE. Quiz Passé Simple. Le 4 septembre 2025,": "4.6",
+    "4 - EXPRESSION ÉCRITE. Chemise exploitation du livre Le Rouge et le Noir, Le 15 septembre 2025,": "4.0",
+    "5 - EXPRESSION ÉCRITE. Atelier: Les Souvenirs (La Gloire de mon père). Le 16 septembre 2025,": "4.0",
+    "6 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. Le 25 septembre 2025,": "3.5",
+    "7 - COMPRÉHENSION ORALE. Interrogation: Les différences entre le film et le livre R et N. Le 2 octobre 2025,": "4.1",
+    "8 - EXPRESSION ORALE. Des exposés: Les courants littéraires. Le 14 octobre 2025,": "4.0",
+    "9 - COMPRÉHENSION ORALE. Des exposés: Performance de l'équipe les courants littér. Le 14 octobre 2025,": "3.1",
+    "10 - EXPRESSION ORALE. Exploitation: Le Rouge et le Noir, chapitres I à V. Livre second. Le 22 octobre 2025,": "3.0",
+    "11 - EXPRESSION ÉCRITE. Composition: Des conseils pour bien gérer l'argent. Le 23 octobre 2025,": "3.5",
+    "12 - COMPRÉHENSION ÉCRITE. Quiz de lecture: Article de presse. Le 28 octobre 2025,": "3.5",
+    "13 - COMPRÉHENSION ÉCRITE. Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. Liv.S. Le 30 octobre 2025,": "3.5",
+    "14 - EXPRESSION ORALE. Discours improvisé. Le 30 octobre 2025,": "3.2",
+    "15 - COMPRÉHENSION ORALE. Quiz d'écoute. Le 6 novembre 2025,": "3.0",
+    "16 - EXPRESSION ÉCRITE. Composition: Activité de relatifs composés. Le 10 novembre 2025,": "4.7"
+   },
+   "component_grades": {
+    "17 - EXAMEN PARTIEL I Le 10 et 11 septembre 2025": "3.3",
+    "18 - EXAMEN PARTIEL II Le 8 et 9 octobre 2025,": "4.1",
+    "19 - EXAMEN FINAL Le 18 et 19 novembre 2025,": "3.2",
+    "20 - EXAMEN ORAL Le 20 novembre 2025,": "2.7",
+    "1-16 average": "3.8"
+   },
+   "weighted_components": {
+    "17 weighted 20%": "0.7",
+    "18 weighted 20%": "0.8",
+    "19 weighted 20%": "0.6",
+    "20 weighted 20%": "0.5",
+    "1-16 weighted 20%": "0.8"
+   },
+   "definitive_grade": "3.4"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

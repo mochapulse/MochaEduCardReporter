@@ -1,0 +1,9 @@
+{
+ "id": "headers__dupe2",
+ "source_file": "headers.xlsx",
+ "sheet": "dupe2",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_dupe2.csv"
+}

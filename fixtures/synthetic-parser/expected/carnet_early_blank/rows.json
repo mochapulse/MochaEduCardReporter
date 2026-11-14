@@ -1,0 +1,21 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "STUDENT",
+  "rows": [
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    ""
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": -1,
+   "component_start": 0,
+   "component_end": -1,
+   "final_row": 0
+  }
+ }
+]

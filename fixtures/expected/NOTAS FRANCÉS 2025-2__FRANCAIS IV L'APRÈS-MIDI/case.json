@@ -1,0 +1,25 @@
+{
+ "id": "NOTAS FRANCÉS 2025-2__FRANCAIS IV L'APRÈS-MIDI",
+ "source_file": "NOTAS FRANCÉS 2025-2.xls",
+ "sheet": "FRANCAIS IV L'APRÈS-MIDI",
+ "status": "success",
+ "ok": true,
+ "student_count": 20,
+ "audit_report": {
+  "file_name": "NOTAS FRANCÉS 2025-2.xls",
+  "sheet_name": "FRANCAIS IV L'APRÈS-MIDI",
+  "original_format": ".xls",
+  "converted": false,
+  "conversion_path": "NOTAS FRANCÉS 2025-2_FRANCAIS IV L'APRÈS-MIDI.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 65,
+  "column_count": 31,
+  "empty_cells_count": 0,
+  "null_values_count": 0,
+  "warnings": [],
+  "status": "success"
+ }
+}

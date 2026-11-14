@@ -1,0 +1,28 @@
+{
+ "metadata": {
+  "file_name": "header_only.csv",
+  "university_name": "UNIVERSITÉ DE TEST",
+  "program_name": "LICENCE LANGUES",
+  "materia_name": "FRANÇAIS I",
+  "group_name": "02",
+  "professor_name": "ANA PÉREZ",
+  "period_name": "2025",
+  "first_twenty_grade_count": 3,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3"
+  ],
+  "component_grade_numbers": [
+   "4"
+  ],
+  "grade_labels": {},
+  "first_block_weight_label": "30%",
+  "component_weight_labels": {
+   "4": "25%"
+  }
+ },
+ "students": [],
+ "warnings": [],
+ "error": null
+}

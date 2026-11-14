@@ -1,0 +1,9 @@
+{
+ "id": "csv_bom_only",
+ "source_file": "csv_bom_only.csv",
+ "sheet": null,
+ "status": "corrupted",
+ "ok": false,
+ "grid_error": null,
+ "csv_file_name": null
+}

@@ -1,0 +1,26 @@
+{
+ "id": "carnet 2024_FRANCAIS DEMO_A",
+ "source_file": "carnet 2024_FRANCAIS DEMO_A.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "student_count": 3,
+ "audit_report": {
+  "file_name": "carnet 2024_FRANCAIS DEMO_A.csv",
+  "original_format": ".csv",
+  "converted": false,
+  "conversion_path": "carnet 2024_FRANCAIS DEMO_A.csv",
+  "conversion_errors": [],
+  "is_empty": false,
+  "is_corrupted": false,
+  "corruption_details": [],
+  "row_count": 27,
+  "column_count": 5,
+  "empty_cells_count": 61,
+  "null_values_count": 61,
+  "warnings": [
+   "Found 3 rows with all null values"
+  ],
+  "status": "success"
+ }
+}

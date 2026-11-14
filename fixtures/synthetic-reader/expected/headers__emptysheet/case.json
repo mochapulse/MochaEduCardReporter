@@ -1,0 +1,9 @@
+{
+ "id": "headers__emptysheet",
+ "source_file": "headers.xlsx",
+ "sheet": "emptysheet",
+ "status": "parse_error",
+ "ok": true,
+ "grid_error": "EmptyDataError: No columns to parse from file",
+ "csv_file_name": "headers_emptysheet.csv"
+}

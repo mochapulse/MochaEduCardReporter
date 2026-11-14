@@ -1,0 +1,1531 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "ARCE CASTAÑO SARA SIRLEY",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "3.8",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "4.2",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.6"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 2,
+  "student_name": "CARDONA GALLEGO JUAN ESTEBAN",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.8",
+    "20%",
+    "0.9"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "3.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "4.1",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "4.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "4.2",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.1",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.9"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 3,
+  "student_name": "CARDONA ZAPATA MARIA FERNANDA",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.8",
+    "20%",
+    "0.8"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "4.9",
+    "20%",
+    "1.0"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "4.2",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.9",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 4,
+  "student_name": "CIRO AGUIRRE DIANA MILENA",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "1.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "3.4",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "2.4",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "2.9",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "2.4",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "2.8",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "2.8"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 5,
+  "student_name": "GARCIA PINEDA NELSON ALBERTO",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "3.5",
+    "20%",
+    "0.5"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "3.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "1.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "3.8",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "0.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "1.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "1.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "2.2",
+    "20%",
+    "0.4"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "2.3",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "1.7",
+    "20%",
+    "0.3"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "2.7",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "2.2"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 6,
+  "student_name": "GONZALEZ RAMIREZ DAHIANA",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.7",
+    "20%",
+    "0.9"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.4",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "3.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "3.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "3.1",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.4",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.6"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 7,
+  "student_name": "GUZMAN VARGAS CARLOS FERNANDO",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.7",
+    "20%",
+    "0.9"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.4",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "4.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "4.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "4.1",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.8"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 8,
+  "student_name": "ORTIZ RAMIREZ DANIELA",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.1",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "3.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "3.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "2.9",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "2.9",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "1.8",
+    "20%",
+    "0.4"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "2.9",
+    "20%",
+    "0.6"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "2.8"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 9,
+  "student_name": "PARRA ARISTIZABAL JUAN DAVID",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "4.5",
+    "20%",
+    "0.9"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "4.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.6",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "4.0",
+    "20%",
+    "0.8"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "4.8",
+    "20%",
+    "1.0"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.3",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "3.6",
+    "20%",
+    "0.7"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "4.1"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 10,
+  "student_name": "POSSO BASTIDAS SANTIAGO LEONARDO",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "3.5",
+    "20%",
+    "0.7"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "3.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "5.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "3.6",
+    "20%",
+    "0.7"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "3.2",
+    "20%",
+    "0.6"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "2.3",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.2"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ },
+ {
+  "student_number": 11,
+  "student_name": "SUAREZ GARCES JOSUE",
+  "rows": [
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Raconter les vacances dernières.<br/>Le 19 août 2025,",
+    "",
+    "20%",
+    "0.5"
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Révision atelier temps de l'indicatif.<br/>Le 20 août 2025,",
+    "3.8",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres I à V, liv. P.<br/>Le 28 octobre 2025,",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Reconstruire le récit \"Conte du bon vieux temps\"<br/>Le 3 septembre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPÉTENCE LINGUISTIQUE.<br/>Quiz: Le Passé Simple.<br/>Le 4 septembre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Atelier: Les Souvenirs (La Gloire de mon père).<br/>Le 9 septembre 2025,",
+    "3.9",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Chemise d'exploitation du livre Le Rouge et le Noir.<br/>Le 15 septembre 2025,",
+    "4.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Exploitation: Le Rouge et le Noir.<br/>Le 17 septembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres X à XIII. L. P.<br/>Le 25 septembre 2025,",
+    "2.0",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Des exposés: Les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.3",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Performance de l'équipe des exposés les courants littéraires.<br/>Le 14 octobre 2025,",
+    "3.2",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Comment gérer l'argent.<br/>Le 21 octobre 2025,",
+    "3.0",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Quiz de lecture: Article de presse.<br/>Le 29 octobre 2025,",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "COMPRÉHENSION ÉCRITE.<br/>Contrôle de lecture: Le Rouge et le Noir, chapitres VI à IX. L. S.<br/>Le 30 octobre 2025,",
+    "2.5",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ORALE.<br/>Discours improvisé.<br/>Le 4 novembre 2025,",
+    "",
+    "20%",
+    ""
+   ],
+   [
+    "EXPRESSION ÉCRITE.<br/>Composition: Activité de relatifs composés.<br/>Le 11 novembre 2025,",
+    "4.7",
+    "20%",
+    ""
+   ],
+   [
+    "EXAMEN PARTIEL I Le 10 et 11 septembre 2025",
+    "1.3",
+    "20%",
+    "0.3"
+   ],
+   [
+    "EXAMEN PARTIEL II Le 8 et 9 octobre 2025,",
+    "2.5",
+    "20%",
+    "0.5"
+   ],
+   [
+    "EXAMEN FINAL Le 18 et 19 novembre 2025,",
+    "1.1",
+    "20%",
+    "0.2"
+   ],
+   [
+    "EXAMEN ORAL Le 20 novembre 2025,",
+    "2.5",
+    "20%",
+    "0.5"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "2.0"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 15,
+   "component_start": 16,
+   "component_end": 19,
+   "final_row": 20
+  }
+ }
+]

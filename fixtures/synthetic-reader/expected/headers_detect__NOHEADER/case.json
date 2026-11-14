@@ -1,0 +1,9 @@
+{
+ "id": "headers_detect__NOHEADER",
+ "source_file": "headers_detect.xlsx",
+ "sheet": "NOHEADER",
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "headers_detect_NOHEADER.csv"
+}

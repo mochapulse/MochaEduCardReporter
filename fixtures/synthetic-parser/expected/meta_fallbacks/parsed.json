@@ -1,0 +1,89 @@
+{
+ "metadata": {
+  "file_name": "meta_fallbacks.csv",
+  "university_name": "U",
+  "program_name": "P",
+  "materia_name": "MAT",
+  "group_name": "",
+  "professor_name": "Dr. Who",
+  "period_name": "Semestre",
+  "first_twenty_grade_count": 3,
+  "first_twenty_grade_numbers": [
+   "1",
+   "2",
+   "3"
+  ],
+  "component_grade_numbers": [
+   "4"
+  ],
+  "grade_labels": {},
+  "first_block_weight_label": "30%",
+  "component_weight_labels": {
+   "4": "25%"
+  }
+ },
+ "students": [
+  {
+   "student_number": 1,
+   "student_code": "4100",
+   "student_name": "Student 1",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - Grade 1": "4.5",
+    "2 - Grade 2": "3.0",
+    "3 - Grade 3": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - Grade 4": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 2,
+   "student_code": "4200",
+   "student_name": "Student 2",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - Grade 1": "4.5",
+    "2 - Grade 2": "3.0",
+    "3 - Grade 3": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - Grade 4": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  },
+  {
+   "student_number": 3,
+   "student_code": "4300",
+   "student_name": "Student 3",
+   "abse": "1.0",
+   "first_twenty_grades": {
+    "1 - Grade 1": "4.5",
+    "2 - Grade 2": "3.0",
+    "3 - Grade 3": "2.8"
+   },
+   "component_grades": {
+    "1-3 average": "3.4",
+    "4 - Grade 4": "3.9"
+   },
+   "weighted_components": {
+    "1-3 weighted 30%": "1.0",
+    "4 weighted 25%": "1.0"
+   },
+   "definitive_grade": "4.1"
+  }
+ ],
+ "warnings": [],
+ "error": null
+}

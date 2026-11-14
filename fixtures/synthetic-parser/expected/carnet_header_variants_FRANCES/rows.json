@@ -1,0 +1,33 @@
+[
+ {
+  "student_number": 1,
+  "student_name": "ÉLÈVE",
+  "rows": [
+   [
+    "Algo",
+    "3.0",
+    "20%",
+    "1.0"
+   ],
+   [
+    "Examen final",
+    "2.0",
+    "20%",
+    "1.0"
+   ],
+   [
+    "NOTE DÉFINITIVE",
+    "",
+    "",
+    "3.0"
+   ]
+  ],
+  "meta": {
+   "first_block_start": 0,
+   "first_block_end": 0,
+   "component_start": 1,
+   "component_end": 1,
+   "final_row": 2
+  }
+ }
+]

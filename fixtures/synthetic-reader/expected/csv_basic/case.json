@@ -1,0 +1,9 @@
+{
+ "id": "csv_basic",
+ "source_file": "csv_basic.csv",
+ "sheet": null,
+ "status": "success",
+ "ok": true,
+ "grid_error": null,
+ "csv_file_name": "/tmp/oracle_fo1ibvpm/csv_basic.csv"
+}

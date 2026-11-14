@@ -1,0 +1,15 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Minimum permissions for the main window. No shell, no general filesystem access; opening files and folders goes through app commands that validate the path.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:allow-open",
+    "log:default",
+    "updater:default",
+    "process:allow-restart",
+    "store:default",
+    "window-state:default"
+  ]
+}
